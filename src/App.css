@@ -7,10 +7,12 @@
 }
 
 .App-header {
+  position: fixed;
   background-color: #222;
   height: 70vh;
-  padding: 20px;
+  width: 100vw;
   color: white;
+  z-index: -100;
 }
 
 .App-intro {
@@ -23,4 +25,12 @@
   margin: 15px;
   background-color: #000;
   color: white;
+  z-index: 100;
+}
+
+.App-container {
+  position: relative;
+  top: 70vh;
+  height: 100vh;
+  background-color: #fff;
 }

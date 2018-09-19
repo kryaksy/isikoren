@@ -18,9 +18,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p className="App-slogan">Rekabete karşı meydan okur!</p>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="App-container">Container</div>
       </div>
     );
   }
