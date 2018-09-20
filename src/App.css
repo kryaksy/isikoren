@@ -2,35 +2,156 @@
   text-align: center;
 }
 
-.App-logo {
-  margin-top: 30vh;
-}
-
 .App-header {
   position: fixed;
-  background-color: #222;
-  height: 70vh;
+  top: 0;
+  background-color: #333;
+  height: 90vh;
   width: 100vw;
   color: white;
   z-index: -100;
 }
 
-.App-intro {
-  font-size: large;
+.App-logo {
+  margin-top: 40vh;
+}
+
+.App-slogan {
+  color: #aaa;
+  padding: 2vh;
 }
 
 .menu-icon {
   position: fixed;
-  padding: 15px;
+  padding: 13px;
   margin: 15px;
-  background-color: #000;
-  color: white;
+  background-color: #fff;
+  color: #333;
   z-index: 100;
 }
 
 .App-container {
-  position: relative;
-  top: 70vh;
-  height: 100vh;
+  position: absolute;
+  top: 90vh;
+  width: 100vw;
+  background-color: #eee;
+}
+
+.title {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
+
+#whatWeDo {
+  text-align: center;
+}
+
+#whatWeDo .intro {
+  color: #555;
+  width: 50vw;
+  margin: auto;
+  margin-bottom: 10vh;
+}
+
+#whatWeDo .services {
+  display: flex;
+  flex-wrap: nowrap;
+  color: #333;
+}
+
+#whatWeDo .services .service {
+  width: 20vw;
+  height: 50vh;
+  border: 1px dotted #999;
+  padding: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#whyWeAre {
+  color: #fff;
+  background-color: #333;
+  padding-bottom: 10vh;
+}
+
+#whyWeAre .intro {
+  color: #ccc;
+  width: 50vw;
+  margin: auto;
+}
+
+#team {
+  padding-bottom: 10vh;
+}
+
+#members {
+  display: flex;
+  justify-content: center;
+}
+
+#members .member {
+  padding: 5vh;
+  width: 400px;
+}
+
+.member .picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #333;
+  margin: auto;
+}
+
+.member .name {
+  font-size: 1.3em;
+}
+
+.member .bio {
+  color: #555;
+}
+
+#references {
+  padding-bottom: 10vh;
+  color: #fff;
+  background-color: #333;
+}
+
+#references .list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#references .list .reference {
+  width: 17vw;
+  height: 20vh;
   background-color: #fff;
+  margin: 10px;
+}
+
+#galery {
+}
+
+#galery .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#galery .list .photo {
+  background-color: #777;
+  width: calc(20vw - 2px);
+  height: 30vh;
+  border: 1px dotted white;
+}
+
+#footer {
+  width: 100vw;
+  padding-bottom: 20vh;
+  padding-top: 20vh;
+  color: #fff;
+  background-color: #333;
+  bottom: 0;
 }
