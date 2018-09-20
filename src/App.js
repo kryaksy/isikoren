@@ -71,7 +71,7 @@ class App extends Component {
                 <div className="bio">
                   29 yıllık tecrübesiyle gıda, teknoloji, gayrimenkul gibi
                   birçok alanda pek çok şirketin markalaşma süreçlerine liderlik
-                  eden Hilmi Işıkören Işıkören Danışmanlık (www.isikoren.com)
+                  eden Hilmi Işıkören Işıkören Danışmanlık
                   şirketinin kurucu ortağıdır.
                 </div>
               </div>
