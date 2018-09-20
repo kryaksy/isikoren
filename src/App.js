@@ -103,14 +103,11 @@ class App extends Component {
               <div className="reference" />
               <div className="reference" />
               <div className="reference" />
-              <div className="reference" />
             </div>
           </div>
           <div id="galery">
             <h1 className="title">Galeri</h1>
             <div className="list">
-              <div className="photo" />
-              <div className="photo" />
               <div className="photo" />
               <div className="photo" />
               <div className="photo" />
