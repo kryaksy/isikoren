@@ -30,8 +30,17 @@
   padding: 2vh;
 }
 
-.menu-icon {
+#App-sidebar {
   position: fixed;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 100;
+}
+
+.menu-icon {
+  position: absolute;
   padding: 13px;
   margin: 15px;
   background-color: #fff;
@@ -39,6 +48,8 @@
   z-index: 100;
   line-height: 1em;
   cursor: pointer;
+  right: -68px;
+  top: 0;
 }
 
 .menu-icon:hover {

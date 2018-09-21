@@ -15,8 +15,16 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p className="App-slogan">Rekabete karşı meydan okur!</p>
         </header>
-        <div className="menu-icon">
+        <div id="App-sidebar">
+          <ul className="menu-list">
+            <li>Ana Sayfa</li>
+            <li>Hakkimizda</li>
+            <li>Servisler</li>
+            <li>Iletisim</li>
+          </ul>
+          <div className="menu-icon">
           <FontAwesomeIcon icon="bars" />
+        </div>
         </div>
         <div className="App-container">
           <div id="whatWeDo">
@@ -71,8 +79,8 @@ class App extends Component {
                 <div className="bio">
                   29 yıllık tecrübesiyle gıda, teknoloji, gayrimenkul gibi
                   birçok alanda pek çok şirketin markalaşma süreçlerine liderlik
-                  eden Hilmi Işıkören Işıkören Danışmanlık
-                  şirketinin kurucu ortağıdır.
+                  eden Hilmi Işıkören Işıkören Danışmanlık şirketinin kurucu
+                  ortağıdır.
                 </div>
               </div>
               <div className="member">
