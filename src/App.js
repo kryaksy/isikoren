@@ -8,6 +8,11 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 library.add(faBars);
 
 class App extends Component {
+  handleMenu = () => {
+    let sideBar = document.getElementById("App-sidebar");
+    sideBar.classList.toggle("open");
+  };
+
   render() {
     return (
       <div className="App">
@@ -16,15 +21,16 @@ class App extends Component {
           <p className="App-slogan">Rekabete karşı meydan okur!</p>
         </header>
         <div id="App-sidebar">
+          <div className="menu-icon" onClick={this.handleMenu}>
+            <FontAwesomeIcon icon="bars" />
+          </div>
+          <img src={logo} className="App-logo" alt="logo" />
           <ul className="menu-list">
             <li>Ana Sayfa</li>
             <li>Hakkimizda</li>
             <li>Servisler</li>
             <li>Iletisim</li>
           </ul>
-          <div className="menu-icon">
-          <FontAwesomeIcon icon="bars" />
-        </div>
         </div>
         <div className="App-container">
           <div id="whatWeDo">

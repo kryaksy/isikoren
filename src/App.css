@@ -36,7 +36,18 @@
   width: 250px;
   height: 100vh;
   background-color: #fff;
+  color: #555;
   z-index: 100;
+  transition: all 0.5s ease;
+}
+
+#App-sidebar.open {
+  left: 0px;
+}
+
+#App-sidebar .App-logo {
+  width: 150px;
+  margin: 50px;
 }
 
 .menu-icon {
@@ -54,7 +65,7 @@
 
 .menu-icon:hover {
   color: #fff;
-  background-color: #000;
+  background-color: red;
 }
 
 .App-container {
