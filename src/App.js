@@ -20,7 +20,7 @@ class App extends Component {
         </div>
         <div className="App-container">
           <div id="whatWeDo">
-            <h1 className="title">Neler Yapariz?</h1>
+            <h1 className="title">Neler Yaparız?</h1>
             <p className="intro">
               1997’den beri süregelen emlak sektörü tecrübemizle ülke
               genelindeki birçok noktada emlak taleplerini sağlıklı
@@ -49,7 +49,7 @@ class App extends Component {
             </div>
           </div>
           <div id="whyWeAre">
-            <h1 className="title">Neden Variz?</h1>
+            <h1 className="title">Neden Varız?</h1>
             <p className="intro">
               Biz rekabete karşıyız. Bizce rekabet sadece sporda vardır. İş
               hayatında rekabet edip rakibe benzeyerek aynılaşmak yerine yeni
@@ -67,7 +67,7 @@ class App extends Component {
             <div id="members">
               <div className="member">
                 <div className="picture" />
-                <h2 className="name">Hilmi Isikoren</h2>
+                <h2 className="name">Hilmi Işıkören</h2>
                 <div className="bio">
                   29 yıllık tecrübesiyle gıda, teknoloji, gayrimenkul gibi
                   birçok alanda pek çok şirketin markalaşma süreçlerine liderlik
@@ -87,7 +87,7 @@ class App extends Component {
             </div>
           </div>
           <div id="references">
-            <h1 className="title">Kimlerle Calistik?</h1>
+            <h1 className="title">Kimlerle Çalıştık?</h1>
             <div className="list">
               <div className="reference" />
               <div className="reference" />
@@ -120,7 +120,7 @@ class App extends Component {
           </div>
           <div id="footer">
             <div className="address">
-              <h3>Isikoren Danismanlik</h3>
+              <h3>Işıkören Danışmanlık</h3>
             </div>
             <div className="social-media" />
           </div>
