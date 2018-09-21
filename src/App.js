@@ -26,10 +26,10 @@ class App extends Component {
           </div>
           <img src={logo} className="App-logo" alt="logo" />
           <ul className="menu-list">
-            <li>Ana Sayfa</li>
-            <li>Hakkimizda</li>
-            <li>Servisler</li>
-            <li>Iletisim</li>
+            <li className="menu-item">Ana Sayfa</li>
+            <li className="menu-item">Hakkimizda</li>
+            <li className="menu-item">Servisler</li>
+            <li className="menu-item">Iletisim</li>
           </ul>
         </div>
         <div className="App-container">
