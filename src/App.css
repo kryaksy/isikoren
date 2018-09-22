@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 * {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   line-height: 2em;
   margin: 0;
   padding: 0;
@@ -50,14 +50,14 @@
   margin: 50px;
 }
 
-.menu-list {
-
-}
-
 .menu-item {
   cursor: pointer;
   margin-top: 10px;
-  background-color: #ccc;
+}
+
+.menu-item:hover {
+  font-weight: bolder;
+  color: #000;
 }
 
 .menu-icon {
@@ -184,9 +184,6 @@
   height: 20vh;
   background-color: #fff;
   margin: 1vh;
-}
-
-#galery {
 }
 
 #galery .list {
