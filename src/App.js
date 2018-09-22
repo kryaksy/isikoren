@@ -1,5 +1,8 @@
 import React, { Component } from "react";
-import Home from "./components/Home.js"
+import Home from "./components/Home.js";
+import About from "./components/About.js";
+import Services from "./components/Services.js";
+import Contact from "./components/Contact.js";
 import logo from "./assets/Logo_1x.png";
 import "./App.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
