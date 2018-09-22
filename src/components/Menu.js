@@ -3,6 +3,7 @@ import logo from "../assets/Logo_1x.png";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 library.add(faBars);
 
@@ -20,10 +21,18 @@ class Menu extends Component {
         </div>
         <img src={logo} className="App-logo" alt="logo" />
         <ul className="menu-list">
-          <li className="menu-item">Ana Sayfa</li>
-          <li className="menu-item">Hakkımızda</li>
-          <li className="menu-item">Servisler</li>
-          <li className="menu-item">İletişim</li>
+          <li className="menu-item">
+            <Link to="/"> Ana Sayfa </Link>
+          </li>
+          <li className="menu-item">
+            <Link to="/about"> Hakkımızda </Link>
+          </li>
+          <li className="menu-item">
+            <Link to="/services"> Servisler </Link>
+          </li>
+          <li className="menu-item">
+            <Link to="/contact"> İletişim </Link>
+          </li>
         </ul>
       </div>
     );
