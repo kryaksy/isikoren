@@ -11,6 +11,10 @@
   text-align: center;
 }
 
+/*
+ * HOME PAGE
+ */
+
 .App-header {
   position: fixed;
   top: 0;
@@ -50,17 +54,17 @@
   margin: 50px;
 }
 
-.menu-item {
+#App-sidebar .menu-item {
   cursor: pointer;
   margin-top: 10px;
 }
 
-.menu-item:hover {
+#App-sidebar .menu-item:hover {
   font-weight: bolder;
   color: #000;
 }
 
-.menu-icon {
+#App-sidebar .menu-icon {
   position: absolute;
   padding: 13px;
   margin: 15px;
@@ -73,7 +77,7 @@
   top: 0;
 }
 
-.menu-icon:hover {
+#App-sidebar .menu-icon:hover {
   color: #fff;
   background-color: red;
 }
@@ -85,16 +89,16 @@
   background-color: #eee;
 }
 
-.title {
+.App-container .title {
   padding-top: 10vh;
   padding-bottom: 5vh;
 }
 
-#whatWeDo {
+.App-container #whatWeDo {
   text-align: center;
 }
 
-#whatWeDo .intro {
+.App-container #whatWeDo .intro {
   color: #555;
   width: 80vw;
   max-width: 600px;
@@ -102,14 +106,14 @@
   margin-bottom: 10vh;
 }
 
-#whatWeDo .services {
+.App-container #whatWeDo .services {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   color: #fff;
 }
 
-#whatWeDo .services .service {
+.App-container #whatWeDo .services .service {
   width: 100vw;
   height: 20vh;
   border: 1px solid #eee;
@@ -120,35 +124,35 @@
   background-color: #999;
 }
 
-#whyWeAre {
+.App-container #whyWeAre {
   color: #fff;
   background-color: #333;
   padding-bottom: 10vh;
 }
 
-#whyWeAre .intro {
+.App-container #whyWeAre .intro {
   color: #ccc;
   width: 80vw;
   max-width: 600px;
   margin: auto;
 }
 
-#team {
+.App-container #team {
   padding-bottom: 10vh;
 }
 
-#members {
+.App-container #team #members {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-#members .member {
+.App-container #team #members .member {
   padding: 5vh;
   width: 400px;
 }
 
-.member .picture {
+.App-container #team #members .member .picture {
   width: 200px;
   height: 200px;
   border-radius: 100%;
@@ -156,22 +160,22 @@
   margin: auto;
 }
 
-.member .name {
+.App-container #team #members .member .name {
   font-size: 1.3em;
   padding: 10px;
 }
 
-.member .bio {
+.App-container #team #members .member .bio {
   color: #555;
 }
 
-#references {
+.App-container #references {
   padding-bottom: 10vh;
   color: #fff;
   background-color: #333;
 }
 
-#references .list {
+.App-container #references .list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -179,14 +183,14 @@
   padding: 5vh;
 }
 
-#references .list .reference {
+.App-container #references .list .reference {
   width: 150px;
   height: 20vh;
   background-color: #fff;
   margin: 1vh;
 }
 
-#galery .list {
+.App-container #galery .list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -195,14 +199,14 @@
   padding-right: 5vh;
 }
 
-#galery .list .photo {
+.App-container #galery .list .photo {
   background-color: #777;
   width: 300px;
   height: 200px;
   border: 1px dotted white;
 }
 
-#footer {
+.App-container #footer {
   width: 100vw;
   padding-bottom: 20vh;
   padding-top: 20vh;
@@ -212,14 +216,18 @@
 }
 
 @media only screen and (min-width: 1000px) {
-  #whatWeDo .services {
+  .App-container #whatWeDo .services {
     flex-wrap: nowrap;
   }
 
-  #whatWeDo .services .service {
+  .App-container #whatWeDo .services .service {
     height: 50vh;
   }
 }
+
+/*
+ * ABOUT
+ */
 
 .App-about {
   padding: 10vh;
@@ -241,3 +249,11 @@
   color: #555;
   text-align: left;
 }
+
+/*
+ * SERVICES
+ */
+
+/*
+ * CONTACT
+ */
