@@ -220,3 +220,24 @@
     height: 50vh;
   }
 }
+
+.App-about {
+  padding: 10vh;
+  background-color: #eee;
+  height: 100%;
+}
+
+.App-about .title {
+  width: 80vh;
+  max-width: 600px;
+  margin: auto auto 10px auto;
+  text-align: left;
+}
+
+.App-about .intro {
+  width: 80vh;
+  max-width: 600px;
+  margin: auto;
+  color: #555;
+  text-align: left;
+}
