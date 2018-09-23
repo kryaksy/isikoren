@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import Header from "./Header.js";
 
 class Home extends Component {
   render() {
     return (
       <div className="App-container">
+        <Header />
         <div id="whatWeDo">
           <h1 className="title">Neler Yaparız?</h1>
           <p className="intro">
