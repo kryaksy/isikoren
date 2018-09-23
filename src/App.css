@@ -253,7 +253,17 @@
 /*
  * SERVICES
  */
+.App-services {
+  padding: 10vh;
+  background-color: #eee;
+  min-height: 100vh;
+}
 
 /*
  * CONTACT
  */
+.App-contact {
+  padding: 10vh;
+  background-color: #eee;
+  min-height: 100vh;
+}
