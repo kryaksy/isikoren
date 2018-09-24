@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Header from "./Header.js";
+import Footer from "./Footer.js";
 
 class Home extends Component {
   render() {
@@ -103,12 +104,7 @@ class Home extends Component {
             <div className="photo" />
           </div>
         </div>
-        <div id="footer">
-          <div className="address">
-            <h3>Işıkören Danışmanlık</h3>
-          </div>
-          <div className="social-media" />
-        </div>
+        <Footer />
       </div>
     );
   }

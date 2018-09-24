@@ -14,7 +14,7 @@
 /*
  * HOME PAGE
  */
-
+/* HEADER */
 .App-header {
   position: fixed;
   top: 0;
@@ -25,15 +25,18 @@
   z-index: -100;
 }
 
-.App-logo {
+/* LOGO */
+.App-header .App-logo {
   margin-top: 40vh;
 }
 
+/* SLOGAN */
 .App-slogan {
   color: #aaa;
   padding: 2vh;
 }
 
+/* SIDEMENU */
 #App-sidebar {
   position: fixed;
   left: -250px;
@@ -82,6 +85,47 @@
   background-color: red;
 }
 
+/* TOPMENU */
+#App-top-menu {
+  position: fixed;
+  width: 100vw;
+  background-color: #fff;
+  color: #555;
+  z-index: 100;
+  transition: all 0.5s ease;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#App-top-menu .App-logo {
+  width: 120px;
+  padding-left: 10vw;
+  margin: 3vh 0;
+}
+
+#App-top-menu .menu-list {
+  width: 30vw;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-right: 10vw;
+  justify-content: space-between;
+}
+
+#App-top-menu .menu-list .menu-item {
+  cursor: pointer;
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+#App-top-menu .menu-item:hover {
+  font-weight: bolder;
+  color: #000;
+}
+
+/* CONTAINER */
 .App-container {
   position: absolute;
   top: 90vh;
@@ -94,6 +138,7 @@
   padding-bottom: 5vh;
 }
 
+/* WHATWEDO */
 .App-container #whatWeDo {
   text-align: center;
 }
@@ -124,6 +169,7 @@
   background-color: #999;
 }
 
+/* WHYWEARE */
 .App-container #whyWeAre {
   color: #fff;
   background-color: #333;
@@ -137,6 +183,7 @@
   margin: auto;
 }
 
+/* TEAM */
 .App-container #team {
   padding-bottom: 10vh;
 }
@@ -169,6 +216,7 @@
   color: #555;
 }
 
+/* REFERENCES */
 .App-container #references {
   padding-bottom: 10vh;
   color: #fff;
@@ -190,6 +238,7 @@
   margin: 1vh;
 }
 
+/* GALERY */
 .App-container #galery .list {
   display: flex;
   flex-wrap: wrap;
@@ -206,15 +255,18 @@
   border: 1px dotted white;
 }
 
-.App-container #footer {
+/* FOOTER */
+#footer {
   width: 100vw;
   padding-bottom: 20vh;
   padding-top: 20vh;
   color: #fff;
   background-color: #333;
   bottom: 0;
+  margin-top: 10vh;
 }
 
+/* HOME MEDIA QUERIES */
 @media only screen and (min-width: 1000px) {
   .App-container #whatWeDo .services {
     flex-wrap: nowrap;
@@ -228,24 +280,50 @@
 /*
  * ABOUT
  */
-
 .App-about {
-  padding: 10vh;
+  padding-top: 15vh;
   background-color: #eee;
   height: 100%;
 }
 
 .App-about .title {
-  width: 80vh;
-  max-width: 600px;
+  width: 70vw;
   margin: auto auto 10px auto;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.App-about .image {
+  width: 70vw;
+  height: 300px;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.App-about .mission p {
+  width: 70vw;
+  padding-top: 20px;
+  margin: auto;
+  color: #555;
   text-align: left;
 }
 
-.App-about .intro {
-  width: 80vh;
-  max-width: 600px;
+.App-about .vision {
+  width: 70vw;
   margin: auto;
+  text-align: center;
+}
+
+.App-about .vision .title {
+  padding: 0;
+  padding-top: 20px;
+  color: #000;
+  text-align: left;
+}
+
+.App-about .vision p {
   color: #555;
   text-align: left;
 }
@@ -254,16 +332,133 @@
  * SERVICES
  */
 .App-services {
-  padding: 10vh;
   background-color: #eee;
-  min-height: 100vh;
+}
+
+.App-services .container {
+  padding-top: 15vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  height: 100%;
+}
+
+.App-services .container .title {
+  width: 70vw;
+  /* max-width: 600px; */
+  margin: auto auto 10px auto;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.App-services .container .services-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.App-services .container .services-container .services-list {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 300px;
+  max-height: 250px;
+}
+
+.App-services .container .services-container .services-list .service-link {
+  padding: 20px;
+  margin-bottom: 5px;
+  background-color: #fff;
+  width: 300px;
+  text-decoration: none;
+  font-size: 0.8em;
+  line-height: 1.2em;
+  list-style: none;
+  cursor: pointer;
+}
+
+/* EACH SERVICE */
+.App-services .container .service {
+  border-top: 5px solid red;
+  padding: 50px;
+  text-align: left;
+  background-color: white;
+  width: 100%;
+  color: #555;
+}
+
+.App-services .container .service h3 {
+  text-align: center;
+  font-size: 1.5em;
+  color: #000;
+}
+
+.App-services .container .service strong {
+  color: red;
+}
+
+.App-services .container .service h1,
+.App-services .container .service h2,
+.App-services .container .service h4 {
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: black;
+}
+
+.App-services .container .service ul {
+  margin-left: 50px;
+}
+
+.App-services .container .service p,
+h1,
+h2,
+h3,
+h4,
+ul,
+li {
+  padding: 5px;
 }
 
 /*
  * CONTACT
  */
 .App-contact {
-  padding: 10vh;
+  padding-top: 15vh;
+  /* padding: 10vh; */
   background-color: #eee;
   min-height: 100vh;
+}
+
+.App-contact .title {
+  width: 70vw;
+  /* max-width: 600px; */
+  margin: auto auto 10px auto;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.App-contact .contact-info {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: #fff;
+  width: 70vw;
+  margin: auto;
+  border-top: 5px solid red;
+}
+
+.App-contact .contact-info div {
+  margin: 5vh;
+  width: 35vh;
+}
+
+.App-contact .contact-info div div.icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #333;
+  margin: 20px auto;
+}
+
+.App-contact .contact-info div p {
+  color: #555;
+  font-size: 0.9em;
 }
