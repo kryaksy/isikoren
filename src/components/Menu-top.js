@@ -14,7 +14,7 @@ class Menu extends Component {
 
   handleScroll = e => {
     let scrollTop = e.target.scrollingElement.scrollTop;
-    if(scrollTop > 600) {
+    if(scrollTop > 500) {
       this.setState({ opened: true })
     } else {
       this.setState({ opened: false })

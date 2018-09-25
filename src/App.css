@@ -106,24 +106,25 @@
 }
 /* TOPMENU LOGO */
 #App-top-menu .App-logo {
-  width: 150px;
-  padding-left: 10vw;
-  margin: 3vh 0 2vh 0;
+  width: 110px;
+  padding-left: 100px;
+  margin: 15px 0 5px 0;
 }
 
 #App-top-menu .menu-list {
-  width: 30vw;
+  width: 400px;
   display: flex;
   flex-wrap: nowrap;
-  padding-right: 10vw;
+  padding-right: 100px;
   justify-content: space-between;
 }
 
 #App-top-menu .menu-list .menu-item {
   cursor: pointer;
-  color: #000;
+  color: #555;
   background-color: #fff;
   text-decoration: none;
+  font-size: 0.9em;
 }
 
 #App-top-menu .menu-item:hover {
