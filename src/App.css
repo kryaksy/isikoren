@@ -287,14 +287,14 @@
 }
 
 .App-about .title {
-  width: 70vw;
+  width: 80vw;
   margin: auto auto 10px auto;
   text-align: center;
   padding-top: 5vh;
 }
 
 .App-about .image {
-  width: 70vw;
+  width: 100vw;
   height: 300px;
   background-color: #fff;
   margin: auto;
@@ -303,7 +303,7 @@
 }
 
 .App-about .mission p {
-  width: 70vw;
+  width: 80vw;
   padding-top: 20px;
   margin: auto;
   color: #555;
@@ -311,13 +311,12 @@
 }
 
 .App-about .vision {
-  width: 70vw;
+  width: 80vw;
   margin: auto;
   text-align: center;
 }
 
 .App-about .vision .title {
-  padding: 0;
   padding-top: 20px;
   color: #000;
   text-align: left;
@@ -330,6 +329,17 @@
 
 /* ABOUT MEDIA QUERIES */
 @media only screen and (min-width: 1000px) {
+  .App-about .image {
+    width: 70vw;
+  }
+
+  .App-about .mission p {
+    width: 70vw;
+  }
+
+  .App-about .vision {
+    width: 70vw;
+  }
 }
 
 /*
