@@ -25,7 +25,7 @@
   z-index: -100;
 }
 
-/* LOGO */
+/* HEADER LOGO */
 .App-header .App-logo {
   margin-top: 40vh;
 }
@@ -52,6 +52,7 @@
   left: 0px;
 }
 
+/* SIDEBAR LOGO */
 #App-sidebar .App-logo {
   width: 150px;
   margin: 50px;
@@ -99,10 +100,11 @@
   align-items: center;
 }
 
+/* TOPMENU LOGO */
 #App-top-menu .App-logo {
-  width: 120px;
+  width: 150px;
   padding-left: 10vw;
-  margin: 3vh 0;
+  margin: 3vh 0 2vh 0;
 }
 
 #App-top-menu .menu-list {
