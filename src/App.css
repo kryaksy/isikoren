@@ -328,6 +328,10 @@
   text-align: left;
 }
 
+/* ABOUT MEDIA QUERIES */
+@media only screen and (min-width: 1000px) {
+}
+
 /*
  * SERVICES
  */
@@ -344,7 +348,6 @@
 
 .App-services .container .title {
   width: 70vw;
-  /* max-width: 600px; */
   margin: auto auto 10px auto;
   text-align: center;
   padding-top: 5vh;
@@ -417,19 +420,21 @@ li {
   padding: 5px;
 }
 
+/* SERVICES MEDIA QUERIES */
+@media only screen and (min-width: 1000px) {
+}
+
 /*
  * CONTACT
  */
 .App-contact {
   padding-top: 15vh;
-  /* padding: 10vh; */
   background-color: #eee;
   min-height: 100vh;
 }
 
 .App-contact .title {
   width: 70vw;
-  /* max-width: 600px; */
   margin: auto auto 10px auto;
   text-align: center;
   padding-top: 5vh;
@@ -437,7 +442,7 @@ li {
 
 .App-contact .contact-info {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
   background-color: #fff;
   width: 70vw;
@@ -446,8 +451,8 @@ li {
 }
 
 .App-contact .contact-info div {
-  margin: 5vh;
-  width: 35vh;
+  margin: 3vh;
+  width: 30vh;
 }
 
 .App-contact .contact-info div div.icon {
@@ -461,4 +466,16 @@ li {
 .App-contact .contact-info div p {
   color: #555;
   font-size: 0.9em;
+}
+
+/* CONTACT MEDIA QUERIES */
+@media only screen and (min-width: 1000px) {
+  .App-contact .contact-info {
+    flex-wrap: nowrap;
+  }
+
+  .App-contact .contact-info div {
+    margin: 5vh;
+    width: 35vh;
+  }
 }
