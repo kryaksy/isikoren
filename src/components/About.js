@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import Footer from "./Footer.js";
 
 class About extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="App-about">

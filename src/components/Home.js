@@ -3,6 +3,10 @@ import Header from "./Header.js";
 import Footer from "./Footer.js";
 
 class Home extends Component {
+  componentDidMount() {
+    window.scrollTo(0, -1);
+  }
+
   render() {
     return (
       <div className="App-container">

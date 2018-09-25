@@ -28,6 +28,10 @@ class Services extends Component {
     }
   };
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   handleClick = e => {
     this.setState({ activeService: e.target.id });
   };
