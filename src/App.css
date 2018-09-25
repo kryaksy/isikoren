@@ -89,6 +89,7 @@
 /* TOPMENU */
 #App-top-menu {
   position: fixed;
+  top: -200px;
   width: 100vw;
   background-color: #fff;
   color: #555;
@@ -100,6 +101,9 @@
   align-items: center;
 }
 
+#App-top-menu.open {
+  top: 0px;
+}
 /* TOPMENU LOGO */
 #App-top-menu .App-logo {
   width: 150px;

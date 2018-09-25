@@ -3,9 +3,27 @@ import logo from "../assets/Logo_1x.png";
 import { Link } from "react-router-dom";
 
 class Menu extends Component {
+
+  state = {
+    opened: false
+  }
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll = e => {
+    let scrollTop = e.target.scrollingElement.scrollTop;
+    if(scrollTop > 600) {
+      this.setState({ opened: true })
+    } else {
+      this.setState({ opened: false })
+    }
+  };
+
   render() {
     return (
-      <div id="App-top-menu">
+      <div id="App-top-menu" className={(this.state.opened ? "open" : "")}>
         <Link to="/">
           <img src={logo} className="App-logo" alt="logo" />
         </Link>
