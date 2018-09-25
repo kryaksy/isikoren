@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Footer from "./Footer.js";
+import aboutImage from "../assets/images/about.jpeg";
 
 class About extends Component {
   componentDidMount() {
@@ -10,7 +11,9 @@ class About extends Component {
     return (
       <div className="App-about">
         <h1 className="title">Hakkımızda</h1>
-        <div className="image" />
+        <div className="image">
+          <img src={aboutImage} alt="hilmi isikoren ve belgin benek" />
+        </div>
         <div className="mission">
           <p className="intro">
             Işıkören Danışmanlık, 27 yılı aşkın profesyonel iş kariyerinde gıda

@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import Header from "./Header.js";
 import Footer from "./Footer.js";
+import photo from "../assets/images/galery.jpeg";
+import referenceImage from "../assets/images/reference.png";
+import hilmiPhoto from "../assets/images/hilmi-isikoren.jpeg";
+import belginPhoto from "../assets/images/belgin-benek.jpeg";
 
 class Home extends Component {
   componentDidMount() {
@@ -57,7 +61,9 @@ class Home extends Component {
           <h1 className="title">Ekibimiz</h1>
           <div id="members">
             <div className="member">
-              <div className="picture" />
+              <div className="picture">
+                <img src={hilmiPhoto} width="200px" />
+              </div>
               <h2 className="name">Hilmi Işıkören</h2>
               <div className="bio">
                 29 yıllık tecrübesiyle gıda, teknoloji, gayrimenkul gibi birçok
@@ -66,7 +72,9 @@ class Home extends Component {
               </div>
             </div>
             <div className="member">
-              <div className="picture" />
+              <div className="picture">
+                <img src={belginPhoto} width="200px" />
+              </div>
               <h2 className="name">Belgin Benek</h2>
               <div className="bio">
                 Işıkören Danışmanlık şirketinin kurucu ortağı Belgin Benek,
@@ -79,33 +87,71 @@ class Home extends Component {
         <div id="references">
           <h1 className="title">Kimlerle Çalıştık?</h1>
           <div className="list">
-            <div className="reference" />
-            <div className="reference" />
-            <div className="reference" />
-            <div className="reference" />
-            <div className="reference" />
-            <div className="reference" />
-            <div className="reference" />
-            <div className="reference" />
-            <div className="reference" />
-            <div className="reference" />
-            <div className="reference" />
-            <div className="reference" />
-            <div className="reference" />
-            <div className="reference" />
+            <div className="reference">
+              <img src={referenceImage} height="50px" />
+            </div>
+            <div className="reference">
+              <img src={referenceImage} height="50px" />
+            </div>
+            <div className="reference">
+              <img src={referenceImage} height="50px" />
+            </div>
+            <div className="reference">
+              <img src={referenceImage} height="50px" />
+            </div>
+            <div className="reference">
+              <img src={referenceImage} height="50px" />
+            </div>
+            <div className="reference">
+              <img src={referenceImage} height="50px" />
+            </div>
+            <div className="reference">
+              <img src={referenceImage} height="50px" />
+            </div>
+            <div className="reference">
+              <img src={referenceImage} height="50px" />
+            </div>
+            <div className="reference">
+              <img src={referenceImage} height="50px" />
+            </div>
+            <div className="reference">
+              <img src={referenceImage} height="50px" />
+            </div>
+            <div className="reference">
+              <img src={referenceImage} height="50px" />
+            </div>
+            <div className="reference">
+              <img src={referenceImage} height="50px" />
+            </div>
           </div>
         </div>
         <div id="galery">
           <h1 className="title">Galeri</h1>
           <div className="list">
-            <div className="photo" />
-            <div className="photo" />
-            <div className="photo" />
-            <div className="photo" />
-            <div className="photo" />
-            <div className="photo" />
-            <div className="photo" />
-            <div className="photo" />
+            <div className="photo">
+              <img src={photo} width="300px" />
+            </div>
+            <div className="photo">
+              <img src={photo} width="300px" />
+            </div>
+            <div className="photo">
+              <img src={photo} width="300px" />
+            </div>
+            <div className="photo">
+              <img src={photo} width="300px" />
+            </div>
+            <div className="photo">
+              <img src={photo} width="300px" />
+            </div>
+            <div className="photo">
+              <img src={photo} width="300px" />
+            </div>
+            <div className="photo">
+              <img src={photo} width="300px" />
+            </div>
+            <div className="photo">
+              <img src={photo} width="300px" />
+            </div>
           </div>
         </div>
         <Footer />

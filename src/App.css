@@ -213,6 +213,16 @@
   border-radius: 100%;
   background-color: #333;
   margin: auto;
+  overflow: hidden;
+  filter: grayscale(1);
+  filter: drop-shadow(1);
+  transition: filter 0.5s ease;
+  cursor: pointer;
+}
+
+.App-container #team #members .member .picture:hover {
+  filter: grayscale(0);
+  filter: drop-shadow(0);
 }
 
 .App-container #team #members .member .name {
@@ -244,8 +254,12 @@
   height: 20vh;
   background-color: #fff;
   margin: 1vh;
+  overflow: hidden;
 }
 
+.App-container #references .list .reference img{
+  padding-top: 30px;
+}
 /* GALERY */
 .App-container #galery .list {
   display: flex;
@@ -260,7 +274,9 @@
   background-color: #777;
   width: 300px;
   height: 200px;
-  border: 1px dotted white;
+  /* border: 1px dotted white; */
+  overflow: hidden;
+  margin: 2px;
 }
 
 /* FOOTER */
@@ -303,11 +319,18 @@
 
 .App-about .image {
   width: 100vw;
-  height: 300px;
+  height: 400px;
   background-color: #fff;
   margin: auto;
   margin-bottom: 30px;
   margin-top: 30px;
+  overflow: hidden;
+  filter: grayscale(1);
+  transition: filter 1s ease;
+}
+
+.App-about .image:hover {
+  filter: grayscale(0.4)
 }
 
 .App-about .mission p {
