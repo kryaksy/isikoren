@@ -6,7 +6,7 @@ class Menu extends Component {
   render() {
     return (
       <div id="App-top-menu">
-        <Link to="/" className="menu-item">
+        <Link to="/">
           <img src={logo} className="App-logo" alt="logo" />
         </Link>
         <div className="menu-list">
