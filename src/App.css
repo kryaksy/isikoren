@@ -257,7 +257,7 @@
   overflow: hidden;
 }
 
-.App-container #references .list .reference img{
+.App-container #references .list .reference img {
   padding-top: 30px;
 }
 /* GALERY */
@@ -288,6 +288,21 @@
   background-color: #333;
   bottom: 0;
   margin-top: 10vh;
+}
+
+#footer .social-media {
+  width: 500px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#footer .social-media .icon {
+  width: 35px;
+  height: 35px;
+  background-color: #ccc;
+  border-radius: 100%;
 }
 
 /* HOME MEDIA QUERIES */
@@ -330,7 +345,7 @@
 }
 
 .App-about .image:hover {
-  filter: grayscale(0.4)
+  filter: grayscale(0.4);
 }
 
 .App-about .mission p {

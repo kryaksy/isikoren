@@ -5,9 +5,19 @@ class Footer extends Component {
     return (
       <div id="footer">
         <div className="address">
-          <h3>Işıkören Danışmanlık</h3>
+          <p>Işıkören Danışmanlık</p>
         </div>
-        <div className="social-media" />
+        <div className="social-media">
+          <div className="facebook icon" />
+          <div className="twitter icon" />
+          <div className="instagram icon" />
+          <div className="linkedin icon" />
+          <div className="youtube icon" />
+          <div className="pinterest icon" />
+          <div className="flicker icon" />
+          <div className="vimeo icon" />
+          <div className="googleplus icon" />
+        </div>
       </div>
     );
   }
