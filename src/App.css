@@ -18,7 +18,7 @@
 .App-header {
   position: fixed;
   top: 0;
-  background-color: #333;
+  background-color: #ddd;
   height: 90vh;
   width: 100vw;
   color: white;
@@ -28,11 +28,13 @@
 /* HEADER LOGO */
 .App-header .App-logo {
   margin-top: 40vh;
+  /* background-color: #fff; */
+  padding: 20px;
 }
 
 /* SLOGAN */
 .App-slogan {
-  color: #aaa;
+  color: #333;
   padding: 2vh;
 }
 
@@ -277,6 +279,13 @@
   /* border: 1px dotted white; */
   overflow: hidden;
   margin: 2px;
+  filter: grayscale(1);
+  transition: filter 0.5s ease;
+  cursor: pointer;
+}
+
+.App-container #galery .list .photo:hover {
+  filter:grayscale(0)
 }
 
 /* FOOTER */
@@ -347,7 +356,7 @@
  * ABOUT
  */
 .App-about {
-  padding-top: 15vh;
+  padding-top: 10vh;
   background-color: #eee;
   height: 100%;
 }
@@ -367,11 +376,14 @@
   margin-bottom: 30px;
   margin-top: 30px;
   overflow: hidden;
+}
+
+.App-about .image img{
   filter: grayscale(1);
   transition: filter 1s ease;
 }
 
-.App-about .image:hover {
+.App-about .image img:hover {
   filter: grayscale(0.4);
 }
 
@@ -423,9 +435,7 @@
 }
 
 .App-services .container {
-  padding-top: 15vh;
-  padding-left: 10vh;
-  padding-right: 10vh;
+  padding: 10vh 100px;
   height: 100%;
 }
 
@@ -438,35 +448,45 @@
 
 .App-services .container .services-container {
   display: flex;
-  flex-wrap: nowrap;
-}
-
-.App-services .container .services-container .services-list {
-  display: flex;
   flex-wrap: wrap;
-  text-align: left;
-  width: 300px;
-  max-height: 250px;
+  justify-content: center;
 }
 
-.App-services .container .services-container .services-list .service-link {
-  padding: 20px;
-  margin-bottom: 5px;
+.App-services .container .services-container ul.services-list {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: left;
+  /* width: 90vw; */
+  /* max-height: 250px; */
+  margin: auto;
+}
+
+.App-services .container .services-container ul.services-list li.service-link {
+  margin: 5px;
+  padding: 15px;
   background-color: #fff;
-  width: 300px;
-  text-decoration: none;
+  width: 12vw;
+  height: 200px;
   font-size: 0.8em;
-  line-height: 1.2em;
-  list-style: none;
+  line-height: 1.4em;
   cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -2px 3px 4px 0px #ccc;
+  transition: all 0.2s ease;
+  border-top: 3px solid red;
+}
+
+.App-services .container .services-container ul.services-list li.service-link:hover {
+  box-shadow: 0px 0px 1px 0px #ccc;
 }
 
 /* EACH SERVICE */
 .App-services .container .service {
-  border-top: 5px solid red;
-  padding: 50px;
+  padding: 40px 100px;
   text-align: left;
-  background-color: white;
   width: 100%;
   color: #555;
 }
@@ -511,7 +531,7 @@ li {
  * CONTACT
  */
 .App-contact {
-  padding-top: 15vh;
+  padding-top: 10vh;
   background-color: #eee;
   min-height: 100vh;
 }

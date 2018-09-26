@@ -53,10 +53,10 @@ class Services extends Component {
                 Markalaşma Danışmanlığı
               </li>
               <li className="service-link" id="4" onClick={this.handleClick}>
-                Emlak Eğitim Programları (Emlak)
+                Emlak Ofislerine Özel Emlak Eğitim Programları
               </li>
               <li className="service-link" id="5" onClick={this.handleClick}>
-                Emlak Eğitim Programları (İnşaat)
+                İnşaat Projelerine Özel Pazarlama ve Satış Danışmanlığı
               </li>
               <li className="service-link" id="6" onClick={this.handleClick}>
                 Motivasyon Konuşmaları
