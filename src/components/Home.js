@@ -62,7 +62,7 @@ class Home extends Component {
           <div id="members">
             <div className="member">
               <div className="picture">
-                <img src={hilmiPhoto} width="200px" />
+                <img src={hilmiPhoto} width="200px" alt="century21 logo"/>
               </div>
               <h2 className="name">Hilmi Işıkören</h2>
               <div className="bio">
@@ -73,7 +73,7 @@ class Home extends Component {
             </div>
             <div className="member">
               <div className="picture">
-                <img src={belginPhoto} width="200px" />
+                <img src={belginPhoto} width="200px" alt="century21 logo"/>
               </div>
               <h2 className="name">Belgin Benek</h2>
               <div className="bio">
@@ -88,40 +88,40 @@ class Home extends Component {
           <h1 className="title">Kimlerle Çalıştık?</h1>
           <div className="list">
             <div className="reference">
-              <img src={referenceImage} height="50px" />
+              <img src={referenceImage} height="50px" alt="century21 logo"/>
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" />
+              <img src={referenceImage} height="50px" alt="century21 logo"/>
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" />
+              <img src={referenceImage} height="50px" alt="century21 logo"/>
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" />
+              <img src={referenceImage} height="50px" alt="century21 logo"/>
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" />
+              <img src={referenceImage} height="50px" alt="century21 logo"/>
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" />
+              <img src={referenceImage} height="50px" alt="century21 logo"/>
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" />
+              <img src={referenceImage} height="50px" alt="century21 logo"/>
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" />
+              <img src={referenceImage} height="50px" alt="century21 logo"/>
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" />
+              <img src={referenceImage} height="50px" alt="century21 logo"/>
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" />
+              <img src={referenceImage} height="50px" alt="century21 logo"/>
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" />
+              <img src={referenceImage} height="50px" alt="century21 logo"/>
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" />
+              <img src={referenceImage} height="50px" alt="century21 logo"/>
             </div>
           </div>
         </div>
@@ -129,28 +129,28 @@ class Home extends Component {
           <h1 className="title">Galeri</h1>
           <div className="list">
             <div className="photo">
-              <img src={photo} width="300px" />
+              <img src={photo} width="300px" alt="fotograf"/>
             </div>
             <div className="photo">
-              <img src={photo} width="300px" />
+              <img src={photo} width="300px" alt="fotograf"/>
             </div>
             <div className="photo">
-              <img src={photo} width="300px" />
+              <img src={photo} width="300px" alt="fotograf"/>
             </div>
             <div className="photo">
-              <img src={photo} width="300px" />
+              <img src={photo} width="300px" alt="fotograf"/>
             </div>
             <div className="photo">
-              <img src={photo} width="300px" />
+              <img src={photo} width="300px" alt="fotograf"/>
             </div>
             <div className="photo">
-              <img src={photo} width="300px" />
+              <img src={photo} width="300px" alt="fotograf"/>
             </div>
             <div className="photo">
-              <img src={photo} width="300px" />
+              <img src={photo} width="300px" alt="fotograf"/>
             </div>
             <div className="photo">
-              <img src={photo} width="300px" />
+              <img src={photo} width="300px" alt="fotograf"/>
             </div>
           </div>
         </div>
