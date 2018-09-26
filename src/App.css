@@ -528,14 +528,14 @@ li {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #fff;
-  width: 70vw;
+  width: 50vw;
   margin: auto;
   border-top: 5px solid red;
 }
 
 .App-contact .contact-info div {
   margin: 3vh;
-  width: 30vh;
+  width: 100%;
 }
 
 .App-contact .contact-info div div.icon {
@@ -552,9 +552,23 @@ li {
 }
 
 /* CONTACT MEDIA QUERIES */
+@media only screen and (max-width: 750px) {
+  .App-contact .contact-info {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .App-contact .contact-info div {
+    margin: 3vh;
+    width: 100%;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
   .App-contact .contact-info {
     flex-wrap: nowrap;
+    width: 80vw;
   }
 
   .App-contact .contact-info div {
