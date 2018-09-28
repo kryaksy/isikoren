@@ -305,16 +305,17 @@
 }
 
 #footer .social-media {
-  width: 500px;
+  width: 80vw;
   margin: 40px auto;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #footer .social-media .icon {
   width: 35px;
   height: 35px;
+  margin: 10px;
   background-color: #ccc;
   border-radius: 100%;
   /* text-align: center; */
