@@ -449,37 +449,34 @@
   background-color: #eee;
 }
 
-.App-services .container {
-  padding: 10vh 100px;
-  height: 100%;
-}
-
-.App-services .container .title {
+.App-services .title {
   width: 70vw;
   margin: auto auto 10px auto;
   text-align: center;
-  padding-top: 5vh;
+  padding-top: 15vh;
 }
 
-.App-services .container .services-container {
+.App-services .services-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.App-services .container .services-container ul.services-list {
+.App-services .services-container ul.services-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   text-align: left;
   margin: auto;
+  width: 100vw;
+  justify-content: center;
 }
 
-.App-services .container .services-container ul.services-list li.service-link {
+.App-services .services-container ul.services-list li.service-link {
   margin: 5px;
   padding: 15px;
   background-color: #fff;
-  width: 12vw;
-  height: 200px;
+  width: 140px;
+  height: 150px;
   font-size: 0.8em;
   line-height: 1.4em;
   cursor: pointer;
@@ -501,36 +498,37 @@
 }
 
 /* EACH SERVICE */
-.App-services .container .service {
-  padding: 40px 100px;
+.App-services .service {
+  /* padding: 40px 100px; */
+  margin: 80px auto;
   text-align: left;
-  width: 100%;
+  width: 80vw;
   color: #555;
 }
 
-.App-services .container .service h3 {
+.App-services .service h3 {
   text-align: center;
   font-size: 1.5em;
   color: #000;
 }
 
-.App-services .container .service strong {
+.App-services .service strong {
   color: red;
 }
 
-.App-services .container .service h1,
-.App-services .container .service h2,
-.App-services .container .service h4 {
+.App-services .service h1,
+.App-services .service h2,
+.App-services .service h4 {
   font-weight: bolder;
   font-size: 1.2em;
   color: black;
 }
 
-.App-services .container .service ul {
+.App-services .service ul {
   margin-left: 50px;
 }
 
-.App-services .container .service p,
+.App-services .service p,
 h1,
 h2,
 h3,
