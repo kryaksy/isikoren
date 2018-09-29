@@ -10,14 +10,22 @@ library.add(faBars);
 class Menu extends Component {
   state = {
     sidebarOpen: false
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.closeSideMenu);
   }
 
   handleSideMenu = () => {
-    if (this.state.sidebarOpen){
-      this.setState({ sidebarOpen: false })
+    if (this.state.sidebarOpen) {
+      this.setState({ sidebarOpen: false });
     } else {
-      this.setState({ sidebarOpen: true })
+      this.setState({ sidebarOpen: true });
     }
+  };
+
+  closeSideMenu = () => {
+    this.setState({ sidebarOpen: false });
   };
 
   render() {

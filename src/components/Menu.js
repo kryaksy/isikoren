@@ -26,7 +26,7 @@ class Menu extends Component {
   render() {
     return (
       // <MenuSide />
-      <MenuTop opened={this.state.opened}/>
+      <MenuTop opened={this.state.opened} />
     );
   }
 }
