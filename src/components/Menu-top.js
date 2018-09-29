@@ -1,32 +1,21 @@
 import React, { Component } from "react";
 import logo from "../assets/Logo_1x.png";
 import { Link } from "react-router-dom";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
+library.add(faBars);
 
 class Menu extends Component {
-  state = {
-    opened: false
-  };
-
-  componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
-  }
-
-  handleScroll = e => {
-    if (e.srcElement.location.pathname === "/") {
-      let scrollTop = e.target.scrollingElement.scrollTop;
-      if (scrollTop > 500) {
-        this.setState({ opened: true });
-      } else {
-        this.setState({ opened: false });
-      }
-    } else {
-      this.setState({ opened: true });
-    }
+  handleSideMenu = () => {
+    let sideBar = document.getElementById("App-sidebar");
+    sideBar.classList.toggle("open");
   };
 
   render() {
     return (
-      <div id="App-top-menu" className={this.state.opened ? "open" : ""}>
+      <div id="App-top-menu" className={this.props.opened ? "open" : ""}>
         <Link to="/">
           <img src={logo} className="App-logo" alt="logo" />
         </Link>
@@ -43,6 +32,26 @@ class Menu extends Component {
           <Link to="/contact" className="menu-item">
             İletişim
           </Link>
+        </div>
+        <div className="menu-icon" onClick={this.handleSideMenu}>
+          <FontAwesomeIcon icon="bars" />
+        </div>
+        <div id="App-sidebar">
+          <img src={logo} className="App-logo" alt="logo" />
+          <ul className="menu-list">
+            <li className="menu-item">
+              <Link to="/"> Ana Sayfa </Link>
+            </li>
+            <li className="menu-item">
+              <Link to="/about"> Hakkımızda </Link>
+            </li>
+            <li className="menu-item">
+              <Link to="/services"> Servisler </Link>
+            </li>
+            <li className="menu-item">
+              <Link to="/contact"> İletişim </Link>
+            </li>
+          </ul>
         </div>
       </div>
     );
