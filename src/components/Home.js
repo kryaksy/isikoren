@@ -8,7 +8,7 @@ import belginPhoto from "../assets/images/belgin-benek.jpeg";
 
 class Home extends Component {
   componentDidMount() {
-    window.scrollTo(0, -1);
+    window.scrollTo(0, 0);
   }
 
   render() {

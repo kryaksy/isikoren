@@ -37,58 +37,7 @@
   padding: 2vh;
 }
 
-/* SIDEMENU */
-#App-sidebar {
-  position: fixed;
-  left: -80vw;
-  width: 80vw;
-  height: 100vh;
-  background-color: #fff;
-  color: #555;
-  z-index: 100;
-  transition: all 0.5s ease-out;
-  top: 0px;
-}
-
-#App-sidebar.open {
-  left: 0px;
-}
-
-/* SIDEBAR LOGO */
-#App-sidebar .App-logo {
-  width: 150px;
-  margin: 50px;
-}
-
-#App-sidebar .menu-item {
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-#App-sidebar .menu-item:hover {
-  font-weight: bolder;
-  color: #000;
-}
-
-#App-sidebar .menu-icon {
-  position: absolute;
-  padding: 13px;
-  margin: 15px;
-  background-color: #fff;
-  color: #333;
-  z-index: 100;
-  line-height: 1em;
-  cursor: pointer;
-  right: -68px;
-  top: 0;
-}
-
-#App-sidebar .menu-icon:hover {
-  color: #fff;
-  background-color: red;
-}
-
-/* TOPMENU */
+/* MENU */
 #App-top-menu {
   position: fixed;
   top: -80px;
@@ -116,30 +65,78 @@
   margin-top: 10px;
 }
 
-#App-top-menu .menu-list {
+#App-top-menu .menu-list.top {
   display: none;
-  width: 450px;
+  width: 400px;
   margin-right: 100px;
 }
 
-#App-top-menu .menu-list .menu-item {
+#App-top-menu .menu-list.top .menu-item {
   cursor: pointer;
   color: #555;
-  background-color: #fff;
   text-decoration: none;
   font-size: 0.9em;
-  margin-left: 40px;
-  padding: auto;
+  margin-left: 20px;
+  padding: 10px;
+  line-height: 75px;
 }
 
-#App-top-menu .menu-item:hover {
+#App-top-menu .menu-list.top .menu-item:hover {
   font-weight: bolder;
   color: #000;
 }
 
+#App-top-menu .menu-icon {
+  display: block;
+  padding: 10px;
+  margin: 15px;
+  line-height: 1em;
+  border: 1px solid #000;
+  color: #333;
+  cursor: pointer;
+}
+
+/* SIDEMENU */
+#App-top-menu #App-sidebar {
+  position: fixed;
+  left: -80vw;
+  width: 80vw;
+  height: 100vh;
+  background-color: #fff;
+  color: #555;
+  z-index: 100;
+  transition: all 0.5s ease-out;
+  top: 0px;
+}
+
+#App-top-menu.open #App-sidebar.open {
+  left: 0vw;
+}
+
+/* SIDEBAR LOGO */
+#App-top-menu #App-sidebar .App-logo {
+  width: 130px;
+  margin: 50px;
+}
+
+#App-top-menu #App-sidebar .menu-list.side .menu-item {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#App-top-menu #App-sidebar .menu-list.side .menu-item:hover {
+  font-weight: bolder;
+  color: #000;
+}
+
+#App-top-menu #App-sidebar .menu-icon:hover {
+  color: #fff;
+  background-color: red;
+}
+
 /* MEDIA Queries TOP MENU */
 @media only screen and (min-width: 800px) {
-  #App-top-menu .menu-list {
+  #App-top-menu .menu-list.top {
     display: block;
   }
 
@@ -147,6 +144,14 @@
     width: 110px;
     margin-left: 100px;
     margin-top: 10px;
+  }
+
+  #App-top-menu .menu-icon {
+    display: none;
+  }
+
+  #App-top-menu .menu-icon {
+    display: none;
   }
 }
 

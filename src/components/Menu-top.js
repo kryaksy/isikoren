@@ -26,7 +26,7 @@ class Menu extends Component {
         <Link to="/">
           <img src={logo} className="App-logo" alt="logo" />
         </Link>
-        <div className="menu-list">
+        <div className="menu-list top">
           <Link to="/" className="menu-item">
             Ana Sayfa
           </Link>
@@ -45,7 +45,7 @@ class Menu extends Component {
         </div>
         <div id="App-sidebar" className={this.state.sidebarOpen ? "open" : ""}>
           <img src={logo} className="App-logo" alt="logo" />
-          <ul className="menu-list">
+          <ul className="menu-list side">
             <li className="menu-item">
               <Link to="/"> Ana Sayfa </Link>
             </li>
