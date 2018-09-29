@@ -40,7 +40,7 @@
 /* SIDEMENU */
 #App-sidebar {
   position: fixed;
-  left: 0px;
+  left: -80vw;
   width: 80vw;
   height: 100vh;
   background-color: #fff;

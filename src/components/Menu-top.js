@@ -8,9 +8,16 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 library.add(faBars);
 
 class Menu extends Component {
+  state = {
+    sidebarOpen: false
+  }
+
   handleSideMenu = () => {
-    let sideBar = document.getElementById("App-sidebar");
-    sideBar.classList.toggle("open");
+    if (this.state.sidebarOpen){
+      this.setState({ sidebarOpen: false })
+    } else {
+      this.setState({ sidebarOpen: true })
+    }
   };
 
   render() {
@@ -36,7 +43,7 @@ class Menu extends Component {
         <div className="menu-icon" onClick={this.handleSideMenu}>
           <FontAwesomeIcon icon="bars" />
         </div>
-        <div id="App-sidebar">
+        <div id="App-sidebar" className={this.state.sidebarOpen ? "open" : ""}>
           <img src={logo} className="App-logo" alt="logo" />
           <ul className="menu-list">
             <li className="menu-item">
