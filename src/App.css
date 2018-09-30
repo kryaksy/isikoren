@@ -51,7 +51,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px -7px 20px 1px #111;
+  box-shadow: 0px -4px 15px -2px #111;
 }
 
 #App-top-menu.open {
