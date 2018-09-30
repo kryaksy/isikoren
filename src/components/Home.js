@@ -23,8 +23,11 @@ class Home extends Component {
     return (
       <div className="App-container">
         <Header />
-        <div className="scroll-down" onClick={this.handleScrollDown}>
-          <img src={arrowDown} width="20" alt="scroll-down button"/>
+        <div>
+          <div className="scroll-down-icon" onClick={this.handleScrollDown}>
+            <img src={arrowDown} width="20" alt="scroll-down button" />
+          </div>
+          <p className="scroll-down-text">Aşağı Kaydır</p>
         </div>
         <div id="whatWeDo">
           <h1 className="title">Neler Yaparız?</h1>

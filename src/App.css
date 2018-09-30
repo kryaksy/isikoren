@@ -51,7 +51,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px -4px 15px -2px #111;
+  box-shadow: 0px 2px 10px -5px #111;
 }
 
 #App-top-menu.open {
@@ -163,7 +163,7 @@
   background-color: #eee;
 }
 
-.App-container .scroll-down {
+.App-container .scroll-down-icon {
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -173,6 +173,10 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+
+.App-container .scroll-down-text {
+  margin-top: 30px;
 }
 
 .App-container .title {
