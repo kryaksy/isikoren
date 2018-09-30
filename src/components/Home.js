@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Header from "./Header.js";
 import Footer from "./Footer.js";
-import photo from "../assets/images/galery.jpeg";
 import referenceImage from "../assets/images/reference.png";
 import hilmiPhoto from "../assets/images/hilmi-isikoren.jpeg";
 import belginPhoto from "../assets/images/belgin-benek.jpeg";
 import arrowDown from "../assets/icons/arrow-down-solid.svg";
+import Galery from "./Galery.js";
 
 class Home extends Component {
   componentDidMount() {
@@ -139,35 +139,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div id="galery">
-          <h1 className="title">Galeri</h1>
-          <div className="list">
-            <div className="photo">
-              <img src={photo} width="300px" alt="fotograf" />
-            </div>
-            <div className="photo">
-              <img src={photo} width="300px" alt="fotograf" />
-            </div>
-            <div className="photo">
-              <img src={photo} width="300px" alt="fotograf" />
-            </div>
-            <div className="photo">
-              <img src={photo} width="300px" alt="fotograf" />
-            </div>
-            <div className="photo">
-              <img src={photo} width="300px" alt="fotograf" />
-            </div>
-            <div className="photo">
-              <img src={photo} width="300px" alt="fotograf" />
-            </div>
-            <div className="photo">
-              <img src={photo} width="300px" alt="fotograf" />
-            </div>
-            <div className="photo">
-              <img src={photo} width="300px" alt="fotograf" />
-            </div>
-          </div>
-        </div>
+        <Galery />
         <Footer />
       </div>
     );
