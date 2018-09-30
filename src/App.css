@@ -371,13 +371,14 @@
  * ABOUT
  */
 .App-about {
+  width: 100vw;
   padding-top: 10vh;
   background-color: #eee;
-  height: 100%;
+  overflow: hidden;
 }
 
 .App-about .title {
-  width: 80vw;
+  width: 100vw;
   margin: auto auto 10px auto;
   text-align: center;
   padding-top: 5vh;
@@ -385,21 +386,29 @@
 
 .App-about .image {
   width: 100vw;
-  height: 400px;
-  background-color: #fff;
-  margin: auto;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  overflow: hidden;
+  height: 300px;
+  /* max-height: 200px; */
+  overflow-y: hidden;
 }
 
 .App-about .image img {
-  filter: grayscale(1);
-  transition: filter 1s ease-out;
+  width: 100vw;
+  height: 100vw;
+  margin: auto;
 }
 
-.App-about .image img:hover {
-  filter: grayscale(0.4);
+@media only screen and (min-width: 900px) {
+  .App-about .image {
+    width: 900px;
+    max-height: 600px;
+    margin: 10px auto;
+  }
+
+  .App-about .image img {
+    width: 900px;
+    height: 900px;
+    /* margin: auto; */
+  }
 }
 
 .App-about .mission p {
@@ -428,17 +437,15 @@
 }
 
 /* ABOUT MEDIA QUERIES */
-@media only screen and (min-width: 1000px) {
-  .App-about .image {
-    width: 70vw;
-  }
-
+@media only screen and (min-width: 900px) {
   .App-about .mission p {
     width: 70vw;
+    max-width: 800px;
   }
 
   .App-about .vision {
     width: 70vw;
+    max-width: 800px;
   }
 }
 

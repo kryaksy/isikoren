@@ -12,7 +12,7 @@ class About extends Component {
       <div className="App-about">
         <h1 className="title">Hakkımızda</h1>
         <div className="image">
-          <img src={aboutImage} alt="hilmi isikoren ve belgin benek" />
+          <img src={aboutImage} width="960" height="958"  alt="hilmi isikoren ve belgin benek" />
         </div>
         <div className="mission">
           <p className="intro">
