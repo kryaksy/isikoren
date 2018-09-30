@@ -163,6 +163,18 @@
   background-color: #eee;
 }
 
+.App-container .scroll-down {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #333;
+  margin: -25px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 .App-container .title {
   padding-top: 10vh;
   padding-bottom: 5vh;
@@ -400,14 +412,13 @@
 @media only screen and (min-width: 900px) {
   .App-about .image {
     width: 900px;
-    max-height: 600px;
+    height: 400px;
     margin: 10px auto;
   }
 
   .App-about .image img {
     width: 900px;
     height: 900px;
-    /* margin: auto; */
   }
 }
 

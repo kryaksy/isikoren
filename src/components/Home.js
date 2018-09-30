@@ -5,16 +5,27 @@ import photo from "../assets/images/galery.jpeg";
 import referenceImage from "../assets/images/reference.png";
 import hilmiPhoto from "../assets/images/hilmi-isikoren.jpeg";
 import belginPhoto from "../assets/images/belgin-benek.jpeg";
+import arrowDown from "../assets/icons/arrow-down-solid.svg";
 
 class Home extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
 
+  handleScrollDown = () => {
+    window.scrollTo({
+      top: 530,
+      behavior: "smooth"
+    });
+  };
+
   render() {
     return (
       <div className="App-container">
         <Header />
+        <div className="scroll-down" onClick={this.handleScrollDown}>
+          <img src={arrowDown} width="20" alt="scroll-down button"/>
+        </div>
         <div id="whatWeDo">
           <h1 className="title">Neler Yaparız?</h1>
           <p className="intro">
@@ -62,7 +73,7 @@ class Home extends Component {
           <div id="members">
             <div className="member">
               <div className="picture">
-                <img src={hilmiPhoto} width="200px" alt="century21 logo"/>
+                <img src={hilmiPhoto} width="200px" alt="century21 logo" />
               </div>
               <h2 className="name">Hilmi Işıkören</h2>
               <div className="bio">
@@ -73,7 +84,7 @@ class Home extends Component {
             </div>
             <div className="member">
               <div className="picture">
-                <img src={belginPhoto} width="200px" alt="century21 logo"/>
+                <img src={belginPhoto} width="200px" alt="century21 logo" />
               </div>
               <h2 className="name">Belgin Benek</h2>
               <div className="bio">
@@ -88,40 +99,40 @@ class Home extends Component {
           <h1 className="title">Kimlerle Çalıştık?</h1>
           <div className="list">
             <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo"/>
+              <img src={referenceImage} height="50px" alt="century21 logo" />
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo"/>
+              <img src={referenceImage} height="50px" alt="century21 logo" />
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo"/>
+              <img src={referenceImage} height="50px" alt="century21 logo" />
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo"/>
+              <img src={referenceImage} height="50px" alt="century21 logo" />
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo"/>
+              <img src={referenceImage} height="50px" alt="century21 logo" />
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo"/>
+              <img src={referenceImage} height="50px" alt="century21 logo" />
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo"/>
+              <img src={referenceImage} height="50px" alt="century21 logo" />
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo"/>
+              <img src={referenceImage} height="50px" alt="century21 logo" />
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo"/>
+              <img src={referenceImage} height="50px" alt="century21 logo" />
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo"/>
+              <img src={referenceImage} height="50px" alt="century21 logo" />
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo"/>
+              <img src={referenceImage} height="50px" alt="century21 logo" />
             </div>
             <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo"/>
+              <img src={referenceImage} height="50px" alt="century21 logo" />
             </div>
           </div>
         </div>
@@ -129,28 +140,28 @@ class Home extends Component {
           <h1 className="title">Galeri</h1>
           <div className="list">
             <div className="photo">
-              <img src={photo} width="300px" alt="fotograf"/>
+              <img src={photo} width="300px" alt="fotograf" />
             </div>
             <div className="photo">
-              <img src={photo} width="300px" alt="fotograf"/>
+              <img src={photo} width="300px" alt="fotograf" />
             </div>
             <div className="photo">
-              <img src={photo} width="300px" alt="fotograf"/>
+              <img src={photo} width="300px" alt="fotograf" />
             </div>
             <div className="photo">
-              <img src={photo} width="300px" alt="fotograf"/>
+              <img src={photo} width="300px" alt="fotograf" />
             </div>
             <div className="photo">
-              <img src={photo} width="300px" alt="fotograf"/>
+              <img src={photo} width="300px" alt="fotograf" />
             </div>
             <div className="photo">
-              <img src={photo} width="300px" alt="fotograf"/>
+              <img src={photo} width="300px" alt="fotograf" />
             </div>
             <div className="photo">
-              <img src={photo} width="300px" alt="fotograf"/>
+              <img src={photo} width="300px" alt="fotograf" />
             </div>
             <div className="photo">
-              <img src={photo} width="300px" alt="fotograf"/>
+              <img src={photo} width="300px" alt="fotograf" />
             </div>
           </div>
         </div>
