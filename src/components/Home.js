@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import Header from "./Header.js";
 import Footer from "./Footer.js";
-import referenceImage from "../assets/images/reference.png";
 import hilmiPhoto from "../assets/images/hilmi-isikoren.jpeg";
 import belginPhoto from "../assets/images/belgin-benek.jpeg";
 import arrowDown from "../assets/icons/arrow-down-solid.svg";
 import Galery from "./Galery.js";
+import References from "./References.js"
 
 class Home extends Component {
   componentDidMount() {
@@ -98,47 +98,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        <div id="references">
-          <h1 className="title">Kimlerle Çalıştık?</h1>
-          <div className="list">
-            <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo" />
-            </div>
-            <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo" />
-            </div>
-            <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo" />
-            </div>
-            <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo" />
-            </div>
-            <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo" />
-            </div>
-            <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo" />
-            </div>
-            <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo" />
-            </div>
-            <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo" />
-            </div>
-            <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo" />
-            </div>
-            <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo" />
-            </div>
-            <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo" />
-            </div>
-            <div className="reference">
-              <img src={referenceImage} height="50px" alt="century21 logo" />
-            </div>
-          </div>
-        </div>
+        <References />
         <Galery />
         <Footer />
       </div>
