@@ -14,7 +14,7 @@ class Home extends Component {
 
   handleScrollDown = () => {
     window.scrollTo({
-      top: 530,
+      top: 565,
       behavior: "smooth"
     });
   };

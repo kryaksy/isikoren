@@ -178,13 +178,14 @@
 }
 
 .App-container .title {
-  padding-top: 10vh;
+  /* padding-top: 5vh; */
   padding-bottom: 5vh;
 }
 
 /* WHATWEDO */
 .App-container #whatWeDo {
   text-align: center;
+  padding-top: 15vh;
 }
 
 .App-container #whatWeDo .intro {
@@ -370,23 +371,6 @@
   color: white;
 }
 
-/* HOME MEDIA QUERIES */
-@media only screen and (min-width: 1000px) {
-  .App-container .scroll-down-icon {
-    width: 50px;
-    height: 50px;
-    margin: -25px auto;
-  }
-
-  .App-container #whatWeDo .services {
-    flex-wrap: nowrap;
-  }
-
-  .App-container #whatWeDo .services .service {
-    height: 50vh;
-  }
-}
-
 /*
  * ABOUT
  */
@@ -417,19 +401,6 @@
   margin: auto;
 }
 
-@media only screen and (min-width: 900px) {
-  .App-about .image {
-    width: 900px;
-    height: 400px;
-    margin: 10px auto;
-  }
-
-  .App-about .image img {
-    width: 900px;
-    height: 900px;
-  }
-}
-
 .App-about .mission p {
   width: 80vw;
   padding-top: 20px;
@@ -453,19 +424,6 @@
 .App-about .vision p {
   color: #555;
   text-align: left;
-}
-
-/* ABOUT MEDIA QUERIES */
-@media only screen and (min-width: 900px) {
-  .App-about .mission p {
-    width: 70vw;
-    max-width: 800px;
-  }
-
-  .App-about .vision {
-    width: 70vw;
-    max-width: 800px;
-  }
 }
 
 /*
@@ -525,7 +483,6 @@
 
 /* EACH SERVICE */
 .App-services .service {
-  /* padding: 40px 100px; */
   margin: 80px auto;
   text-align: left;
   width: 80vw;
@@ -562,10 +519,6 @@ h4,
 ul,
 li {
   padding: 5px;
-}
-
-/* SERVICES MEDIA QUERIES */
-@media only screen and (min-width: 1000px) {
 }
 
 /*
@@ -612,14 +565,11 @@ li {
   font-size: 0.9em;
 }
 
-/* CONTACT MEDIA QUERIES */
 @media only screen and (max-width: 750px) {
   .App-contact .contact-info {
     width: 90vw;
   }
-}
 
-@media only screen and (max-width: 750px) {
   .App-contact .contact-info div {
     margin: 3vh;
     width: 100%;
@@ -635,5 +585,44 @@ li {
   .App-contact .contact-info div {
     margin: 5vh;
     width: 35vh;
+  }
+
+  .App-about .mission p {
+    width: 70vw;
+    max-width: 800px;
+  }
+
+  .App-about .vision {
+    width: 70vw;
+    max-width: 800px;
+  }
+
+  .App-container .scroll-down-icon {
+    width: 50px;
+    height: 50px;
+    margin: -25px auto;
+  }
+
+  .App-container #whatWeDo {
+    padding-top: 5vh;
+  }
+
+  .App-container #whatWeDo .services {
+    flex-wrap: nowrap;
+  }
+
+  .App-container #whatWeDo .services .service {
+    height: 50vh;
+  }
+
+  .App-about .image {
+    width: 900px;
+    height: 400px;
+    margin: 10px auto;
+  }
+
+  .App-about .image img {
+    width: 900px;
+    height: 900px;
   }
 }
