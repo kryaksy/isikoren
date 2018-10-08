@@ -1,4 +1,53 @@
 # CONTENTS
+
+## Summary:
+ A - Anasayfa:
+ A1 - İşimiz
+ A2 - Odağımız
+ A3 - Meydan Okuruz
+ A4 - Value Propositions
+ A41 - Startup projeniz mi var?
+ A42 - İnşaat projenizdeki satış ofisiniz için eğitim mi almak istiyorsunuz?
+ A43 - Markalaşmak mı istiyorsunuz?
+ A44 - İnşaat firmanız için danışmanlık mı almak istiyorsunuz?
+ A45 - Emlak ofisiniz için eğitim mi almak istiyorsunuz?
+ A46 - Motivasyon üzerine seminer mi almak istiyorsunuz?
+ A5 - Başarıyı Paylaşıyoruz
+ A6 - Referanslar
+ A7 - Galeri
+ B - Işıkören Danışmanlık Pitch
+ B1 - Hilmi Isikoren
+ B2 - Belgin Benek
+ ND - Neden Varız?
+ ND1 - Neden Varız?
+ ND2 - Ana İşimiz
+ ND3 - Odak Konumuz
+ ND4 - Meydan Okuduklarımız
+ ND5 - Uzmanlık Alanlarımız
+ NL - Neler Yaparız?
+ NL1 - Emlakta Lider Geliştirme Programı
+ NL2 - İnşaat Projelerine Özel Pazarlama ve Satış Danışmanlığı
+ NL3 - Markalaşma Danışmanlığı
+ NL4 - İnşaat Proje Satış Ofisi Ekiplerine Özel Emlak Eğitim Programları
+ NL5 - Emlak Ofislerine Özel Emlak Eğitim Programları
+ NL6 - Motivasyon Konuşmaları
+ E - Emlak Talepleriniz
+ Q - Quotes
+ Q1
+ Q2
+ Q3
+ Q4
+ Q5
+ Q6
+ Q7
+ Q8
+ Q9
+ Q10
+ Q11
+ IL - İletişim
+
+#All Contents:
+
 ## A - Anasayfa:
 ### A1 - İşimiz
 Araştırmalar, markaların genellikle birbirine daha çok benzemeye başladığını ve benzerlik arttıkça insanların fiyata göre ürün/hizmet seçtiğini gösteriyor. İşimiz, müşterilerimizi kendi özgün değerleriyle farklılaştırarak öne çıkmalarına yol göstermektir.
@@ -74,10 +123,26 @@ Hilmi Işıkören’in ilk kitabı “10 Numara Motivasyon” 29 Eylül 2016’d
 - Costa Mesa, California, ABD. 2005-2010|
 - Emlak üzerine eğiticin eğitimi ve genel emlak eğitimleri (2005-2010)|
 - Uluslararası kongreler (2005-2010)|
+
+### B1 - Belgin Benek
+Işıkören Danışmanlık şirketinin kurucu ortağı Belgin Benek, iletişim ve pazarlama konusunda uzmanlığının yanı sıra yetişkin eğitimcisi olarak da mesleki yetkinliğe sahiptir.
+
+Yurt içi ve yurt dışı çalışmalarla hakim olduğu alanları sürekli geliştiren Belgin Benek bu konularla ilgili iki kez Japonya’ya gidip Toyota üretim sistemindeki yalın bakış açısını incelemiş ve Işıkören Danışmanlık bünyesindeki danışmanlık ve eğitim programlarına uyarlamıştır.
+
+Belgin Benek, 17 yıllık deneyimiyle iletişim, satış yükselten pazarlama danışmanlığı, satış eğitim ve koçluk programlarının hazırlanması ve sunumunda etkin rol oynamaya, 2017 yılı başından itibaren üniversitelerde iletişim üzerine konuşmalar yapmaya devam etmektedir.
+
+##### Biyografi
+2001 yılında Anadolu Üniversitesi İletişim Bilimleri Fakültesi, Eğitim İletişimi ve Planlaması bölümünü bitirerek iş dünyasına adımını atan Belgin Benek, ilk iş deneyimine İpbüken Danışmanlık (şimdiki Yalın Enstitü Derneği) bünyesinde Dünya Bankası ile ortak yürütülen “Nakliye ve Gümrük Yönetimi” projesiyle başladı.
+
+Sonrasında sosyal sorumuluk projeleri yürüten bir ajansta Tetrapak, Eczacıbaşı İpek Kağıt ve İpragaz firmalarına hizmet veren Benek, 2005 yılında Realty World Türkiye’de Kurumsal İletişim ve Franchise Müdürü olarak kariyerine devam etti. Burada Hilmi Işıkören ile tanışarak emlak/franchising ve bayi yönetimi konularında bilgi birikimini derinleştirmeye başlayan Belgin Benek, 2005-2009 yılları arasında birçok franchise ofis sahibi ve danışmanına eğitimler vererek, organizasyonlar düzenledi.
+
+Belgin Benek, 2010 yılında kendi danışmanlık şirketini iletişim, pazarlama ve markalaşma konusunda uzman Hilmi Işıkören ile birlikte kurdu. Japonya’da incelediği Toyota üretim sistemindeki yalın bakış açısını markalaşma, danışmanlık ve eğitim programlarına uyarladı. Benek, sektör ayrımı yapmaksızın işinde başarılı olmak isteyen şirketleri, kurumları ve hatta bireyleri farklılaştırarak öne çıkarmak amacıyla danışmanlık, eğitim ve seminerler vermeye devam etmektedir.
+
+Hilmi Işıkören’in 2016’da yayınlanan ilk kitabı “10 Numara Motivasyon” kitabının editörlüğünü de üstlenen Benek www.10numaramotivasyon.com’da sektörel ve sinema yazıları yazmaktadır.
+
 ## ND - Neden Varız?
 ### ND1 - Neden Varız?
 Hayata olumlu bakan, gerçekçi iyimser kimliğimiz ve mutlu ruh halimizin avantajlarını cebimize koyarak 2010 yılında yola çıktık. Düşüncelerimize duygularımızı katarak eyleme geçtik. Bir nedenimiz vardı. Bildiğimiz, inandığımız ve sevdiğimiz şeyleri yaparsak mutlu kalacaktık. Mutluluk halimiz müşterilerimize, dostlarımıza ve çevremizdeki insanlara da yansıyacak, onların hayatlarında da olumlu değişiklikler yaratabilecektik. İşte bu bizim için başarı demekti. Yeteneklerimiz ve uzmanlıklarımız doğrultusunda insanlara yol göstermeyi, bilgilerimizi paylaşarak onlarla birlikte çoğalmayı, daha fazla öğrenmeyi, öğrendikçe değişmeyi, değiştikçe gelişmeyi hedefledik.İnsanlara bahşedilen yeteneklerin iş hayatında kullanılması durumda başarıya gitmenin kolaylaştığına inanıyoruz. Ayrıca Jack Trout’un dediği gibi ‘farklılaşmazsan ölürsün’ anlayışına da gönülden bağlıyız. Bu sebeple iş hayatında 30 yıla yakın tecrübemizden aldığımız dersleri, kazandığımız ödülleri, edindiğimiz başarıları yetenek ve uzmanlıklarımızla harmanlayarak oluşturduğumuz doğruları programlar haline getirdik. Programlarımız paylaşıldıkça çoğalacak, kullanıldıkça faydayı arttıracak, başarı yükselecek ve mutluluk hissedilecek.
-
 ### ND2 - Ana İşimiz
 Sektör ayrımı yapmaksızın işinde başarılı olmak isteyen şirketleri, kurumları ve hatta bireyleri farklılaştırarak öne çıkarmak amacıyla danışmanlık, eğitim ve seminerler veririz.
 ### ND3 - Odak Konumuz
@@ -239,12 +304,14 @@ Uluslararası emlak markalarında üst düzey yöneticilik ve emlakta 21 yıllı
 - Takip sistemi ile sahibindenleri nasıl ikna edeceğimizi keşfedeceğiz,
 - Emlakta başarılı satışın ipuçlarını öğreneceğiz,
 - Emlakta satış kapatmanın yollarını öğrenerek başarımızı katlayacağız.
+
 ##### Kimler katılabilir?
 - Emlak ofisi sahipleri
 - Emlak danışmanları
 - Emlak ofisi açmayı düşünen kişiler
 - Emlak danışmanı olmak isteyen kişiler
 - Emlak işine ilgi duyan herkes
+
 ##### Süre
 36 saatlik bir eğitim programıdır.
 Emlak ofisinizde başarıyı yükseltmek istiyorsanız hemen şimdi 0532 374 10 70 whatsapp hattından iletişime geçiniz.
@@ -258,6 +325,7 @@ Başarıya ulaşan kişi/şirketlerin izlediği 10 ortak yol dünyadan güncel �
 - Dünyada başaran şirket ve kişilerin nasıl başardığını görecekler,
 - 10 etkili yolu hayatımıza/işimize adapte etmemizin çok da zor olmadığını fark edecekler,
 - Olumlu duygularla seminerden ayrılarak hemen harekete geçmek için motive olacaklar.
+
 ##### Kimler katılabilir?
 - Şirket sahipleri, orta ve üst düzey yöneticiler,
 - Bayi, franchise teşkilatı olan şirketler,
@@ -265,13 +333,16 @@ Başarıya ulaşan kişi/şirketlerin izlediği 10 ortak yol dünyadan güncel �
 - Girişimciler,
 - İş hayatına girmeye hazırlanan üniversite öğrencileri,
 - Başarıyı arayan her birey.
+
 ##### Süre
 2 saatlik bir seminerdir.
 Şirketinizde ofis motivasyonunu yükseltmek istiyorsanız hemen şimdi 0532 374 10 70 whatsapp hattından iletişime geçiniz.
+
 ## E - Emlak Talepleriniz
 1997’den beri süregelen emlak sektörü tecrübemizle ülke genelindeki birçok noktada emlak taleplerini sağlıklı değerlendirmek üzere çalışmalar yapmaktayız. Bu konuda çok büyük bir profesyonel networke sahibiz. Alıcıları ve satıcıları doğru portföyle buluşturmak için binlerce çalışandan oluşan emlak uzmanlarıyla entegre olarak mümkün olan en kısa sürede sonuca ulaşırız. Gayrimenkul alım ve satım kararlarının riske atılmayacak kadar önemli girişimler olduğunu bilmekteyiz. Ehil kişilerle gerçekleşen emlak alışverişleri hem oturum hem de yatırım amaçlı kararları alırken hayati önem taşır. Ayrıca böyle ehil kişilerin sizin çıkarınız doğrultusunda bir uzman tarafından seçilmesi ve sürecin onunla yönetilmesi çok daha sağlıklı olmaktadır. İşte tam bu devrede bizim uzmanlığımız devreye girer.|
+
 ## Q - Quotes
-###  Q1
+### Q1
 “En tepedeki kişiysen düşünmen gereken tek şey kendi politikalarındır.” Churchill.
 “Eğer iki numaraysan, politika üretmeye, strateji geliştirmeye başlamadan önce, en tepedekinin yani liderin ve diğer rakiplerinin düşündükleri hakkında da kafa yorman gerekir. Ayrıca insanlar ikincileri sever ancak iş #emlak olunca lideri seçer.” Hilmi Işıkören
 ### Q2
