@@ -5,13 +5,17 @@ class Welcome extends Component {
     return (
       <div className="welcome">
         <div className="bg-video" />
-        <div className="line" />
-        <h2 className="title">Işıkören Danışmanlık</h2>
-        <p className="text">
-          Sektör ayrımı yapmaksızın işinde başarılı olmak isteyen şirketleri,
-          kurumları ve hatta bireyleri farklılaştırarak öne çıkarmak amacıyla
-          danışmanlık, eğitim ve seminerler veririz.
-        </p>
+        <div className="content">
+          <div className="heading">
+            <div className="line" />
+            <h2 className="title">Işıkören Danışmanlık</h2>
+          </div>
+          <p className="text">
+            Sektör ayrımı yapmaksızın işinde başarılı olmak isteyen şirketleri,
+            kurumları ve hatta bireyleri farklılaştırarak öne çıkarmak amacıyla
+            danışmanlık, eğitim ve seminerler veririz.
+          </p>
+        </div>
       </div>
     );
   }
