@@ -1,10 +1,13 @@
 import React, { Component } from "react";
+import logo from "../assets/logo.png";
 
 class Header extends Component {
   render() {
     return (
       <div id="header">
-        <div className="logo" />
+        <div className="logo">
+          <img src={logo} height="40" />
+        </div>
         <ul className="menu-list">
           <li className="menu-item">
             <span className="line" />
