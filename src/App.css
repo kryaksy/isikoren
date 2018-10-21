@@ -8,6 +8,30 @@
   width: 100vw;
 }
 
+/* THEME */
+.App {
+  color: #222;
+}
+
+.text, .snippet {
+  margin-top: 1em;
+  color: #666;
+  max-width: 250px;
+}
+
+.title {
+  margin-top: 2em;
+  max-width: 250px;
+}
+
+button {
+  width: 130px;
+  height: 33px;
+  margin-top: 3em;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
 /* SHAPES */
 .line {
   width: 30px;
@@ -73,7 +97,6 @@
 }
 
 .welcome .content .text {
-  padding-top: 1em;
   margin-left: calc(30px + 1em);
   width: 240px;
 }
