@@ -100,3 +100,16 @@ button {
   margin-left: calc(30px + 1em);
   width: 240px;
 }
+
+/* PITCH */
+#pitch {
+  height: 100vh;
+  padding-left: calc(30px + 1em);
+  padding-top: 33vh;
+}
+
+#pitch .title{
+}
+
+#pitch .snippet{
+}
