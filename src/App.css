@@ -13,7 +13,8 @@
   color: #222;
 }
 
-.text, .snippet {
+.text,
+.snippet {
   margin-top: 1em;
   color: #666;
   max-width: 250px;
@@ -57,14 +58,7 @@ button {
   display: none;
 }
 
-#header .menu-list .menu-item {
-}
-
-#header .menu-list .menu-item .line{
-
-}
-
-#header .menu-icon{
+#header .menu-icon {
   width: 20px;
   transform: rotate(90deg);
   font-size: 1.2em;
@@ -77,14 +71,8 @@ button {
   background-color: #eee;
 }
 
-.welcome .bg-video {
-}
-
 .welcome .content {
   padding-top: 33vh;
-}
-
-.welcome .content .line {
 }
 
 .welcome .content .heading {
@@ -106,10 +94,4 @@ button {
   height: 100vh;
   padding-left: calc(30px + 1em);
   padding-top: 33vh;
-}
-
-#pitch .title{
-}
-
-#pitch .snippet{
 }
