@@ -1,10 +1,16 @@
 import React, { Component } from "react";
 
+import Header from "../Header";
+import Footer from "../Footer";
+import AllServices from "../AllServices";
+
 class Services extends Component {
   render() {
     return (
       <div id="services">
-        <h1>Services</h1>
+        <Header />
+        <AllServices />
+        <Footer />
       </div>
     );
   }

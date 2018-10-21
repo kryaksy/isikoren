@@ -4,7 +4,14 @@ class Welcome extends Component {
   render() {
     return (
       <div className="welcome">
-        <h1>Welcome</h1>
+        <div className="bg-video" />
+        <div className="line" />
+        <h2 className="title">Işıkören Danışmanlık</h2>
+        <p className="text">
+          Sektör ayrımı yapmaksızın işinde başarılı olmak isteyen şirketleri,
+          kurumları ve hatta bireyleri farklılaştırarak öne çıkarmak amacıyla
+          danışmanlık, eğitim ve seminerler veririz.
+        </p>
       </div>
     );
   }
