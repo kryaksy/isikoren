@@ -26,7 +26,7 @@ class Header extends Component {
             İletişim
           </li>
         </ul>
-        <div className="menu-icon" />
+        <div className="menu-icon">|||</div>
       </div>
     );
   }
