@@ -3,3 +3,37 @@
   margin: 0;
   padding: 0;
 }
+
+.App {
+  width: 100vw;
+}
+
+/* HEADER */
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 25px;
+  align-items: center;
+  color: #000;
+}
+
+#header .logo {
+  padding: 3px;
+}
+
+#header .menu-list {
+  display: none;
+}
+
+#header .menu-list .menu-item {
+}
+
+#header .menu-list .menu-item .line{
+
+}
+
+#header .menu-icon{
+  width: 20px;
+  transform: rotate(90deg);
+  font-size: 1.2em;
+}
