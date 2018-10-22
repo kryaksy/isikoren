@@ -53,6 +53,11 @@ button {
   width: 200px;
 }
 
+.media,
+.picture {
+  background-color: #222;
+}
+
 /* SHAPES */
 .line {
   width: 30px;
