@@ -4,43 +4,47 @@ class Specialties extends Component {
   render() {
     return (
       <div id="specialties">
-        <div className="line" />
-        <h2 className="title">Uzmanlık Alanlarımız</h2>
-        <ul className="list">
-          <li className="item">
-            <div className="icon" />
-            <h3 className="title">Emlak</h3>
-          </li>
-          <li className="item">
-            <div className="icon" />
-            <h3 className="title">Satış</h3>
-          </li>
-          <li className="item">
-            <div className="icon" />
-            <h3 className="title">Pazarlama</h3>
-          </li>
-          <li className="item">
-            <div className="icon" />
-            <h3 className="title">Franchising</h3>
-          </li>
-          <li className="item">
-            <div className="icon" />
-            <h3 className="title">Marka Danışmanlığı</h3>
-          </li>
-          <li className="item">
-            <div className="icon" />
-            <h3 className="title">Motivasyon Konuşmaları</h3>
-          </li>
-          <li className="item">
-            <div className="icon" />
-            <h3 className="title">Eğitim</h3>
-          </li>
-          <li className="item">
-            <div className="icon" />
-            <h3 className="title">İletişim</h3>
-          </li>
-        </ul>
-        <button>Servislere gözat</button>
+        <div className="heading">
+          <div className="line" />
+          <h2 className="title">Uzmanlık Alanlarımız</h2>
+        </div>
+        <div className="content">
+          <ul className="list">
+            <li className="item">
+              <div className="icon" />
+              <p className="title">Emlak</p>
+            </li>
+            <li className="item">
+              <div className="icon" />
+              <p className="title">Satış</p>
+            </li>
+            <li className="item">
+              <div className="icon" />
+              <p className="title">Pazarlama</p>
+            </li>
+            <li className="item">
+              <div className="icon" />
+              <p className="title">Franchising</p>
+            </li>
+            <li className="item">
+              <div className="icon" />
+              <p className="title">Marka Danışmanlığı</p>
+            </li>
+            <li className="item">
+              <div className="icon" />
+              <p className="title">Motivasyon Konuşmaları</p>
+            </li>
+            <li className="item">
+              <div className="icon" />
+              <p className="title">Eğitim</p>
+            </li>
+            <li className="item">
+              <div className="icon" />
+              <p className="title">İletişim</p>
+            </li>
+          </ul>
+          <button>Servislere gözat</button>
+        </div>
       </div>
     );
   }
