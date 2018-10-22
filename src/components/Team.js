@@ -4,13 +4,15 @@ class Team extends Component {
   render() {
     return (
       <div id="team">
-        <div className="line" />
-        <h2 className="title">Ekibimiz</h2>
+        <div className="heading">
+          <div className="line" />
+          <h2 className="title">Ekibimiz</h2>
+        </div>
         {/* <p className="statement">
           Sit veniam dolore commodo enim laboris deserunt officia.
         </p> */}
         <ul className="list">
-          <li>
+          <li className="item">
             <img className="picture" />
             <h3 className="name">Hilmi Işıkören</h3>
             <p className="pitch">
@@ -20,7 +22,7 @@ class Team extends Component {
             </p>
             {/* Learn More button might be needed */}
           </li>
-          <li>
+          <li className="item">
             <img className="picture" />
             <h3 className="name">Belgin Benek</h3>
             <p className="pitch">
