@@ -33,6 +33,15 @@ button {
   background-color: #fff;
 }
 
+.heading {
+  display: flex;
+  align-items: flex-end;
+}
+
+.heading .title {
+  width: 200px;
+}
+
 /* SHAPES */
 .line {
   width: 30px;
@@ -73,15 +82,6 @@ button {
 
 .welcome .content {
   padding-top: 33vh;
-}
-
-.welcome .content .heading {
-  display: flex;
-  align-items: flex-end;
-}
-
-.welcome .content .heading .title {
-  width: 200px;
 }
 
 .welcome .content .text {
