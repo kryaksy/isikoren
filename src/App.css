@@ -13,6 +13,12 @@ li {
   list-style: none;
 }
 
+a {
+  color: #555;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+
 /* THEME */
 .App {
   color: #222;
