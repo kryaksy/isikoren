@@ -216,6 +216,30 @@ button {
   width: 200px;
 }
 
+/* STORY */
+#story {
+  background-color: #eee;
+  padding-bottom: 100px;
+}
+
+#story .media {
+  height: 300px;
+}
+
+#story .heading {
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+#story .text,
+#story .list {
+  padding-left: calc(55px + 1em);
+}
+
+#story .list li{
+  margin-top: 50px;
+}
+
 /* FOOTER */
 #footer {
   background-color: #000;
