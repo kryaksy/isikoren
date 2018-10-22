@@ -108,7 +108,7 @@ button {
 
 /* WELCOME */
 .welcome {
-  padding: 40px 25px;
+  padding: 40px auto;
   height: 100vh;
   background-color: #eee;
 }
@@ -118,7 +118,7 @@ button {
 }
 
 .welcome .content .text {
-  margin-left: calc(30px + 1em);
+  margin-left: calc(55px + 1em);
   width: 240px;
 }
 
