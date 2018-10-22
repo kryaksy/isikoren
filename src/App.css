@@ -25,7 +25,8 @@ a {
 }
 
 .text,
-.snippet {
+.snippet,
+.description {
   margin-top: 1em;
   color: #666;
   max-width: 250px;
