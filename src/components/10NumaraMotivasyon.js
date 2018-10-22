@@ -4,7 +4,7 @@ class OnNumaraMotivasyon extends Component {
   render() {
     return (
       <div id="onNumaraMotivasyon">
-        <h2 className="title">On Numara Motivasyon</h2>
+        <h2 className="title">10 Numara Motivasyon</h2>
         <p className="snippet">
           Hamurunda sevgi, temelinde motivasyon olan iş ve hayata dair
           paylaşımlarımızın insanlara ilham vermesi amacıyla yayındayız.
