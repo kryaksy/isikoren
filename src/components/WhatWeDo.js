@@ -4,8 +4,10 @@ class WhatWeDo extends Component {
   render() {
     return (
       <div id="whatWeDo">
-        <div className="line" />
-        <h2 className="head">Neler yapariz?</h2>
+        <div className="heading">
+            <div className="line" />
+            <h2 className="title">Neler yaparız?</h2>
+          </div>
         <ul className="valueProposition list">
           <li className="list-item">
             {/* Image or video */}
