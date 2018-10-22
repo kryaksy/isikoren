@@ -4,8 +4,11 @@ class Story extends Component {
   render() {
     return (
       <div id="story">
-        <div className="line" />
-        <h2 className="title">Nasıl başladık?</h2>
+        <div className="media"/>
+        <div className="heading">
+          <div className="line" />
+          <h2 className="title">Nasıl başladık?</h2>
+        </div>
         <p className="text">
           Mutluluk halimiz müşterilerimize, dostlarımıza ve çevremizdeki
           insanlara da yansıyacak, onların hayatlarında da olumlu değişiklikler
