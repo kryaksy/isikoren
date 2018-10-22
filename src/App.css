@@ -99,3 +99,32 @@ button {
   padding-left: calc(30px + 1em);
   padding-top: 33vh;
 }
+
+/* WHAT WE DO*/
+#whatWeDo {
+  background-color: #eee;
+  padding-left: 25px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#whatWeDo .media{
+  height: 200px;
+  width: calc(100% - 25px);
+  background-color: #222;
+  margin-top: 50px;
+}
+
+#whatWeDo .list-item .title {
+  position: relative;
+  top: -15px;
+  margin-left: 20px;
+  max-width: 75vw;
+}
+
+#whatWeDo .list-item .snippet {
+  position: relative;
+  top: -20px;
+  margin-left: 20px;
+  max-width: 75vw;
+}
