@@ -6,12 +6,14 @@ import Footer from "../Footer";
 class Contact extends Component {
   render() {
     return (
-      <div id="contact">
+      <div>
         <Header />
-        <div className="container">
+        <div id="contact">
           <div className="background" />
-          <div className="line" />
-          <h2>İletişime geç.</h2>
+          <div className="heading">
+            <div className="line" />
+            <h2 className="title">İletişime geç.</h2>
+          </div>
           <ul className="list">
             <li className="item">
               <h3>Çalışma Saatleri</h3>
