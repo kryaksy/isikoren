@@ -186,6 +186,36 @@ button {
   width: calc(100% - 50px);
 }
 
+/* TEAM */
+#team {
+  padding-top: 50px;
+}
+
+#team .heading {
+  margin-left: 25px;
+}
+
+#team .list {
+  padding: calc(55px + 1em);
+}
+
+#team .list .item {
+  margin-bottom: 100px;
+}
+
+#team .picture {
+  width: 200px;
+  height: 200px;
+}
+
+#team .name {
+  margin: 10px auto;
+}
+
+#team .pitch {
+  width: 200px;
+}
+
 /* FOOTER */
 #footer {
   background-color: #000;
