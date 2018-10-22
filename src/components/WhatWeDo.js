@@ -5,73 +5,73 @@ class WhatWeDo extends Component {
     return (
       <div id="whatWeDo">
         <div className="heading">
-            <div className="line" />
-            <h2 className="title">Neler yaparız?</h2>
-          </div>
+          <div className="line" />
+          <h2 className="title">Neler yaparız?</h2>
+        </div>
         <ul className="valueProposition list">
           <li className="list-item">
             {/* Image or video */}
             <div className="media" />
-            <h3 className="title">Emlakta Lider Geliştirme Programı </h3>
+            <h3 className="title">Startup projeniz mi var?</h3>
             <p className="snippet">
-              Emlak ofisi sahibi ya da emlak danışmanı olarak her türlü bilgi,
-              uygulama, iletişim, satış ve pazarlama stratejilerine hakim olup
-              emlakta bölgenizin lideri olacaksınız.
+              Yeni girişimlerin çoğu başarısızlıkla sonuçlanıyor. Farklılaşıp
+              öne çıkmak, başarıyla tanışmak istiyorsanız yanınızdayız.
             </p>
           </li>
           <li className="list-item">
             {/* Image or video */}
             <div className="media" />
             <h3 className="title">
-              İnşaat Projelerine Özel Pazarlama ve Satış Danışmanlığı
+              İnşaat projenizdeki satış ofisiniz için eğitim mi almak
+              istiyorsunuz?
             </h3>
             <p className="snippet">
-              İnşaat firmalarının gayrimenkul projelerine değer katacak bir
-              aksiyon planı çerçevesinde; doğru hedef kitleye yapılacak
-              iletişim, pazarlama ve satış aktivitelerini belirleyin.
+              İnşaat firmalarının proje satış ofislerinde çalışan satış
+              ekiplerine özel eğitim ve koçluk programlarımızla yanınızdayız.
             </p>
           </li>
           <li className="list-item">
             {/* Image or video */}
             <div className="media" />
-            <h3 className="title">Markalaşma Danışmanlığı </h3>
+            <h3 className="title">Markalaşmak mı istiyorsunuz?</h3>
             <p className="snippet">
-              Sektör ayrımı yapmaksızın işinde başarılı olmak isteyen
-              şirketleri, kurumları ve hatta bireyleri farklılaştırarak öne
-              çıkarmak amacıyla verdiğimiz markalaşma danışmanlığı hizmetlerimiz
-              belli bir program ve plan dahilinde yürütülmektedir.
+              İsminizi marka yapmak, sadık müşterilerden oluşan güvenilir bir
+              marka olmak istiyorsanız yanınızdayız.
             </p>
           </li>
           <li className="list-item">
             {/* Image or video */}
             <div className="media" />
             <h3 className="title">
-              İnşaat Proje Satış Ofisi Ekiplerine Özel Emlak Eğitim Programı
+              İnşaat firmanız için danışmanlık mı almak istiyorsunuz?
             </h3>
             <p className="snippet">
-              Benzersiz uygulamalı tekniklerle farkındalık yaratıp bakış açısını
-              olumlu yönde değiştiren eğitimlerimize katılan katılımcıların
-              satış başarısı ilk eğitimlerle birlikte yükseltmeye başlar.
+              İnşaat firmanızın gayrimenkul projelerini satışa açmadan önce
+              profesyonel stratejik iletişim, markalaşma, pazarlama ve satış
+              danışmanlığı hizmeti almak isterseniz yanınızdayız.
             </p>
           </li>
           <li className="list-item">
             {/* Image or video */}
             <div className="media" />
             <h3 className="title">
-              Emlak Ofislerine Özel Emlak Eğitim Programı
+              Emlak ofisiniz için eğitim mi almak istiyorsunuz?
             </h3>
             <p className="snippet">
-              Uluslararası emlak markalarında üst düzey yöneticilik ve emlakta
-              21 yıllık eğitim tecrübemizle gerçekleştirdiğimiz satış yükselten
-              uygulamalı eğitim, koçluk ve danışmanlık programlarımızla 2010
-              yılından beri emlak ofislerine yol gösteriyoruz.
+              Emlak ofislerinize özel motivasyon temelli eğitim programlarımız
+              ile yanınızdayız.
             </p>
           </li>
           <li className="list-item">
             {/* Image or video */}
             <div className="media" />
-            <h3 className="title">Motivasyon Konuşmaları </h3>
-            <p className="snippet">Şirketinizde ofis motivasyonunu yükseltin</p>
+            <h3 className="title">
+              Motivasyon üzerine seminer mi almak istiyorsunuz?
+            </h3>
+            <p className="snippet">
+              Şirket için motivasyon, başarı için yüreklendirici, ekibinize
+              ilham veren konuşmalar, seminerler için yanınızdayız.
+            </p>
           </li>
         </ul>
       </div>
