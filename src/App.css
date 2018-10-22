@@ -128,7 +128,7 @@ button {
   padding-bottom: 100px;
 }
 
-#whatWeDo .media{
+#whatWeDo .media {
   height: 200px;
   width: calc(100% - 25px);
   background-color: #222;
@@ -199,10 +199,6 @@ button {
   padding-top: 50px;
 }
 
-#team .heading {
-  margin-left: 25px;
-}
-
 #team .list {
   padding: calc(55px + 1em);
 }
@@ -235,7 +231,6 @@ button {
 }
 
 #story .heading {
-  margin-left: 25px;
   margin-top: 30px;
 }
 
@@ -244,7 +239,7 @@ button {
   padding-left: calc(55px + 1em);
 }
 
-#story .list li{
+#story .list li {
   margin-top: 50px;
 }
 
@@ -252,10 +247,6 @@ button {
 #specialties {
   padding-top: 50px;
   padding-bottom: 100px;
-}
-
-#specialties .heading {
-  margin-left: 25px;
 }
 
 #specialties .content {
