@@ -6,6 +6,7 @@
 
 .App {
   width: 100vw;
+  overflow: hidden;
 }
 
 li {
