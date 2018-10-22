@@ -4,11 +4,10 @@ class References extends Component {
   render() {
     return (
       <div id="references">
-        <div className="line" />
-        <h2 className="title">Referanslar</h2>
-        <p className="statement">
-          Kimlerle çalıştık?
-        </p>
+        <div className="heading">
+          <div className="line" />
+          <h2 className="title">Kimlerle çalıştık?</h2>
+        </div>
         <ul className="list">
           <li className="item">
             <img />
@@ -34,8 +33,14 @@ class References extends Component {
           <li className="item">
             <img />
           </li>
+          <li className="item">
+            <img />
+          </li>
+          <li className="item">
+            <img />
+          </li>
         </ul>
-        <button className="more">daha fazla</button>
+        <a href="#" className="more">daha fazla</a>
       </div>
     );
   }
