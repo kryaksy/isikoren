@@ -100,7 +100,7 @@ button {
   position: fixed;
   left: 0;
   top: 0;
-  width: calc(100vw - 60px);
+  width: calc(100vw - 50px);
   display: flex;
   justify-content: space-between;
   padding: 40px 25px;
