@@ -43,6 +43,7 @@ button {
   margin-top: 3em;
   border: 1px solid #000;
   background-color: #fff;
+  font-size: 0.8em;
 }
 
 .heading {
@@ -70,9 +71,20 @@ button {
   border-radius: 100%;
 }
 
+.flex {
+  display: flex;
+}
+
 /* SHAPES */
 .line {
   width: 30px;
+  margin-bottom: 0.33em;
+  margin-right: 1em;
+  border-bottom: 1px solid #000;
+}
+
+.back-line {
+  width: 20px;
   margin-bottom: 0.33em;
   margin-right: 1em;
   border-bottom: 1px solid #000;
@@ -532,4 +544,40 @@ button {
   list-style: disc;
   list-style-position: inherit;
   margin: 20px 25px;
+}
+
+/* SERVICE */
+#service .heading {
+  margin-top: 50px;
+}
+
+#service .media {
+  margin-top: 130px;
+  height: 200px;
+}
+
+#service .container {
+  width: 70vw;
+  margin: 20px auto;
+}
+
+#service .container .title {
+  margin-top: 60px;
+}
+
+#service .item {
+  list-style: disc;
+  list-style-position: inherit;
+  margin: 25px;
+}
+
+#service .filter {
+  font-size: 0.8em;
+  width: 110px;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#service button {
+  margin: 50px 0;
 }
