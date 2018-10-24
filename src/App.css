@@ -487,7 +487,7 @@ button {
 
 #footer .logo img {
   filter: saturate(0);
-  filter: brightness(100);
+  filter: brightness(0) invert(1);
 }
 
 #footer .slogan {
