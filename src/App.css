@@ -95,6 +95,41 @@ button {
   margin-right: 0.8em;
 }
 
+/* MENU-ICON */
+#menu-icon {
+  width: 24px;
+  height: 14px;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#menu-icon span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #000;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+#menu-icon span:nth-child(1) {
+  top: 0px;
+}
+
+#menu-icon span:nth-child(2) {
+  top: 7px;
+}
+
+#menu-icon span:nth-child(3) {
+  top: 14px;
+}
+
+
 /* HEADER */
 #header {
   position: fixed;
