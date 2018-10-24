@@ -581,3 +581,94 @@ button {
 #service button {
   margin: 50px 0;
 }
+
+#menuWindow {
+  position: fixed;
+  background-color: #222;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+}
+
+#menuWindow .menu-list {
+  display: block;
+  position: absolute;
+  top: 210px;
+  right: 0px;
+  font-size: 1.7em;
+}
+
+#menuWindow .menu-list .menu-item {
+  margin: 20px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+#menuWindow .follow-list {
+  /* display: none; */
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  flex-wrap: wrap;
+}
+
+#menuWindow .follow-list .icon {
+  width: 18px;
+  height: 18px;
+  margin: 5px;
+  background-color: #aaa;
+}
+
+#menuWindow .logo {
+  filter: brightness(0) invert(1);
+}
+
+#menuWindow .statement {
+  width: 150px;
+  position: absolute;
+  color: #ccc;
+  font-size: 0.7em;
+  font-weight: 100;
+  bottom: 70px;
+  left: 25px;
+  font-size: ;
+}
+
+#menuWindow .line {
+  width: 50px;
+  margin-bottom: 0.2em;
+  margin-left: 0.5em;
+  border-bottom: 1px solid #000;
+}
+
+#menuWindow .menu-item.active .line {
+  border-color: #ccc;
+}
+
+#menuWindow #menu-icon span {
+  background-color: #ccc;
+  height: 1px;
+}
+
+#menuWindow #menu-icon span:nth-child(1) {
+  width: 12px;
+  top: 3px;
+  left: 9px;
+  transform: rotate(45deg);
+}
+
+#menuWindow #menu-icon span:nth-child(2) {
+  left: -5px;
+}
+
+#menuWindow #menu-icon span:nth-child(3) {
+  width: 12px;
+  top: 11px;
+  left: 9px;
+  transform: rotate(-45deg);
+}
+
+#menuWindow .menu-list .menu-item.active {
+  color: #ccc;
+}
