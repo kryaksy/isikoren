@@ -9,24 +9,28 @@ class Header extends Component {
           <img src={logo} height="40" />
         </div>
         <ul className="menu-list">
-          <li className="menu-item">
-            <span className="line" />
+          <li className="menu-item active">
             Ana Sayfa
+            <div className="line" />
           </li>
           <li className="menu-item">
-            <span className="line" />
-            Biz Kimiz?
+            Biz Kimiz
+            <div className="line" />
           </li>
           <li className="menu-item">
-            <span className="line" />
             Servisler
+            <div className="line" />
           </li>
           <li className="menu-item">
-            <span className="line" />
             İletişim
+            <div className="line" />
           </li>
         </ul>
-        <div className="menu-icon">|||</div>
+        <div id="menu-icon">
+          <span />
+          <span />
+          <span />
+        </div>
       </div>
     );
   }
