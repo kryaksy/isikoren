@@ -116,12 +116,6 @@ button {
   display: none;
 }
 
-#header .menu-icon {
-  width: 20px;
-  transform: rotate(90deg);
-  font-size: 1.2em;
-}
-
 /* WELCOME */
 .welcome {
   padding: 40px auto;
