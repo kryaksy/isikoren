@@ -511,53 +511,6 @@ button {
   margin-top: 10px;
 }
 
-/* FOOTER */
-#footer {
-  background-color: #000;
-  padding-left: calc(45px + 1em);
-  padding-top: 50px;
-  padding-bottom: 30px;
-}
-
-#footer * {
-  color: #bbb;
-  font-size: 12px;
-  font-weight: 100;
-  line-height: 1.75em;
-}
-
-#footer h2 {
-  font-weight: 600;
-  color: #eee;
-}
-
-#footer .list {
-  max-width: 100px;
-  margin-right: 25px;
-}
-
-#footer .footlinks {
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 10px;
-  width: 80vw;
-}
-
-#footer .copyright {
-  color: #555;
-  margin-top: 40px;
-  font-size: 0.6em;
-}
-
-#footer .logo img {
-  filter: saturate(0);
-  filter: brightness(0) invert(1);
-}
-
-#footer .slogan {
-  margin-top: 10px;
-}
-
 /* BIOGRAPHY */
 #biography {
   width: 70vw;
