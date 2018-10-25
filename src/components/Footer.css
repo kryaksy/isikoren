@@ -2,6 +2,8 @@
 #footer {
   background-color: #000;
   padding: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 #footer * {
@@ -17,7 +19,7 @@
 }
 
 #footer .list {
-  padding-right: 25px;
+  padding-right: 15px;
   min-width: 60px;
 }
 
@@ -36,8 +38,8 @@
 
 #footer .copyright {
   color: #555;
-  margin-top: 40px;
-  font-size: 0.6em;
+  margin-top: 50px;
+  font-size: 0.7em;
 }
 
 #footer .brand {
@@ -49,14 +51,8 @@
 }
 
 #footer .next {
-  position: absolute;
-  right: 30px;
-  top: 30px;
   text-align: right;
-}
-
-#footer .next .title {
-  margin: 0;
+  height: 50px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -65,13 +61,13 @@
   }
 
   #footer .container {
+    width: calc(50vw + 100px);
     flex-direction: row;
     justify-content: space-between;
   }
 
   #footer .footlinks {
     margin-top: 0;
-    width: 65%;
   }
 
   #footer .next {
