@@ -96,15 +96,23 @@ button {
 }
 
 /* MENU-ICON */
-#menu-icon {
-  width: 24px;
-  height: 14px;
+.icon-container {
+  /* background-color: red; */
+  padding: 15px;
+}
+
+.menu-icon {
+  width: 16px;
+  height: 10px;
   transform: rotate(0deg);
   transition: 0.5s ease-in-out;
   cursor: pointer;
+  display: flex;
+
+  align-items: center;
 }
 
-#menu-icon span {
+.menu-icon span {
   display: block;
   position: absolute;
   height: 2px;
@@ -117,18 +125,29 @@ button {
   transition: 0.25s ease-in-out;
 }
 
-#menu-icon span:nth-child(1) {
+.menu-icon span:nth-child(1) {
   top: 0px;
 }
 
-#menu-icon span:nth-child(2) {
-  top: 7px;
+.menu-icon span:nth-child(2) {
+  top: 5px;
 }
 
-#menu-icon span:nth-child(3) {
-  top: 14px;
+.menu-icon span:nth-child(3) {
+  top: 10px;
 }
 
+.menu-icon span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #000;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
 
 /* HEADER */
 #header {
@@ -675,23 +694,23 @@ button {
   border-color: #ccc;
 }
 
-#menuWindow #menu-icon span {
+#menuWindow .menu-icon span {
   background-color: #ccc;
   height: 1px;
 }
 
-#menuWindow #menu-icon span:nth-child(1) {
+#menuWindow .menu-icon span:nth-child(1) {
   width: 12px;
   top: 3px;
   left: 9px;
   transform: rotate(45deg);
 }
 
-#menuWindow #menu-icon span:nth-child(2) {
+#menuWindow .menu-icon span:nth-child(2) {
   left: -5px;
 }
 
-#menuWindow #menu-icon span:nth-child(3) {
+#menuWindow .menu-icon span:nth-child(3) {
   width: 12px;
   top: 11px;
   left: 9px;
