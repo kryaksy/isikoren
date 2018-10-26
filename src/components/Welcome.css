@@ -1,0 +1,17 @@
+.welcome {
+  height: 100vh;
+  background-color: #eee;
+}
+
+.welcome .content {
+  padding-top: 40vh;
+}
+
+.welcome .content .heading {
+  margin-left: 10vw;
+}
+
+.welcome .content .text {
+  margin-left: calc(10vw + 30px + 1em);
+  min-width: 240px;
+}

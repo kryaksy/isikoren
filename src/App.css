@@ -149,22 +149,6 @@ button {
   transition: 0.25s ease-in-out;
 }
 
-/* WELCOME */
-.welcome {
-  padding: 40px auto;
-  height: 100vh;
-  background-color: #eee;
-}
-
-.welcome .content {
-  padding-top: 33vh;
-}
-
-.welcome .content .text {
-  margin-left: calc(55px + 1em);
-  width: 240px;
-}
-
 /* PITCH */
 #pitch {
   height: 100vh;
