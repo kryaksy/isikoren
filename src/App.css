@@ -48,6 +48,7 @@ button {
 .heading {
   display: flex;
   align-items: flex-end;
+  margin-left: 5vw;
 }
 
 .heading.small {
@@ -503,10 +504,4 @@ button {
 
 #menuWindow .menu-list .menu-item.active {
   color: #ccc;
-}
-
-@media only screen and (min-width: 768px) {
-  .heading {
-    margin-left: 5vw;
-  }
 }
