@@ -48,7 +48,6 @@ button {
 .heading {
   display: flex;
   align-items: flex-end;
-  margin-left: 25px;
 }
 
 .heading.small {
