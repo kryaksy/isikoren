@@ -30,3 +30,13 @@
 #team .snippet {
   width: 200px;
 }
+
+@media only screen and (min-width: 768px) {
+  #team .list .item {
+    text-align: left;
+  }
+
+  #team .list .item .content {
+    padding-left: 20px;
+  }
+}
