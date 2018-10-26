@@ -39,8 +39,27 @@ class References extends Component {
           <li className="item">
             <img />
           </li>
+          <li className="item">
+            <img />
+          </li>
+          <li className="item">
+            <img />
+          </li>
+          <li className="item">
+            <img />
+          </li>
+          <li className="item">
+            <img />
+          </li>
+          <li className="item">
+            <img />
+          </li>
         </ul>
-        <a href="#" className="more">daha fazla</a>
+        <div>
+          <a href="#" className="more">
+            daha fazla
+          </a>
+        </div>
       </div>
     );
   }
