@@ -148,13 +148,6 @@ button {
   transition: 0.25s ease-in-out;
 }
 
-/* PITCH */
-#pitch {
-  height: 100vh;
-  padding-left: calc(30px + 1em);
-  padding-top: 33vh;
-}
-
 /* WHAT WE DO*/
 #whatWeDo {
   background-color: #eee;

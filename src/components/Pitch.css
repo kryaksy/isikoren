@@ -1,0 +1,15 @@
+#pitch {
+  height: 100vh;
+  padding-left: calc(10vw + 30px + 1em);
+  padding-top: 43vh;
+}
+
+#pitch .snippet {
+  max-width: 250px;
+}
+
+@media only screen and (min-width: 768px) {
+  #pitch .snippet {
+    max-width: 500px;
+  }
+}

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Pitch.css";
 
 class Pitch extends Component {
   render() {
