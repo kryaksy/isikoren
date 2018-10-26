@@ -148,46 +148,6 @@ button {
   transition: 0.25s ease-in-out;
 }
 
-/* SPECIALTIES */
-#specialties {
-  padding-top: 50px;
-  padding-bottom: 100px;
-}
-
-#specialties .content {
-  text-align: center;
-}
-
-#specialties .icon {
-  width: 50px;
-  height: 50px;
-}
-
-#specialties .list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 40px;
-}
-
-#specialties .list .item {
-  width: 150px;
-  height: 140px;
-  padding-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-}
-
-#specialties .list .item .title {
-  width: 100px;
-}
-
-#specialties button {
-  margin-top: 60px;
-}
-
 /* GALLERY */
 #gallery {
   padding-top: 50px;
