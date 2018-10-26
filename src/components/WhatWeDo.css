@@ -37,12 +37,13 @@
 
   #whatWeDo .list-item .content {
     margin: 30px;
-    max-width: 300px;
+    width: 300px;
+    padding: 25px;
   }
 
   #whatWeDo .list-item .media {
     min-height: 300px;
-    width: 40vw;
+    width: 600px;
   }
 
   #whatWeDo .list-item:nth-child(2n) .content{
