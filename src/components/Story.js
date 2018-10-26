@@ -19,11 +19,14 @@ class Story extends Component {
               Yeteneklerimiz ve uzmanlıklarımız doğrultusunda insanlara yol
               göstermeyi, bilgilerimizi paylaşarak onlarla birlikte çoğalmayı,
               daha fazla öğrenmeyi, öğrendikçe değişmeyi, değiştikçe gelişmeyi
-              hedefledik. Hayata olumlu bakan, gerçekçi iyimser kimliğimiz ve
-              mutlu ruh halimizin avantajlarını cebimize koyarak 2010 yılında
-              yola çıktık. Düşüncelerimize duygularımızı katarak eyleme geçtik.
-              Bir nedenimiz vardı. Bildiğimiz, inandığımız ve sevdiğimiz şeyleri
-              yaparsak mutlu kalacaktık.
+              hedefledik.
+            </p>
+            <p className="text">
+              Hayata olumlu bakan, gerçekçi iyimser kimliğimiz ve mutlu ruh
+              halimizin avantajlarını cebimize koyarak 2010 yılında yola çıktık.
+              Düşüncelerimize duygularımızı katarak eyleme geçtik. Bir nedenimiz
+              vardı. Bildiğimiz, inandığımız ve sevdiğimiz şeyleri yaparsak
+              mutlu kalacaktık.
             </p>
             <ul className="list">
               <li className="ourJob">
