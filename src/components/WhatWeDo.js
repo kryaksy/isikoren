@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./WhatWeDo.css";
 
 class WhatWeDo extends Component {
   render() {
