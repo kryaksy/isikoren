@@ -4,9 +4,15 @@ class Specialties extends Component {
   render() {
     return (
       <div id="specialties">
-        <div className="heading">
-          <div className="line" />
-          <h2 className="title">Uzmanlık Alanlarımız</h2>
+        <div className="header">
+          <div className="head">
+            <div className="line" />
+            <h2 className="title">Uzmanlık Alanlarımız</h2>
+          </div>
+          <div className="linking">
+            <a>Servislere gözat</a>
+            <div className="line" />
+          </div>
         </div>
         <div className="content">
           <ul className="list">
@@ -43,7 +49,6 @@ class Specialties extends Component {
               <p className="title">İletişim</p>
             </li>
           </ul>
-          <button>Servislere gözat</button>
         </div>
       </div>
     );
