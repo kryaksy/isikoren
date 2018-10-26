@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./10NumaraMotivasyon.css";
 
 class OnNumaraMotivasyon extends Component {
   render() {

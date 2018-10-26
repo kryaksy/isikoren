@@ -147,13 +147,6 @@ button {
   transition: 0.25s ease-in-out;
 }
 
-/* 10 NUMARA MOTIVASYON */
-#onNumaraMotivasyon {
-  height: 100vh;
-  padding-left: calc(30px + 1em);
-  padding-top: 33vh;
-}
-
 /* REFERENCES */
 #references {
   background-color: #111;
