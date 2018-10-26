@@ -147,29 +147,6 @@ button {
   transition: 0.25s ease-in-out;
 }
 
-/* STORY */
-#story {
-  background-color: #eee;
-  padding-bottom: 100px;
-}
-
-#story .media {
-  height: 300px;
-}
-
-#story .heading {
-  margin-top: 30px;
-}
-
-#story .text,
-#story .list {
-  padding-left: calc(55px + 1em);
-}
-
-#story .list li {
-  margin-top: 50px;
-}
-
 /* SPECIALTIES */
 #specialties {
   padding-top: 50px;

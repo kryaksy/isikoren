@@ -1,0 +1,42 @@
+#story {
+  background-color: #eee;
+  padding-bottom: 100px;
+}
+
+#story .media {
+  height: 30vw;
+  min-height: 300px;
+}
+
+#story .content {
+  padding: 0 calc(5vw + 30px + 1em);
+  max-width: 800px;
+}
+
+#story .heading {
+  margin-top: 8vw;
+  margin-bottom: 30px;
+}
+
+#story .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#story .list li {
+  margin-top: 50px;
+  max-width: 300px;
+}
+
+@media only screen and (min-width: 768px) {
+  #story .list li {
+    margin: 50px 2vw 0px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #story .content {
+    margin: auto
+  }
+}
