@@ -147,32 +147,6 @@ button {
   transition: 0.25s ease-in-out;
 }
 
-/* TEAM */
-#team {
-  padding-top: 50px;
-}
-
-#team .list {
-  padding: calc(55px + 1em);
-}
-
-#team .list .item {
-  margin-bottom: 100px;
-}
-
-#team .picture {
-  width: 200px;
-  height: 200px;
-}
-
-#team .name {
-  margin: 10px auto;
-}
-
-#team .pitch {
-  width: 200px;
-}
-
 /* STORY */
 #story {
   background-color: #eee;

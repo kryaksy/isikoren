@@ -1,0 +1,32 @@
+#team {
+  padding: 100px 25px 50px;
+}
+
+#team .list {
+  max-width: 700px;
+  padding: 50px 0;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#team .list .item {
+  margin: 50px;
+  text-align: center;
+}
+
+#team .picture {
+  width: 200px;
+  height: 250px;
+}
+
+#team .name {
+  width: 200px;
+  margin: 15px auto;
+}
+
+#team .snippet {
+  width: 200px;
+}
