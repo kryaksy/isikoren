@@ -287,7 +287,6 @@ button {
   justify-content: flex-end;
 }
 
-
 #menuWindow .follow-list {
   /* display: none; */
   position: absolute;
@@ -315,7 +314,6 @@ button {
   font-weight: 100;
   bottom: 70px;
   left: 25px;
-  font-size: ;
 }
 
 #menuWindow .line {
