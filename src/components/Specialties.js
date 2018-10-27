@@ -11,7 +11,7 @@ class Specialties extends Component {
             <h2 className="title">Uzmanlık Alanlarımız</h2>
           </div>
           <div className="linking">
-            <a>Servislere gözat</a>
+            <a href="/services">Servislere gözat</a>
             <div className="line" />
           </div>
         </div>
