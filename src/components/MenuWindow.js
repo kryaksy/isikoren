@@ -6,7 +6,7 @@ class MenuWindow extends Component {
     return (
       <div id="menuWindow">
         <Header />
-        <p className="slogan">Rekabete karşı meydan okur.</p>
+        {/* <p className="slogan">Rekabete karşı meydan okur.</p> */}
         <ul className="follow-list flex">
           <li className="icon">
             <a href="https://www.facebook.com/isikoren" target="_blank" />
