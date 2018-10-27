@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Team.css";
 
 class Team extends Component {
@@ -14,9 +15,11 @@ class Team extends Component {
         </p> */}
         <ul className="list">
           <li className="item">
-            <img className="picture" alt="hilmi-isikoren"/>
+            <img className="picture" alt="hilmi-isikoren" />
             <div className="content">
-              <h3 className="name">Hilmi Işıkören</h3>
+              <Link to="/hilmi-isikoren">
+                <h3 className="name">Hilmi Işıkören</h3>
+              </Link>
               <p className="snippet">
                 1997 – 2010 tarihleri arasında uluslararası üç gayrimenkul
                 markasındaki üst düzey yöneticilik deneyimiyle de gayrimenkul ve
@@ -26,9 +29,11 @@ class Team extends Component {
             </div>
           </li>
           <li className="item">
-            <img className="picture"  alt="belgin-benek"/>
+            <img className="picture" alt="belgin-benek" />
             <div className="content">
-              <h3 className="name">Belgin Benek</h3>
+              <Link to="/belgin-benek">
+                <h3 className="name">Belgin Benek</h3>
+              </Link>
               <p className="snippet">
                 Işıkören Danışmanlık şirketinin kurucu ortağı Belgin Benek,
                 iletişim ve pazarlama konusunda uzmanlığının yanı sıra yetişkin
