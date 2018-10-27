@@ -1,0 +1,22 @@
+#contact {
+  height: 80vh;
+  margin-left: 10vw;
+  padding-top: 40vh;
+}
+
+#contact .list {
+  margin-left: calc(5vw + 30px + 1em);
+  margin-top: 70px;
+}
+
+#contact .list h3 {
+  margin-top: 20px;
+}
+
+#contact .list p,
+#contact .list a {
+  display: block;
+  font-size: 1em;
+  color: #777;
+  margin-top: 10px;
+}

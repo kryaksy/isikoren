@@ -148,30 +148,6 @@ button {
   transition: 0.25s ease-in-out;
 }
 
-/* CONTACT */
-#contact {
-  height: 80vh;
-  margin-left: 10vw;
-  padding-top: 20vh;
-}
-
-#contact .list {
-  margin-left: calc(55px + 1em);
-  margin-top: 70px;
-}
-
-#contact .list h3 {
-  margin-top: 20px;
-}
-
-#contact .list p,
-#contact .list a {
-  display: block;
-  font-size: 1em;
-  color: #777;
-  margin-top: 10px;
-}
-
 /* BIOGRAPHY */
 #biography {
   width: 70vw;

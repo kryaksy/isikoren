@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Contact.css";
 
 import Header from "../Header";
 import Footer from "../Footer";
