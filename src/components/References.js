@@ -57,7 +57,7 @@ class References extends Component {
           </li>
         </ul>
         <div>
-          <a href="#" className="more">
+          <a href="/references" className="more">
             daha fazla
           </a>
         </div>
