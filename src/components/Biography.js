@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Biography.css";
 
 import Header from "./Header";
@@ -29,7 +30,11 @@ class Biography extends Component {
               gayrimenkul ve inşaat sektörünün önde gelen ismidir. Her yıl
               binden fazla kişiye eğitim veren Hilmi Işıkören, 10 Numara
               Motivasyon kitabı ve{" "}
-              <a href="https://www.10numaramotivasyon.com" target="_blank">
+              <a
+                href="https://www.10numaramotivasyon.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 blog
               </a>{" "}
               sayfasındaki iş ve hayata dair ilham veren, yol gösterici
@@ -123,7 +128,14 @@ class Biography extends Component {
                 <p className="dates">2011</p>
                 <div>
                   <h4 className="company">
-                    <a href="https://www.hurriyetemlak.com"> Hürriyet Emlak</a>
+                    <a
+                      href="https://www.hurriyetemlak.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {" "}
+                      Hürriyet Emlak
+                    </a>
                   </h4>
                   <p className="position">Köşe Yazarı</p>
                 </div>
@@ -146,7 +158,11 @@ class Biography extends Component {
                 <p className="dates">2016</p>
                 <div>
                   <h4 className="company">
-                    <a href="https://www.10numaramotivasyon.com">
+                    <a
+                      href="https://www.10numaramotivasyon.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       10 Numara Motivasyon kitabı
                     </a>
                     <span className="note">
@@ -160,9 +176,11 @@ class Biography extends Component {
               <li className="item">
                 <p className="dates">2018</p>
                 <div>
-                  <h4 className="company">
-                    <a href="">Emlakta Lider Geliştirme Programı</a>
-                  </h4>
+                  <Link to="/emlakta-lider-gelistirme-programi">
+                    <h4 className="company">
+                      Emlakta Lider Geliştirme Programı
+                    </h4>
+                  </Link>
                   <p className="position">Kurucu / Eğitmen</p>
                 </div>
               </li>
