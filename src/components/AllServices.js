@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./AllServices.css";
 
 class AllServices extends Component {
   render() {

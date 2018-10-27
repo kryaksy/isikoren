@@ -148,62 +148,6 @@ button {
   transition: 0.25s ease-in-out;
 }
 
-/* ALL SERVICES */
-#allServices {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-#allServices .filter {
-  padding-left: calc(55px + 1em);
-  color: #777;
-}
-
-#allServices .container {
-  width: 80vw;
-  margin: auto;
-}
-
-#allServices .service-list {
-  margin-top: 50px;
-}
-
-#allServices .service-list .item {
-  margin-top: 65px;
-  padding-bottom: 65px;
-}
-
-#allServices .service-list .heading {
-  position: relative;
-  top: -10px;
-}
-
-#allServices .service-list .description {
-  position: relative;
-  padding-left: calc(20px + 0.8em);
-  top: -10px;
-}
-
-#allServices .service-list button {
-  position: relative;
-  margin-left: calc(20px + 0.8em);
-  top: -20px;
-}
-
-#allServices .filter {
-  display: flex;
-  width: 200px;
-}
-
-#allServices .filter .item {
-  margin-top: 10px;
-  padding: 10px 20px 10px 0;
-}
-
-#allServices .media {
-  height: 200px;
-}
-
 /* CONTACT */
 #contact {
   height: 80vh;
