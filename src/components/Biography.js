@@ -176,7 +176,9 @@ class Biography extends Component {
                   <li className="activity">
                     Liderlik ve Delegasyon Eğitim Programı
                   </li>
-                  <li className="activity">Pazarlama ve Satış Yönetimi Programı</li>
+                  <li className="activity">
+                    Pazarlama ve Satış Yönetimi Programı
+                  </li>
                 </ul>
               </li>
               <li className="item">
@@ -198,7 +200,9 @@ class Biography extends Component {
                     Emlak üzerine eğitimcinin eğitimi ve genel emlak eğitimleri
                     (2001-2005)
                   </li>
-                  <li className="activity">Uluslararası kongreler (2001-2005)</li>
+                  <li className="activity">
+                    Uluslararası kongreler (2001-2005)
+                  </li>
                 </ul>
               </li>
               <li className="item">
@@ -209,7 +213,9 @@ class Biography extends Component {
                     Emlak üzerine eğiticin eğitimi ve genel emlak eğitimleri
                     (2005-2010)
                   </li>
-                  <li className="activity">Uluslararası kongreler (2005-2010)</li>
+                  <li className="activity">
+                    Uluslararası kongreler (2005-2010)
+                  </li>
                 </ul>
               </li>
             </ul>
