@@ -1,0 +1,107 @@
+#biography {
+  width: 70vw;
+  max-width: 800px;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#biography .picture {
+  width: 70vw;
+  max-width: 350px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+#biography .content {
+  width: 70vw;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+#biography .heading {
+  margin: 0;
+  padding-top: 40px;
+}
+
+#biography a {
+  font-size: 1em;
+}
+
+#biography .title {
+  margin-top: 50px;
+}
+
+#biography .intro {
+  margin-top: 20px;
+}
+
+#biography .bio {
+  margin-top: 20px;
+}
+
+#biography .career-history.list {
+  margin: 60px 10px;
+  font-size: 0.8em;
+  width: 300px;
+}
+
+#biography .career-history.list .item {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+}
+
+#biography .career-history.list .item .dates {
+  min-width: 80px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+#biography .career-history.list .item .company {
+  max-width: 150px;
+}
+
+#biography .career-history.list .item .position {
+  max-width: 150px;
+}
+
+#biography .career-history.list .item .note {
+  display: block;
+  font-weight: 100;
+  margin: 5px auto;
+  color: #999;
+}
+
+#biography .educations .title {
+  padding-top: 30px;
+}
+
+#biography .educations .info {
+  line-height: 2em;
+}
+
+#biography .educations .item {
+  margin: 40px auto;
+  font-size: 0.9em;
+}
+
+#biography .educations .item .activity {
+  list-style: disc;
+  list-style-position: inherit;
+  margin: 20px 25px;
+}
+
+@media only screen and (min-width: 900px) {
+  #biography {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  #biography .content {
+    margin-left: 50px;
+  }
+}

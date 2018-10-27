@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./Biography.css";
+
 import Header from "./Header";
 import Footer from "./Footer";
 
