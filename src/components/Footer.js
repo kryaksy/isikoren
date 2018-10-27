@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import "./Footer.css";
 
@@ -9,7 +10,9 @@ class Footer extends Component {
         <div>
           <div className="container">
             <div className="brand">
-              <img src={logo} width="100" color="white" alt="isikoren-logo"/>
+              <Link to="/">
+                <img src={logo} width="100" color="white" alt="isikoren-logo" />
+              </Link>
               <p className="slogan">Rekabete karşı meydan okur!</p>
             </div>
             <div className="footlinks">
