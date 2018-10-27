@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Pitch.css";
 
 class Pitch extends Component {
@@ -11,7 +12,9 @@ class Pitch extends Component {
           benzeyerek aynılaşmak yerine yeni bir kulvar açarak farklılaşmaya,
           liderlik etmeye inanırız.
         </p>
-        <button>Hakkımızda</button>
+        <Link to="/about">
+          <button>Hakkımızda</button>
+        </Link>
       </div>
     );
   }

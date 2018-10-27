@@ -13,7 +13,13 @@ class OnNumaraMotivasyon extends Component {
             Sayfamızdaki tüm içerikler kendi özgün fikir ve tavsiyelerimizden
             oluşmaktadır.
           </p>
-          <button>Sayfaya Git</button>
+          <a
+            href="https://www.10numaramotivasyon.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Sayfaya Git</button>
+          </a>
         </div>
       </div>
     );

@@ -10,6 +10,10 @@ import OnNumaraMotivasyon from "../10NumaraMotivasyon";
 import References from "../References";
 
 class Home extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div id="home">

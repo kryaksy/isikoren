@@ -10,6 +10,10 @@ import Specialties from "../Specialties";
 import Gallery from "../Gallery";
 
 class About extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div id="about">

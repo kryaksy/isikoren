@@ -6,6 +6,10 @@ import Welcome from "../Welcome";
 import AllServices from "../AllServices";
 
 class Services extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div id="services">
