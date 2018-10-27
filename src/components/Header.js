@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <div id="header">
         <div className="logo">
-          <img src={logo} height="40" />
+          <img src={logo} height="40" alt="isikoren-logo" />
         </div>
         <div className="navigation flex">
           <ul className="menu-list">

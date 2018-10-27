@@ -14,7 +14,7 @@ class Team extends Component {
         </p> */}
         <ul className="list">
           <li className="item">
-            <img className="picture" />
+            <img className="picture" alt="hilmi-isikoren"/>
             <div className="content">
               <h3 className="name">Hilmi Işıkören</h3>
               <p className="snippet">
@@ -26,7 +26,7 @@ class Team extends Component {
             </div>
           </li>
           <li className="item">
-            <img className="picture" />
+            <img className="picture"  alt="belgin-benek"/>
             <div className="content">
               <h3 className="name">Belgin Benek</h3>
               <p className="snippet">

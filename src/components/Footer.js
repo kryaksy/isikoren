@@ -9,7 +9,7 @@ class Footer extends Component {
         <div>
           <div className="container">
             <div className="brand">
-              <img src={logo} width="100" color="white" />
+              <img src={logo} width="100" color="white" alt="isikoren-logo"/>
               <p className="slogan">Rekabete karşı meydan okur!</p>
             </div>
             <div className="footlinks">
@@ -23,12 +23,20 @@ class Footer extends Component {
               <ul className="follow list">
                 <h2 className="title">Takip et</h2>
                 <li className="menu-item">
-                  <a href="https://www.facebook.com/isikoren" target="_blank">
+                  <a
+                    href="https://www.facebook.com/isikoren"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Facebook
                   </a>
                 </li>
                 <li className="menu-item">
-                  <a href="https://twitter.com/hilmiisikoren" target="_blank">
+                  <a
+                    href="https://twitter.com/hilmiisikoren"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Twitter
                   </a>
                 </li>
@@ -36,6 +44,7 @@ class Footer extends Component {
                   <a
                     href="https://www.instagram.com/hilmiisikoren"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Instagram
                   </a>
@@ -44,6 +53,7 @@ class Footer extends Component {
                   <a
                     href="https://www.linkedin.com/in/hilmiisikoren"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Linkedin
                   </a>
@@ -52,6 +62,7 @@ class Footer extends Component {
                   <a
                     href="https://www.youtube.com/c/hilmiisikorenblogger"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Youtube
                   </a>
@@ -60,6 +71,7 @@ class Footer extends Component {
                   <a
                     href="https://tr.pinterest.com/hilmiisikoren"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Pinterest
                   </a>
@@ -68,12 +80,17 @@ class Footer extends Component {
                   <a
                     href="https://www.flickr.com/photos/hilmiisikoren"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Flickr
                   </a>
                 </li>
                 <li className="menu-item">
-                  <a href="https://vimeo.com/isikoren" target="_blank">
+                  <a
+                    href="https://vimeo.com/isikoren"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Vimeo
                   </a>
                 </li>
@@ -81,6 +98,7 @@ class Footer extends Component {
                   <a
                     href="https://plus.google.com/+HilmiI%C5%9F%C4%B1k%C3%B6renblogger"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Google +
                   </a>

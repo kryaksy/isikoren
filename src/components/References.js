@@ -11,53 +11,53 @@ class References extends Component {
         </div>
         <ul className="list">
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
           <li className="item">
-            <img />
+            <img alt="logo" />
           </li>
         </ul>
         <div>
-          <a href="#" className="more">
+          <a href="/references" className="more">
             daha fazla
           </a>
         </div>
