@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "./MenuWindow.css";
+
 import Header from "./Header";
 
 class MenuWindow extends Component {
