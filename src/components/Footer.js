@@ -9,7 +9,7 @@ class Footer extends Component {
         <div>
           <div className="container">
             <div className="brand">
-              <img src={logo} width="100" color="white" />
+              <img src={logo} width="100" color="white" alt="isikoren-logo"/>
               <p className="slogan">Rekabete karşı meydan okur!</p>
             </div>
             <div className="footlinks">
