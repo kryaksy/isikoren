@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./AllServices.css";
 
 class AllServices extends Component {
@@ -30,7 +31,9 @@ class AllServices extends Component {
                   bilgi, uygulama, iletişim, satış ve pazarlama stratejilerine
                   hakim olup emlakta bölgenizin lideri olacaksınız.
                 </p>
-                <button>İncele</button>
+                <Link to="/emlakta-lider-gelistirme-programi">
+                  <button>İncele</button>
+                </Link>
               </div>
             </li>
             <li className="item">
@@ -47,7 +50,9 @@ class AllServices extends Component {
                   aksiyon planı çerçevesinde; doğru hedef kitleye yapılacak
                   iletişim, pazarlama ve satış aktivitelerini belirleyin.
                 </p>
-                <button>İncele</button>
+                <Link to="/insaat-projeleri-pazarlama-ve-satis-danismanligi">
+                  <button>İncele</button>
+                </Link>
               </div>
             </li>
             <li className="item">
@@ -64,7 +69,9 @@ class AllServices extends Component {
                   hizmetlerimiz belli bir program ve plan dahilinde
                   yürütülmektedir.
                 </p>
-                <button>İncele</button>
+                <Link to="/markalasma-danismanligi">
+                  <button>İncele</button>
+                </Link>
               </div>
             </li>
             <li className="item">
@@ -83,7 +90,9 @@ class AllServices extends Component {
                   katılımcıların satış başarısı ilk eğitimlerle birlikte
                   yükseltmeye başlar.
                 </p>
-                <button>İncele</button>
+                <Link to="/inşaat-proje-satis-ofisi-emlak-egitim-programi">
+                  <button>İncele</button>
+                </Link>
               </div>
             </li>
             <li className="item">
@@ -102,7 +111,9 @@ class AllServices extends Component {
                   programlarımızla 2010 yılından beri emlak ofislerine yol
                   gösteriyoruz.
                 </p>
-                <button>İncele</button>
+                <Link to="/emlak-ofisleri-emlak-egitim-programi">
+                  <button>İncele</button>
+                </Link>
               </div>
             </li>
             <li className="item">
@@ -115,7 +126,9 @@ class AllServices extends Component {
                 <p className="description">
                   Şirketinizde ofis motivasyonunu yükseltin
                 </p>
-                <button>İncele</button>
+                <Link to="/motivasyon-konusmalari">
+                  <button>İncele</button>
+                </Link>
               </div>
             </li>
           </ul>
