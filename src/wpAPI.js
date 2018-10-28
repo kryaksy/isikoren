@@ -1,4 +1,4 @@
-let sampleAPI = {
+export const sampleAPI = {
   company: {
     name: "Işıkören Danışmanlık",
     slogan: "Rekabete karşı meydan okur",
@@ -585,8 +585,4 @@ let sampleAPI = {
       ]
     }
   ]
-};
-
-export const get = dataName => {
-  return sampleAPI[dataName];
 };
