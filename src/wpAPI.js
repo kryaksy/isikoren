@@ -23,24 +23,24 @@ export const sampleAPI = {
       }
     }
   },
-  menu: {
-    home: {
+  menu: [
+    {
       title: "Ana Sayfa",
       slug: "/"
     },
-    about: {
+    {
       title: "Biz Kimiz",
       slug: "/about"
     },
-    services: {
+    {
       title: "Servisler",
       slug: "/services"
     },
-    contact: {
+    {
       title: "İletişim",
       slug: "/contact"
     }
-  },
+  ],
   welcome: {
     home: {
       media: {
