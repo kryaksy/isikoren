@@ -18,7 +18,7 @@ class Home extends Component {
     return (
       <div id="home">
         <Header />
-        <Welcome />
+        <Welcome page={"home"} />
         <Pitch />
         <WhatWeDo />
         <OnNumaraMotivasyon />

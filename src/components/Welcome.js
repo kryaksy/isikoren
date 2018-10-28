@@ -1,7 +1,18 @@
 import React, { Component } from "react";
+import * as wpAPI from "./../wpAPI";
 import "./Welcome.css";
 
 class Welcome extends Component {
+  state = {
+    title: "",
+    text: ""
+  };
+
+  componentDidMount() {
+    this.setState({ title: wpAPI.sampleAPI.welcome[this.props.page].title });
+    this.setState({ text: wpAPI.sampleAPI.welcome[this.props.page].snippet });
+  }
+
   render() {
     return (
       <div className="welcome">
@@ -9,13 +20,9 @@ class Welcome extends Component {
         <div className="content">
           <div className="heading">
             <div className="line" />
-            <h2 className="title">Işıkören Danışmanlık</h2>
+            <h2 className="title">{this.state.title}</h2>
           </div>
-          <p className="text">
-            Sektör ayrımı yapmaksızın işinde başarılı olmak isteyen şirketleri,
-            kurumları ve hatta bireyleri farklılaştırarak öne çıkarmak amacıyla
-            danışmanlık, eğitim ve seminerler veririz.
-          </p>
+          <p className="text">{this.state.text}</p>
         </div>
       </div>
     );
