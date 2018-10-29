@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import "./App.css";
+import * as wpAPI from "./wpAPI";
 
 //PAGES
 import Home from "./components/pages/Home";
@@ -11,11 +12,17 @@ import Contact from "./components/pages/Contact";
 // SECTIONS
 import Biography from "./components/Biography";
 import Service from "./components/Service";
+import MenuWindow from "./components/MenuWindow";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        {/* TODO */
+        /* {wpAPI.mainPages.map( page => (
+          <Route exact path={page.slug} component={page.component} />
+            )} */}
+
         {/* PAGES */}
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
@@ -23,16 +30,17 @@ class App extends Component {
         <Route path="/contact" component={Contact} />
 
         {/* PROFILES */}
-        <Route path="/hilmi-isikoren" component={Biography} />
-        <Route path="/belgin-benek" component={Biography} />
+        {wpAPI.sampleAPI.team.map( member => (
+          <Route path={member.slug} component={Biography} />
+        ))}
 
         {/* SERVICES */}
-        <Route path="/emlakta-lider-gelistirme-programi" component={Service} />
-        <Route path="/insaat-projeleri-pazarlama-ve-satis-danismanligi" component={Service} />
-        <Route path="/markalasma-danismanligi" component={Service} />
-        <Route path="/inşaat-proje-satis-ofisi-emlak-egitim-programi" component={Service} />
-        <Route path="/emlak-ofisleri-emlak-egitim-programi" component={Service} />
-        <Route path="/motivasyon-konusmalari" component={Service} />
+        {wpAPI.sampleAPI.services.map( service => (
+          <Route path={service.slug} component={Service} />
+        ))}
+
+        {/* MENU WINDOW */}
+        <MenuWindow />
       </div>
     );
   }

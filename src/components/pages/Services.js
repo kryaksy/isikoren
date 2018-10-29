@@ -14,7 +14,7 @@ class Services extends Component {
     return (
       <div id="services">
         <Header />
-        <Welcome />
+        <Welcome page={"services"} />
         <AllServices />
         <Footer />
       </div>
