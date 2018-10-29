@@ -1,54 +1,18 @@
 import React, { Component } from "react";
 import "./MenuWindow.css";
-
-import Header from "./Header";
+import * as wpAPI from "./../wpAPI";
 
 class MenuWindow extends Component {
   render() {
+    const { follow } = wpAPI.sampleAPI.company.contact;
     return (
       <div id="menuWindow">
-        <Header />
-        {/* <p className="slogan">Rekabete karşı meydan okur.</p> */}
         <ul className="follow-list flex">
-          <li className="icon">
-            <a href="https://www.facebook.com/isikoren" target="_blank" />
-          </li>
-          <li className="icon">
-            <a href="https://twitter.com/hilmiisikoren" target="_blank" />
-          </li>
-          <li className="icon">
-            <a href="https://www.instagram.com/hilmiisikoren" target="_blank" />
-          </li>
-          <li className="icon">
-            <a
-              href="https://www.linkedin.com/in/hilmiisikoren"
-              target="_blank"
-            />
-          </li>
-          <li className="icon">
-            <a
-              href="https://www.youtube.com/c/hilmiisikorenblogger"
-              target="_blank"
-            />
-          </li>
-          <li className="icon">
-            <a href="https://tr.pinterest.com/hilmiisikoren" target="_blank" />
-          </li>
-          <li className="icon">
-            <a
-              href="https://www.flickr.com/photos/hilmiisikoren"
-              target="_blank"
-            />
-          </li>
-          <li className="icon">
-            <a href="https://vimeo.com/isikoren" target="_blank" />
-          </li>
-          <li className="icon">
-            <a
-              href="https://plus.google.com/+HilmiI%C5%9F%C4%B1k%C3%B6renblogger"
-              target="_blank"
-            />
-          </li>
+          {follow.map(account => (
+            <li className="icon">
+              <a href={account.url} target="_blank" rel="noopener noreferrer">x</a>
+            </li>
+          ))}
         </ul>
         <p className="statement">
           Cupidatat dolore quis reprehenderit quis deserunt.
