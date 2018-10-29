@@ -1,47 +1,31 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./Team.css";
+import * as wpAPI from "./../wpAPI";
 
 class Team extends Component {
   render() {
+    const { team } = wpAPI.sampleAPI;
+
     return (
       <div id="team">
         <div className="heading">
           <div className="line" />
           <h2 className="title">Ekibimiz</h2>
         </div>
-        {/* <p className="statement">
-          Sit veniam dolore commodo enim laboris deserunt officia.
-        </p> */}
         <ul className="list">
-          <li className="item">
-            <img className="picture" alt="hilmi-isikoren" />
-            <div className="content">
-              <Link to="/hilmi-isikoren">
-                <h3 className="name">Hilmi Işıkören</h3>
-              </Link>
-              <p className="snippet">
-                1997 – 2010 tarihleri arasında uluslararası üç gayrimenkul
-                markasındaki üst düzey yöneticilik deneyimiyle de gayrimenkul ve
-                inşaat sektörün önde gelen ismidir.
-              </p>
-              {/* Learn More button might be needed */}
-            </div>
-          </li>
-          <li className="item">
-            <img className="picture" alt="belgin-benek" />
-            <div className="content">
-              <Link to="/belgin-benek">
-                <h3 className="name">Belgin Benek</h3>
-              </Link>
-              <p className="snippet">
-                Işıkören Danışmanlık şirketinin kurucu ortağı Belgin Benek,
-                iletişim ve pazarlama konusunda uzmanlığının yanı sıra yetişkin
-                eğitimcisi olarak da mesleki yetkinliğe sahiptir.
-              </p>
-              {/* Learn More button might be needed */}
-            </div>
-          </li>
+          {team.map(member => (
+            <li className="item">
+              <img className="picture" alt={member.picture.alt} />
+              <div className="content">
+                <Link to={member.slug}>
+                  <h3 className="name">{member.name}</h3>
+                </Link>
+                <p className="snippet">{member.snippet}</p>
+                {/* Learn More button might be needed */}
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
     );
