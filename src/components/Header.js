@@ -6,20 +6,18 @@ import * as wpAPI from "./../wpAPI";
 
 class Header extends Component {
   render() {
+    const { company, menu } = wpAPI.sampleAPI;
+
     return (
       <div id="header">
         <div className="logo">
           <Link to="/">
-            <img
-              src={logo}
-              height="40"
-              alt={wpAPI.sampleAPI.company.logo.alt}
-            />
+            <img src={logo} height="40" alt={company.logo.alt} />
           </Link>
         </div>
         <div className="navigation flex">
           <ul className="menu-list">
-            {wpAPI.sampleAPI.menu.map(item => (
+            {menu.map(item => (
               <li className="menu-item">
                 <Link to={item.slug}>
                   <p>{item.title}</p>
