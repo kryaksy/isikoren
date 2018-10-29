@@ -5,6 +5,11 @@ import "./Header.css";
 import * as wpAPI from "./../wpAPI";
 
 class Header extends Component {
+  handleMenuWindow = () => {
+    let window = document.getElementById("menuWindow");
+    window.classList.toggle("open");
+  };
+
   render() {
     const { company, menu } = wpAPI.sampleAPI;
 
@@ -27,7 +32,7 @@ class Header extends Component {
             ))}
           </ul>
           <div className="icon-container">
-            <div className="menu-icon">
+            <div className="menu-icon" onClick={this.handleMenuWindow}>
               <span />
               <span />
               <span />
