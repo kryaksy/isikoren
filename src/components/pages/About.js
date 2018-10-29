@@ -18,7 +18,7 @@ class About extends Component {
     return (
       <div id="about">
         <Header />
-        <Welcome />
+        <Welcome page={"about"} />
         <Team />
         <Story />
         <Specialties />
