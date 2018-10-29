@@ -32,14 +32,14 @@
   font-size: 0.8em;
   font-weight: 100;
   padding: 5px;
-  color: #333;
+  color: #222;
 }
 
 #header .menu-item .line {
   width: 0px;
   margin-bottom: 0.45em;
   margin-right: 0em;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #222;
   transition: width 0.3s ease;
 }
 
