@@ -1,14 +1,17 @@
 import React, { Component } from "react";
 import "./Specialties.css";
+import * as wpAPI from "./../wpAPI";
 
 class Specialties extends Component {
   render() {
+    const { specialties } = wpAPI.sampleAPI;
+
     return (
       <div id="specialties">
         <div className="header">
           <div className="head">
             <div className="line" />
-            <h2 className="title">Uzmanlık Alanlarımız</h2>
+            <h2 className="title">{specialties.title}</h2>
           </div>
           <div className="linking">
             <a href="/services#allServices">Servislere gözat</a>
@@ -17,38 +20,12 @@ class Specialties extends Component {
         </div>
         <div className="content">
           <ul className="list">
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Emlak</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Satış</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Pazarlama</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Franchising</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Marka Danışmanlığı</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Motivasyon Konuşmaları</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Eğitim</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">İletişim</p>
-            </li>
+            {specialties.all.map(spec => (
+              <li className="item">
+                <div className="icon" />
+                <p className="title">{spec.title}</p>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

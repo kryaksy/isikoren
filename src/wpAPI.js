@@ -8,6 +8,7 @@ export const sampleAPI = {
       alt: "isikoren-logo"
     },
     contact: {
+      title: "İletişime geç.",
       workingHours: {
         title: "Çalışma Saatleri",
         text: "Pazartesi-Cuma: 9:00 – 17:00"
@@ -20,27 +21,104 @@ export const sampleAPI = {
         title: "Telefon",
         text: "0(532) 374 10 70",
         href: "+905323741070"
-      }
+      },
+      follow: [
+        {
+          name: "Facebook",
+          tag: "fb",
+          url: "https://www.facebook.com/isikoren"
+        },
+        {
+          name: "Twitter",
+          tag: "twt",
+          url: "https://twitter.com/hilmiisikoren"
+        },
+        {
+          name: "Instagram",
+          tag: "ins",
+          url: "https://www.instagram.com/hilmiisikoren"
+        },
+        {
+          name: "Linkedin",
+          tag: "lnk",
+          url: "https://www.linkedin.com/in/hilmiisikoren"
+        },
+        {
+          name: "Youtube",
+          tag: "ytb",
+          url: "https://www.youtube.com/c/hilmiisikorenblogger"
+        },
+        {
+          name: "Pinterest",
+          tag: "pin",
+          url: "https://tr.pinterest.com/hilmiisikoren"
+        },
+        {
+          name: "Flickr",
+          tag: "flc",
+          url: "https://www.flickr.com/photos/hilmiisikoren"
+        },
+        {
+          name: "Vimeo",
+          tag: "vim",
+          url: "https://vimeo.com/isikoren"
+        },
+        {
+          name: "Google+",
+          tag: "gg+",
+          url: "https://plus.google.com/+HilmiI%C5%9F%C4%B1k%C3%B6renblogger"
+        }
+      ]
     }
   },
-  menu: {
-    home: {
+  mainPages: [
+    {
+      component: {
+        Home: "Home"
+      },
       title: "Ana Sayfa",
       slug: "/"
     },
-    about: {
+    {
+      component: {
+        Home: "Home"
+      },
       title: "Biz Kimiz",
       slug: "/about"
     },
-    services: {
+    {
+      component: {
+        Home: "Home"
+      },
       title: "Servisler",
       slug: "/services"
     },
-    contact: {
+    {
+      component: {
+        Home: "Home"
+      },
       title: "İletişim",
       slug: "/contact"
     }
-  },
+  ],
+  menu: [
+    {
+      title: "Ana Sayfa",
+      slug: "/"
+    },
+    {
+      title: "Biz Kimiz",
+      slug: "/about"
+    },
+    {
+      title: "Servisler",
+      slug: "/services"
+    },
+    {
+      title: "İletişim",
+      slug: "/contact"
+    }
+  ],
   welcome: {
     home: {
       media: {
@@ -86,12 +164,97 @@ export const sampleAPI = {
       },
       title: "10 Numara Motivasyon",
       snippet:
-        "Hamurunda sevgi, temelinde motivasyon olan iş ve hayata dair paylaşımlarımızın insanlara ilham vermesi amacıyla yayındayız. Sayfamızdaki tüm içerikler kendi özgün fikir ve tavsiyelerimizden oluşmaktadır."
+        "Hamurunda sevgi, temelinde motivasyon olan iş ve hayata dair paylaşımlarımızın insanlara ilham vermesi amacıyla yayındayız. Sayfamızdaki tüm içerikler kendi özgün fikir ve tavsiyelerimizden oluşmaktadır.",
+      url: "https://www.10numaramotivasyon.com"
     }
   },
   references: {
-    title: "Referanslar",
+    title: "Kimlerle Çalıştık",
     all: [
+      {
+        name: null,
+        logo: {
+          src: null,
+          alt: null
+        }
+      },
+      {
+        name: null,
+        logo: {
+          src: null,
+          alt: null
+        }
+      },
+      {
+        name: null,
+        logo: {
+          src: null,
+          alt: null
+        }
+      },
+      {
+        name: null,
+        logo: {
+          src: null,
+          alt: null
+        }
+      },
+      {
+        name: null,
+        logo: {
+          src: null,
+          alt: null
+        }
+      },
+      {
+        name: null,
+        logo: {
+          src: null,
+          alt: null
+        }
+      },
+      {
+        name: null,
+        logo: {
+          src: null,
+          alt: null
+        }
+      },
+      {
+        name: null,
+        logo: {
+          src: null,
+          alt: null
+        }
+      },
+      {
+        name: null,
+        logo: {
+          src: null,
+          alt: null
+        }
+      },
+      {
+        name: null,
+        logo: {
+          src: null,
+          alt: null
+        }
+      },
+      {
+        name: null,
+        logo: {
+          src: null,
+          alt: null
+        }
+      },
+      {
+        name: null,
+        logo: {
+          src: null,
+          alt: null
+        }
+      },
       {
         name: null,
         logo: {
@@ -118,6 +281,7 @@ export const sampleAPI = {
   team: [
     {
       name: "Hilmi Işıkören",
+      slug: "/hilmi-isikoren",
       picture: {
         src: null,
         alt: "hilmi-isikoren"
@@ -235,6 +399,7 @@ export const sampleAPI = {
     },
     {
       name: "Belgin Benek",
+      slug: "/belgin-benek",
       picture: {
         src: null,
         alt: "belgin-benek"
@@ -317,6 +482,7 @@ export const sampleAPI = {
   services: [
     {
       title: "Emlakta Lider Geliştirme Programı",
+      slug: "/emlakta-lider-gelistirme-programi",
       media: {
         featured: {
           src: null,
@@ -332,6 +498,7 @@ export const sampleAPI = {
         text:
           "Yeni girişimlerin çoğu başarısızlıkla sonuçlanıyor. Farklılaşıp öne çıkmak, başarıyla tanışmak istiyorsanız yanınızdayız."
       },
+      description: "Emlak ofisi sahibi ya da emlak danışmanı olarak her türlü bilgi, uygulama, iletişim, satış ve pazarlama stratejilerine hakim olup emlakta bölgenizin lideri olacaksınız.",
       intro:
         "Emlak ofisi sahibi ya da emlak danışmanı olarak her türlü bilgi, uygulama, iletişim, satış ve pazarlama stratejilerine hakim olup emlakta bölgenizin lideri olacaksınız.",
       content: [
@@ -373,6 +540,7 @@ export const sampleAPI = {
     },
     {
       title: "İnşaat Projelerine Özel Pazarlama ve Satış Danışmanlığı",
+      slug: "/insaat-projeleri-pazarlama-ve-satis-danismanligi",
       media: {
         featured: {
           src: null,
@@ -389,6 +557,7 @@ export const sampleAPI = {
         text:
           "İnşaat firmalarının proje satış ofislerinde çalışan satış ekiplerine özel eğitim ve koçluk programlarımızla yanınızdayız."
       },
+      description: "İnşaat firmalarının gayrimenkul projelerine değer katacak bir aksiyon planı çerçevesinde; doğru hedef yapılacak iletişim, pazarlama ve satış belirleyin.",
       intro:
         "İnşaat firmalarının gayrimenkul projelerine değer katacak bir aksiyon planı çerçevesinde; doğru hedef kitleye yapılacak iletişim, pazarlama ve satış aktivitelerini belirleyerek, şirkete en yüksek ekonomik faydayı sağlayacak şekilde ve mümkün olan en kısa sürede satmayı gerçekleştirecek stratejik iletişim, pazarlama ve satış stratejilerini oluşturma hizmetini kapsar. ",
       content: [
@@ -408,6 +577,7 @@ export const sampleAPI = {
     },
     {
       title: "Markalaşma Danışmanlığı",
+      slug: "/markalasma-danismanligi",
       media: {
         featured: {
           src: null,
@@ -423,6 +593,7 @@ export const sampleAPI = {
         text:
           "İsminizi marka yapmak, sadık müşterilerden oluşan güvenilir bir marka olmak istiyorsanız yanınızdayız."
       },
+      description: "Sektör ayrımı yapmaksızın işinde başarılı olmak isteyen şirketleri, kurumları ve hatta bireyleri farklılaştırarak öne çıkarmak amacıyla verdiğimiz markalaşma danışmanlığı hizmetlerimiz belli bir program ve plan dahilinde yürütülmektedir.",
       intro: [
         "Marka olmak, güvenilir olmayı inşa etmeyi gerektirir. İnşa süreci vaatler, sözler vermekle başlar, sözler tutularak güvenilir olunur. Bu süreç sadece şirketler için değil isimlerimiz yani kişisel markalarımız için de sözler vermeyi ve o sözleri tutmayı gerektirir. Çünkü tutulan sözler bizi güvenilir yaptığı gibi müşterilerin, insanların bize bağlılığını, sadakatini kuvvetlendirir, böylece kötü piyasa koşullarında bile şirketimiz kazanmaya, başarmak için yanımızda sadık insanlarla ilerlemeye devam ederiz. Peki bunu nasıl başarabiliriz? Kazanan bir marka nasıl olabiliriz?",
         "Sektör ayrımı yapmaksızın işinde başarılı olmak isteyen şirketleri, kurumları ve hatta bireyleri farklılaştırarak öne çıkarmak amacıyla verdiğimiz markalaşma danışmanlığı hizmetlerimiz belli bir program ve plan dahilinde yürütülmektedir. Müşterilerimizin mevcut iş modellerini sorgulayarak yeni modeller geliştirmeleri konusunda onlara ilham verir, hayata geçirmelerine yardımcı olur, yol gösteririz. Müşterilerimizle birlikte inovasyonu esas alarak performans arttırmak ve rekabet gücünü yenilemek konusunda programlı bir çalışma yürütürüz. Tüm bunların sonucunda kazanan bir marka olmak mümkün hale gelir."
@@ -442,6 +613,7 @@ export const sampleAPI = {
     {
       title:
         "İnşaat Proje Satış Ofisi Ekiplerine Özel Emlak Eğitim Programları",
+      slug: "/inşaat-proje-satis-ofisi-emlak-egitim-programi",
       media: {
         featured: {
           src: null,
@@ -457,6 +629,7 @@ export const sampleAPI = {
         text:
           "İnşaat firmanızın gayrimenkul projelerini satışa açmadan önce profesyonel stratejik iletişim, markalaşma, pazarlama ve satış danışmanlığı hizmeti almak isterseniz yanınızdayız."
       },
+      description: "Benzersiz uygulamalı tekniklerle farkındalık yaratıp bakış açısını olumlu yönde değiştiren eğitimlerimize katılan katılımcıların satış başarısı ilk eğitimlerle birlikte yükseltmeye başlar.",
       intro:
         "Uluslararası emlak markalarında üst düzey yöneticilik ve emlakta 21 yıllık eğitim tecrübemizle gerçekleştirdiğimiz satış yükselten uygulamalı eğitim, koçluk ve danışmanlık programlarımızla 2010 yılından beri inşaat proje satış ofisi ekiplerine yol gösteriyoruz. Benzersiz uygulamalı tekniklerle farkındalık yaratıp bakış açısını olumlu yönde değiştiren eğitimlerimize katılan katılımcıların satış başarısı ilk eğitimlerle birlikte yükseltmeye başlar. Proje satış ve pazarlama konusundaki deneyimlerimizi de programlarımızın içine kattığımız için katılımcılar anlatılanların güvenilirliğini sorgulama ihtiyacı hissetmez ve uygulamakta tereddüt yaşamaz. Öğrenmeye ve uygulamaya teşvik eden eğitim programlarımız toplam 24 saat sürmekte ve proje satış ofisinin çalışma saatlerine uygun olarak planlanmaktadır.",
       content: [
@@ -491,6 +664,7 @@ export const sampleAPI = {
     },
     {
       title: "Emlak Ofislerine Özel Emlak Eğitim Programları",
+      slug: "/emlak-ofisleri-emlak-egitim-programi",
       media: {
         featured: {
           src: null,
@@ -506,6 +680,7 @@ export const sampleAPI = {
         text:
           "Emlak ofislerinize özel motivasyon temelli eğitim programlarımız ile yanınızdayız."
       },
+      description: "Uluslararası emlak markalarında üst düzey yöneticilik ve emlakta 21 yıllık eğitim tecrübemizle gerçekleştirdiğimiz satış yükselten uygulamalı eğitim, koçluk ve danışmanlık programlarımızla 2010 yılından beri emlak ofislerine yol gösteriyoruz.",
       intro:
         "1997-2010 yılları arasında uluslararası emlak markalarında (RE/MAX Türkiye – Century 21 Türkiye – Realty World Türkiye) üst düzey yöneticilik ve emlakta 21 yıllık eğitim tecrübemizle gerçekleştirdiğimiz satış yükselten uygulamalı eğitim, koçluk ve danışmanlık programlarımızla 2010 yılından beri emlak ofislerine yol gösteriyoruz. Benzersiz uygulamalı tekniklerle farkındalık yaratıp bakış açısını olumlu yönde değiştiren eğitimlerimize katılan ofis sahibi ve emlak danışmanlarının satış başarısı ilk eğitimlerle birlikte yükseltmeye başlar. Emlak danışmanlığı, emlak ofisi yöneticiliği ve inşaat proje satış ve pazarlama konusundaki deneyimlerimizi de programlarımızın içine kattığımız için katılımcılar anlatılanların güvenilirliğini sorgulama ihtiyacı hissetmez ve uygulamakta tereddüt yaşamaz. Öğrenmeye ve uygulamaya teşvik eden eğitim programlarımız 36 saat sürmekte ve emlak ofisinin çalışma saatlerine uygun olarak planlanmaktadır.",
       content: [
@@ -550,6 +725,7 @@ export const sampleAPI = {
     },
     {
       title: "Motivasyon Konuşmaları",
+      slug: "/motivasyon-konusmalari",
       media: {
         featured: {
           src: null,
@@ -565,6 +741,7 @@ export const sampleAPI = {
         text:
           "Şirket için motivasyon, başarı için yüreklendirici, ekibinize ilham veren konuşmalar, seminerler için yanınızdayız."
       },
+      description: "Şirketinizde ofis motivasyonunu yükseltin",
       intro:
         "Başarıya ulaşan kişi/şirketlerin izlediği 10 ortak yol dünyadan güncel örneklerle açıklanacak. Sunumda kısa videolar da yer alarak zihinde iz bırakması sağlanacak. Ayrıca anlatılanların uygulanabilirliği katılımcıları harekete geçmeye teşvik edecek.",
       content: [
