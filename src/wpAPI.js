@@ -498,7 +498,8 @@ export const sampleAPI = {
         text:
           "Yeni girişimlerin çoğu başarısızlıkla sonuçlanıyor. Farklılaşıp öne çıkmak, başarıyla tanışmak istiyorsanız yanınızdayız."
       },
-      description: "Emlak ofisi sahibi ya da emlak danışmanı olarak her türlü bilgi, uygulama, iletişim, satış ve pazarlama stratejilerine hakim olup emlakta bölgenizin lideri olacaksınız.",
+      description:
+        "Emlak ofisi sahibi ya da emlak danışmanı olarak her türlü bilgi, uygulama, iletişim, satış ve pazarlama stratejilerine hakim olup emlakta bölgenizin lideri olacaksınız.",
       intro:
         "Emlak ofisi sahibi ya da emlak danışmanı olarak her türlü bilgi, uygulama, iletişim, satış ve pazarlama stratejilerine hakim olup emlakta bölgenizin lideri olacaksınız.",
       content: [
@@ -520,7 +521,7 @@ export const sampleAPI = {
       afterContent:
         "Yukarıdaki konulara testler, tartışmalar, videolar, dünyadan ve Türkiye’den güncel örnekler ve uygulamalar ile emlak işini uzmanlarından öğreneceğiniz benzersiz bir program gerçekleştirdik. Emlakta Lider Geliştirme Programı ile amacımız sizi bölgenizin lideri yapmak.",
       requirements: {
-        emlak: [
+        kurumsal: [
           "Programın katılımı 25 ile sınırlıdır. Bir emlak ofisinin bu sayının üzerinde katılımcısı olması durumunda yeni bir program açılır ve ayrıca ücretlendirilir.",
           "36 saatlik program hafta içi bir gün, günde 3 saat olmak üzere ayda bir günden 1 yıla yayılmaktadır. Ancak emlak ofisi sahibi olarak programı daha yoğun hale getirebilir, daha kısa sürede bitirebilirsiniz. Örneğin haftada bir gün 3 saat alınırsa, ayda 12 saatten 3 ayda programı tamamlamak mümkün olabilir.",
           "Emlak ofisinizin Ticaret Odasına ya da Emlak Odasına kayıtlı olması gereklidir.",
@@ -557,7 +558,8 @@ export const sampleAPI = {
         text:
           "İnşaat firmalarının proje satış ofislerinde çalışan satış ekiplerine özel eğitim ve koçluk programlarımızla yanınızdayız."
       },
-      description: "İnşaat firmalarının gayrimenkul projelerine değer katacak bir aksiyon planı çerçevesinde; doğru hedef yapılacak iletişim, pazarlama ve satış belirleyin.",
+      description:
+        "İnşaat firmalarının gayrimenkul projelerine değer katacak bir aksiyon planı çerçevesinde; doğru hedef yapılacak iletişim, pazarlama ve satış belirleyin.",
       intro:
         "İnşaat firmalarının gayrimenkul projelerine değer katacak bir aksiyon planı çerçevesinde; doğru hedef kitleye yapılacak iletişim, pazarlama ve satış aktivitelerini belirleyerek, şirkete en yüksek ekonomik faydayı sağlayacak şekilde ve mümkün olan en kısa sürede satmayı gerçekleştirecek stratejik iletişim, pazarlama ve satış stratejilerini oluşturma hizmetini kapsar. ",
       content: [
@@ -593,7 +595,8 @@ export const sampleAPI = {
         text:
           "İsminizi marka yapmak, sadık müşterilerden oluşan güvenilir bir marka olmak istiyorsanız yanınızdayız."
       },
-      description: "Sektör ayrımı yapmaksızın işinde başarılı olmak isteyen şirketleri, kurumları ve hatta bireyleri farklılaştırarak öne çıkarmak amacıyla verdiğimiz markalaşma danışmanlığı hizmetlerimiz belli bir program ve plan dahilinde yürütülmektedir.",
+      description:
+        "Sektör ayrımı yapmaksızın işinde başarılı olmak isteyen şirketleri, kurumları ve hatta bireyleri farklılaştırarak öne çıkarmak amacıyla verdiğimiz markalaşma danışmanlığı hizmetlerimiz belli bir program ve plan dahilinde yürütülmektedir.",
       intro: [
         "Marka olmak, güvenilir olmayı inşa etmeyi gerektirir. İnşa süreci vaatler, sözler vermekle başlar, sözler tutularak güvenilir olunur. Bu süreç sadece şirketler için değil isimlerimiz yani kişisel markalarımız için de sözler vermeyi ve o sözleri tutmayı gerektirir. Çünkü tutulan sözler bizi güvenilir yaptığı gibi müşterilerin, insanların bize bağlılığını, sadakatini kuvvetlendirir, böylece kötü piyasa koşullarında bile şirketimiz kazanmaya, başarmak için yanımızda sadık insanlarla ilerlemeye devam ederiz. Peki bunu nasıl başarabiliriz? Kazanan bir marka nasıl olabiliriz?",
         "Sektör ayrımı yapmaksızın işinde başarılı olmak isteyen şirketleri, kurumları ve hatta bireyleri farklılaştırarak öne çıkarmak amacıyla verdiğimiz markalaşma danışmanlığı hizmetlerimiz belli bir program ve plan dahilinde yürütülmektedir. Müşterilerimizin mevcut iş modellerini sorgulayarak yeni modeller geliştirmeleri konusunda onlara ilham verir, hayata geçirmelerine yardımcı olur, yol gösteririz. Müşterilerimizle birlikte inovasyonu esas alarak performans arttırmak ve rekabet gücünü yenilemek konusunda programlı bir çalışma yürütürüz. Tüm bunların sonucunda kazanan bir marka olmak mümkün hale gelir."
@@ -629,9 +632,13 @@ export const sampleAPI = {
         text:
           "İnşaat firmanızın gayrimenkul projelerini satışa açmadan önce profesyonel stratejik iletişim, markalaşma, pazarlama ve satış danışmanlığı hizmeti almak isterseniz yanınızdayız."
       },
-      description: "Benzersiz uygulamalı tekniklerle farkındalık yaratıp bakış açısını olumlu yönde değiştiren eğitimlerimize katılan katılımcıların satış başarısı ilk eğitimlerle birlikte yükseltmeye başlar.",
-      intro:
-        "Uluslararası emlak markalarında üst düzey yöneticilik ve emlakta 21 yıllık eğitim tecrübemizle gerçekleştirdiğimiz satış yükselten uygulamalı eğitim, koçluk ve danışmanlık programlarımızla 2010 yılından beri inşaat proje satış ofisi ekiplerine yol gösteriyoruz. Benzersiz uygulamalı tekniklerle farkındalık yaratıp bakış açısını olumlu yönde değiştiren eğitimlerimize katılan katılımcıların satış başarısı ilk eğitimlerle birlikte yükseltmeye başlar. Proje satış ve pazarlama konusundaki deneyimlerimizi de programlarımızın içine kattığımız için katılımcılar anlatılanların güvenilirliğini sorgulama ihtiyacı hissetmez ve uygulamakta tereddüt yaşamaz. Öğrenmeye ve uygulamaya teşvik eden eğitim programlarımız toplam 24 saat sürmekte ve proje satış ofisinin çalışma saatlerine uygun olarak planlanmaktadır.",
+      description:
+        "Benzersiz uygulamalı tekniklerle farkındalık yaratıp bakış açısını olumlu yönde değiştiren eğitimlerimize katılan katılımcıların satış başarısı ilk eğitimlerle birlikte yükseltmeye başlar.",
+      intro: [
+        "Uluslararası emlak markalarında üst düzey yöneticilik ve emlakta 21 yıllık eğitim tecrübemizle gerçekleştirdiğimiz satış yükselten uygulamalı eğitim, koçluk ve danışmanlık programlarımızla 2010 yılından beri inşaat proje satış ofisi ekiplerine yol gösteriyoruz. ",
+        "Benzersiz uygulamalı tekniklerle farkındalık yaratıp bakış açısını olumlu yönde değiştiren eğitimlerimize katılan katılımcıların satış başarısı ilk eğitimlerle birlikte yükseltmeye başlar. Proje satış ve pazarlama konusundaki deneyimlerimizi de programlarımızın içine kattığımız için katılımcılar anlatılanların güvenilirliğini sorgulama ihtiyacı hissetmez ve uygulamakta tereddüt yaşamaz. ",
+        "Öğrenmeye ve uygulamaya teşvik eden eğitim programlarımız toplam 24 saat sürmekte ve proje satış ofisinin çalışma saatlerine uygun olarak planlanmaktadır."
+      ],
       content: [
         "Bakış açımız varlık bilincine göre olumlu yönde değişecek,",
         "Kaybedeceklerimize değil, kazanacaklarımıza odaklanacağız,",
@@ -680,9 +687,14 @@ export const sampleAPI = {
         text:
           "Emlak ofislerinize özel motivasyon temelli eğitim programlarımız ile yanınızdayız."
       },
-      description: "Uluslararası emlak markalarında üst düzey yöneticilik ve emlakta 21 yıllık eğitim tecrübemizle gerçekleştirdiğimiz satış yükselten uygulamalı eğitim, koçluk ve danışmanlık programlarımızla 2010 yılından beri emlak ofislerine yol gösteriyoruz.",
-      intro:
-        "1997-2010 yılları arasında uluslararası emlak markalarında (RE/MAX Türkiye – Century 21 Türkiye – Realty World Türkiye) üst düzey yöneticilik ve emlakta 21 yıllık eğitim tecrübemizle gerçekleştirdiğimiz satış yükselten uygulamalı eğitim, koçluk ve danışmanlık programlarımızla 2010 yılından beri emlak ofislerine yol gösteriyoruz. Benzersiz uygulamalı tekniklerle farkındalık yaratıp bakış açısını olumlu yönde değiştiren eğitimlerimize katılan ofis sahibi ve emlak danışmanlarının satış başarısı ilk eğitimlerle birlikte yükseltmeye başlar. Emlak danışmanlığı, emlak ofisi yöneticiliği ve inşaat proje satış ve pazarlama konusundaki deneyimlerimizi de programlarımızın içine kattığımız için katılımcılar anlatılanların güvenilirliğini sorgulama ihtiyacı hissetmez ve uygulamakta tereddüt yaşamaz. Öğrenmeye ve uygulamaya teşvik eden eğitim programlarımız 36 saat sürmekte ve emlak ofisinin çalışma saatlerine uygun olarak planlanmaktadır.",
+      description:
+        "Uluslararası emlak markalarında üst düzey yöneticilik ve emlakta 21 yıllık eğitim tecrübemizle gerçekleştirdiğimiz satış yükselten uygulamalı eğitim, koçluk ve danışmanlık programlarımızla 2010 yılından beri emlak ofislerine yol gösteriyoruz.",
+      intro: [
+        "1997-2010 yılları arasında uluslararası emlak markalarında (RE/MAX Türkiye – Century 21 Türkiye – Realty World Türkiye) üst düzey yöneticilik ve emlakta 21 yıllık eğitim tecrübemizle gerçekleştirdiğimiz satış yükselten uygulamalı eğitim, koçluk ve danışmanlık programlarımızla 2010 yılından beri emlak ofislerine yol gösteriyoruz. ",
+        "Uluslararası emlak markalarında üst düzey yöneticilik ve emlakta 21 yıllık eğitim tecrübemizle gerçekleştirdiğimiz satış yükselten uygulamalı eğitim, koçluk ve danışmanlık programlarımızla 2010 yılından beri inşaat proje satış ofisi ekiplerine yol gösteriyoruz. ",
+        "Benzersiz uygulamalı tekniklerle farkındalık yaratıp bakış açısını olumlu yönde değiştiren eğitimlerimize katılan katılımcıların satış başarısı ilk eğitimlerle birlikte yükseltmeye başlar. Proje satış ve pazarlama konusundaki deneyimlerimizi de programlarımızın içine kattığımız için katılımcılar anlatılanların güvenilirliğini sorgulama ihtiyacı hissetmez ve uygulamakta tereddüt yaşamaz. ",
+        "Öğrenmeye ve uygulamaya teşvik eden eğitim programlarımız toplam 24 saat sürmekte ve proje satış ofisinin çalışma saatlerine uygun olarak planlanmaktadır."
+      ],
       content: [
         "Emlak işinin girişimcilerin işi olduğu bilincine erişeceğiz,",
         "Emlak işindeki bilinmeyen potansiyeli keşfedeceğiz,",
