@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/isikoren/precache-manifest.3c8d5a1a94ef56bc919e6ac24e270185.js"
+  "/isikoren/precache-manifest.340b88d6c1c8b0ca1fabc32196fa1ca7.js"
 );
 
 workbox.clientsClaim();

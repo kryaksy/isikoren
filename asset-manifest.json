@@ -1,14 +1,14 @@
 {
-  "main.css": "/isikoren/static/css/main.da3d4767.chunk.css",
-  "main.js": "/isikoren/static/js/main.c067bd92.chunk.js",
-  "main.js.map": "/isikoren/static/js/main.c067bd92.chunk.js.map",
+  "main.css": "/isikoren/static/css/main.e47c15cc.chunk.css",
+  "main.js": "/isikoren/static/js/main.77eb53cf.chunk.js",
+  "main.js.map": "/isikoren/static/js/main.77eb53cf.chunk.js.map",
   "static/js/1.163537e1.chunk.js": "/isikoren/static/js/1.163537e1.chunk.js",
   "static/js/1.163537e1.chunk.js.map": "/isikoren/static/js/1.163537e1.chunk.js.map",
   "runtime~main.js": "/isikoren/static/js/runtime~main.599fdc5d.js",
   "runtime~main.js.map": "/isikoren/static/js/runtime~main.599fdc5d.js.map",
   "static/media/logo.png": "/isikoren/static/media/logo.0b494436.png",
-  "static/css/main.da3d4767.chunk.css.map": "/isikoren/static/css/main.da3d4767.chunk.css.map",
+  "static/css/main.e47c15cc.chunk.css.map": "/isikoren/static/css/main.e47c15cc.chunk.css.map",
   "index.html": "/isikoren/index.html",
-  "precache-manifest.3c8d5a1a94ef56bc919e6ac24e270185.js": "/isikoren/precache-manifest.3c8d5a1a94ef56bc919e6ac24e270185.js",
+  "precache-manifest.340b88d6c1c8b0ca1fabc32196fa1ca7.js": "/isikoren/precache-manifest.340b88d6c1c8b0ca1fabc32196fa1ca7.js",
   "service-worker.js": "/isikoren/service-worker.js"
 }
