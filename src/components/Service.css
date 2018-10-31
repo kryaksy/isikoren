@@ -34,6 +34,10 @@
   margin-top: 60px;
 }
 
+#service .container .intro {
+  margin: 40px 0;
+}
+
 #service .item {
   list-style: disc;
   list-style-position: inherit;
