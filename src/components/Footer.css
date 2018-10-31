@@ -30,16 +30,17 @@
 }
 
 #footer .footlinks {
-  margin-top: 2em;
-  max-width: calc(100vw - 60px);
+  margin: 2em 0;
+  /* max-width: calc(100vw - 60px); */
   display: flex;
   justify-content: flex-start;
 }
 
 #footer .copyright {
   color: #555;
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 0.7em;
+  width: 100%;
 }
 
 #footer .brand {
@@ -53,6 +54,12 @@
 #footer .next {
   text-align: right;
   height: 50px;
+}
+
+@media only screen and (max-width: 630px) {
+  #footer .next {
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 768px) {

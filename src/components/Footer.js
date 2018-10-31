@@ -59,12 +59,12 @@ class Footer extends Component {
               </ul>
             </div>
           </div>
-          <div className="copyright">Copyrighted 2018</div>
         </div>
         <div className="next">
           <h2 className="title">Sonraki</h2>
-          <p className="menu-item">Biz Kimiz</p>
+          <p className="page">Biz Kimiz</p>
         </div>
+        <div className="copyright">Copyrighted 2018</div>
       </div>
     );
   }
