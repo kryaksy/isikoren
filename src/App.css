@@ -1,47 +1,25 @@
-/* NORMALIZE */
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .App {
   width: 100vw;
   overflow: hidden;
+}
+
+
+/* THEME */
+.text,
+.snippet,
+.description {
+  margin-top: 1em;
 }
 
 li {
   list-style: none;
 }
 
-a {
-  color: #aaa;
-  font-size: 0.8em;
-  text-decoration: none;
-}
-
-/* THEME */
-.App {
-  color: #222;
-}
-
-.text,
-.snippet,
-.description {
-  margin-top: 1em;
-  color: #666;
-}
-/*
-.title {
-  margin-top: 2em;
-  max-width: 250px;
-} */
-
 button {
   width: 130px;
   height: 33px;
   margin-top: 3em;
   border: 1px solid #000;
-  background-color: #fff;
   font-size: 0.8em;
 }
 
@@ -63,7 +41,7 @@ button {
 .picture,
 .icon,
 .image-container {
-  background-color: #222;
+  background-color: #000;
 }
 
 .icon {
@@ -85,7 +63,6 @@ button {
 
 /* MENU-ICON */
 .icon-container {
-  /* background-color: red; */
   padding: 15px;
 }
 
@@ -96,7 +73,6 @@ button {
   transition: 0.5s ease-in-out;
   cursor: pointer;
   display: flex;
-
   align-items: center;
 }
 
