@@ -77,21 +77,10 @@ button {
 /* SHAPES */
 .line {
   width: 30px;
-  margin-bottom: 0.33em;
+  height: 1px;
   margin-right: 1em;
-  border-bottom: 1px solid #000;
-}
-
-.back-line {
-  width: 20px;
-  margin-bottom: 0.33em;
-  margin-right: 1em;
-  border-bottom: 1px solid #000;
-}
-
-.small .line {
-  width: 20px;
-  margin-right: 0.8em;
+  margin-bottom: 0.3em;
+  background-color: #000;
 }
 
 /* MENU-ICON */
