@@ -4,6 +4,7 @@
   left: 0;
   top: 0;
   pointer-events: none;
+}
 
 #header .container {
   display: flex;
@@ -45,7 +46,7 @@
   width: 0px;
   margin-top: 1.1em;
   margin-right: 0;
-  /* border-bottom: 1px solid #222; */
+  transition: width 0.2s ease;
   transition: width 0.3s ease;
 }
 
