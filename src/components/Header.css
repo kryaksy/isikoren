@@ -21,6 +21,7 @@
   opacity: 0;
   align-items: center;
   pointer-events: all;
+  padding: 10px 20px;
 }
 
 #header .navigation .menu-item {
