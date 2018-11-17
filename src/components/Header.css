@@ -6,9 +6,9 @@
   pointer-events: none;
   display: flex;
   justify-content: space-between;
-  padding: 40px 25px;
   align-items: center;
   z-index: 200;
+  margin: 40px 25px;
 }
 
 #header .container .logo {
