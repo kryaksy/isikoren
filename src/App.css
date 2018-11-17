@@ -64,6 +64,7 @@ button {
 /* MENU-ICON */
 .icon-container {
   padding: 15px;
+  pointer-events: all;
 }
 
 .menu-icon {

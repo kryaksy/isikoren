@@ -1,8 +1,9 @@
 #header {
   position: fixed;
+  width: 100vw;
   left: 0;
   top: 0;
-  width: calc(100vw - 50px);
+  pointer-events: none;
   display: flex;
   justify-content: space-between;
   padding: 40px 25px;
@@ -10,14 +11,14 @@
   z-index: 200;
 }
 
-#header .logo {
-  padding: 3px;
+#header .container .logo {
+  pointer-events: all;
 }
 
 #header .menu-list {
   display: none;
   align-items: center;
-  height: 1em;
+  pointer-events: all;
 }
 
 #header .navigation .menu-item {
