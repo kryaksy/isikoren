@@ -48,7 +48,7 @@ class Header extends Component {
         ) {
           // Minimized header
           that.minimizeHeader();
-        } else {
+        } else if (topDistance > hideLimit && that.state.minimized) {
           if (topDistance < scrollPos) {
             // Scrolling up will show header
             if (!that.state.visible) {
