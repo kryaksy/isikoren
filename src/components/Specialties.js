@@ -17,38 +17,12 @@ class Specialties extends Component {
         </div>
         <div className="content">
           <ul className="list">
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Emlak</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Satış</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Pazarlama</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Franchising</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Marka Danışmanlığı</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Motivasyon Konuşmaları</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">Eğitim</p>
-            </li>
-            <li className="item">
-              <div className="icon" />
-              <p className="title">İletişim</p>
-            </li>
+            {specialties.all.map(spec => (
+              <li key={spec.title} className="item">
+                <div className="icon" />
+                <p className="title">{spec.title}</p>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

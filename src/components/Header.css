@@ -30,21 +30,19 @@
 
 #header .menu-list p {
   width: 60px;
-  font-size: 0.8em;
-  font-weight: 100;
   padding: 5px;
 }
 
-#header .line {
-  display: none;
-  width: 10px;
-  margin-bottom: 0.45em;
-  margin-right: 0em;
-  border-bottom: 1px solid #000;
+#header .menu-item .line {
+  width: 0px;
+  margin-top: 1.1em;
+  margin-right: 0;
+  /* border-bottom: 1px solid #222; */
+  transition: width 0.3s ease;
 }
 
 #header .menu-item.active .line {
-  display: block;
+  /* display: block; */
 }
 
 @media only screen and (min-width: 768px) {

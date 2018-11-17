@@ -18,12 +18,20 @@ class AllServices extends Component {
         </div>
         <div className="container">
           <ul className="service-list">
-            <li className="item">
-              <div className="media" />
-              <div className="content">
-                <div className="heading small">
-                  <div className="line" />
-                  <h3 className="title">Emlakta Lider Geliştirme Programı</h3>
+            {services.map(service => (
+              <li key={service.slug} className="item">
+                <div className="media" />
+                <div className="content">
+                  <div className="heading small">
+                    <div className="line" />
+                    <h4 className="title">{service.title}</h4>
+                  </div>
+                  <p className="description">
+                    {service.description}
+                  </p>
+                  <Link to={service.slug}>
+                    <button>İncele</button>
+                  </Link>
                 </div>
                 <p className="description">
                   Emlak ofisi sahibi ya da emlak danışmanı olarak her türlü

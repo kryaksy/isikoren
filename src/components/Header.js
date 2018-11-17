@@ -11,22 +11,14 @@ class Header extends Component {
         </div>
         <div className="navigation flex">
           <ul className="menu-list">
-            <li className="menu-item active">
-              <p>Ana Sayfa</p>
-              <div className="line" />
-            </li>
-            <li className="menu-item">
-              <p>Biz Kimiz</p>
-              <div className="line" />
-            </li>
-            <li className="menu-item">
-              <p>Servisler</p>
-              <div className="line" />
-            </li>
-            <li className="menu-item">
-              <p>İletişim</p>
-              <div className="line" />
-            </li>
+            {menu.map(item => (
+              <li key={item.slug} className="menu-item">
+                <Link to={item.slug}>
+                  <p>{item.title}</p>
+                </Link>
+                <div className="line" />
+              </li>
+            ))}
           </ul>
           <div className="icon-container">
             <div className="menu-icon">

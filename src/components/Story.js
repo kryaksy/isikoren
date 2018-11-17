@@ -12,22 +12,9 @@ class Story extends Component {
             <h2 className="title">Nasıl başladık?</h2>
           </div>
           <div className="content">
-            <p className="text">
-              Mutluluk halimiz müşterilerimize, dostlarımıza ve çevremizdeki
-              insanlara da yansıyacak, onların hayatlarında da olumlu
-              değişiklikler yaratabilecektik. İşte bu bizim için başarı demekti.
-              Yeteneklerimiz ve uzmanlıklarımız doğrultusunda insanlara yol
-              göstermeyi, bilgilerimizi paylaşarak onlarla birlikte çoğalmayı,
-              daha fazla öğrenmeyi, öğrendikçe değişmeyi, değiştikçe gelişmeyi
-              hedefledik.
-            </p>
-            <p className="text">
-              Hayata olumlu bakan, gerçekçi iyimser kimliğimiz ve mutlu ruh
-              halimizin avantajlarını cebimize koyarak 2010 yılında yola çıktık.
-              Düşüncelerimize duygularımızı katarak eyleme geçtik. Bir nedenimiz
-              vardı. Bildiğimiz, inandığımız ve sevdiğimiz şeyleri yaparsak
-              mutlu kalacaktık.
-            </p>
+            {story.intro.map(text => (
+              <p key={text.substring(0,5)} className="text">{text}</p>
+            ))}
             <ul className="list">
               <li className="ourJob">
                 {/* <div className="line" /> */}

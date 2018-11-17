@@ -6,23 +6,47 @@ class Footer extends Component {
   render() {
     return (
       <div id="footer">
-        <div>
-          <div className="container">
-            <div className="brand">
-              <img src={logo} width="100" color="white" alt="isikoren-logo"/>
-              <p className="slogan">Rekabete karşı meydan okur!</p>
-            </div>
-            <div className="footlinks">
-              <ul className="menu list">
-                <h2 className="title">Keşfet</h2>
-                <li className="menu-item">Ana Sayfa</li>
-                <li className="menu-item">Biz Kimiz?</li>
-                <li className="menu-item">Servisler</li>
-                <li className="menu-item">İletişim</li>
-              </ul>
-              <ul className="follow list">
-                <h2 className="title">Takip et</h2>
-                <li className="menu-item">
+        <div className="wrapper">
+          <div>
+            <div className="container">
+              <div className="brand">
+                <Link to="/">
+                  <img
+                    src={logo}
+                    width="100"
+                    color="white"
+                    alt={company.logo.alt}
+                  />
+                </Link>
+                <p className="slogan">Rekabete karşı meydan okur!</p>
+              </div>
+              <div className="footlinks">
+                <ul className="menu list">
+                  <h2 className="title">Keşfet</h2>
+                  {menu.map(item => (
+                    <li key={item.slug}>
+                      <Link to={item.slug} className="menu-item">
+                        {item.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+                <ul className="follow list">
+                  <h2 className="title">Takip et</h2>
+                  {company.contact.follow.map(item => (
+                    <li key={item.name} className="menu-item">
+                      <a
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {item.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <ul className="contact list">
+                  <h2 className="title">İletişim</h2>
                   <a
                     href="https://www.facebook.com/isikoren"
                     target="_blank"

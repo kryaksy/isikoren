@@ -1,12 +1,12 @@
 #whatWeDo {
-  background-color: #eee;
+  /* background-color: #eee; */
   padding: 100px 25px 150px;
   text-align: center;
 }
 
 #whatWeDo .media {
   height: 200px;
-  background-color: #222;
+  /* background-color: #222; */
 }
 
 #whatWeDo .valueProposition.list {

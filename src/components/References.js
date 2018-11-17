@@ -3,6 +3,9 @@ import "./References.css";
 
 class References extends Component {
   render() {
+    const { title, all } = wpAPI.sampleAPI.references;
+    let i = 0;
+
     return (
       <div id="references">
         <div className="heading">
@@ -10,51 +13,14 @@ class References extends Component {
           <h2 className="title">Kimlerle çalıştık?</h2>
         </div>
         <ul className="list">
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
-          <li className="item">
-            <img alt="logo" />
-          </li>
+          {all.map(item => {
+            i++;
+            return (
+            <li key={"ref" + i} className="item">
+              <img alt="logo" />
+            </li>
+          );
+          })}
         </ul>
         <div>
           <a href="/references" className="more">
