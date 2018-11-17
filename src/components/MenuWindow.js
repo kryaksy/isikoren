@@ -9,7 +9,7 @@ class MenuWindow extends Component {
       <div id="menuWindow">
         <ul className="follow-list flex">
           {follow.map(account => (
-            <li className="icon">
+            <li key={"menuWindow" + account.name} className="icon">
               <a href={account.url} target="_blank" rel="noopener noreferrer">x</a>
             </li>
           ))}

@@ -32,12 +32,12 @@ class App extends Component {
 
         {/* PROFILES */}
         {wpAPI.sampleAPI.team.map( member => (
-          <Route path={member.slug} component={Biography} />
+          <Route key={member.slug} path={member.slug} component={Biography} />
         ))}
 
         {/* SERVICES */}
         {wpAPI.sampleAPI.services.map( service => (
-          <Route path={service.slug} component={Service} />
+          <Route key={service.slug} path={service.slug} component={Service} />
         ))}
 
         {/* MENU WINDOW */}

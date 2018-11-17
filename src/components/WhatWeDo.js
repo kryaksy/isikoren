@@ -15,7 +15,7 @@ class WhatWeDo extends Component {
         </div>
         <ul className="valueProposition list">
           {services.map(service => (
-            <li className="list-item">
+            <li key={service.slug} className="list-item">
               {/* Image or video */}
               <div className="media" />
               <div className="content">

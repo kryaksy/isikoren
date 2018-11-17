@@ -18,7 +18,7 @@ class Header extends Component {
         <div className="navigation flex">
           <ul className="menu-list">
             {menu.map(item => (
-              <li className="menu-item">
+              <li key={item.slug} className="menu-item">
                 <Link to={item.slug}>
                   <p>{item.title}</p>
                 </Link>

@@ -23,12 +23,12 @@ class AllServices extends Component {
         <div className="container">
           <ul className="service-list">
             {services.map(service => (
-              <li className="item">
+              <li key={service.slug} className="item">
                 <div className="media" />
                 <div className="content">
                   <div className="heading small">
                     <div className="line" />
-                    <h3 className="title">{service.title}</h3>
+                    <h4 className="title">{service.title}</h4>
                   </div>
                   <p className="description">
                     {service.description}
