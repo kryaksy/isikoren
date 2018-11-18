@@ -7,6 +7,11 @@
   transition: top 0.5s ease-out;
 }
 
+#header.hide {
+  top: -50px;
+  opacity: 0;
+}
+
 #header .container {
   display: flex;
   justify-content: space-between;
@@ -16,7 +21,10 @@
   transition: margin 0.2s ease-out;
 }
 
-#header .container .logo {
+#header.mini .container {
+  margin: 10px 40px;
+}
+
   pointer-events: all;
 }
 
@@ -67,14 +75,6 @@
 @media only screen and (min-width: 768px) {
   #header .container {
     margin: 60px 50px;
-  }
-
-  #header.mini .container {
-    margin: 40px 20px;
-  }
-
-  #header.hide {
-    top: -200px;
   }
 
   #header .menu-list {
