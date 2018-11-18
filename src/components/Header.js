@@ -23,7 +23,7 @@ class Header extends Component {
 
     // To
     let minimizeLimit = 100;
-    let hideLimit = 1000;
+    let hideLimit = 700;
     let resolution = 50;
 
     // adding scroll event
