@@ -30,6 +30,7 @@
 
 #header .menu-list {
   opacity: 0;
+  display: none;
   align-items: center;
   pointer-events: all;
   padding: 10px 20px;
