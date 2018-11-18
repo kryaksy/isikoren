@@ -15,7 +15,7 @@ class Team extends Component {
         </div>
         <ul className="list">
           {team.map(member => (
-            <li className="item">
+            < li key = {member.name} className = "item" >
               <img className="picture" alt={member.picture.alt} />
               <div className="content">
                 <Link to={member.slug}>

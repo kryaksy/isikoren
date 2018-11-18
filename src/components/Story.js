@@ -16,7 +16,7 @@ class Story extends Component {
           </div>
           <div className="content">
             {story.intro.map(text => (
-              <p className="text">{text}</p>
+              <p key={text.substring(0,5)} className="text">{text}</p>
             ))}
             <ul className="list">
               <li className="ourJob">

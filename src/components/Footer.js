@@ -28,7 +28,7 @@ class Footer extends Component {
                 <ul className="menu list">
                   <h2 className="title">Keşfet</h2>
                   {menu.map(item => (
-                    <li>
+                    <li key={item.slug}>
                       <Link to={item.slug} className="menu-item">
                         {item.title}
                       </Link>
@@ -38,7 +38,7 @@ class Footer extends Component {
                 <ul className="follow list">
                   <h2 className="title">Takip et</h2>
                   {company.contact.follow.map(item => (
-                    <li className="menu-item">
+                    <li key={item.name} className="menu-item">
                       <a
                         href={item.url}
                         target="_blank"

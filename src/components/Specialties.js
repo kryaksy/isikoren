@@ -21,7 +21,7 @@ class Specialties extends Component {
         <div className="content">
           <ul className="list">
             {specialties.all.map(spec => (
-              <li className="item">
+              <li key={spec.title} className="item">
                 <div className="icon" />
                 <p className="title">{spec.title}</p>
               </li>
