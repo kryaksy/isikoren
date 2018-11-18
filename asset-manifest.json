@@ -1,14 +1,15 @@
 {
-  "main.css": "/isikoren/static/css/main.e47c15cc.chunk.css",
-  "main.js": "/isikoren/static/js/main.77eb53cf.chunk.js",
-  "main.js.map": "/isikoren/static/js/main.77eb53cf.chunk.js.map",
-  "static/js/1.163537e1.chunk.js": "/isikoren/static/js/1.163537e1.chunk.js",
-  "static/js/1.163537e1.chunk.js.map": "/isikoren/static/js/1.163537e1.chunk.js.map",
+  "main.css": "/isikoren/static/css/main.7da994da.chunk.css",
+  "main.js": "/isikoren/static/js/main.edeee683.chunk.js",
+  "main.js.map": "/isikoren/static/js/main.edeee683.chunk.js.map",
+  "static/js/1.ac5bcd17.chunk.js": "/isikoren/static/js/1.ac5bcd17.chunk.js",
+  "static/js/1.ac5bcd17.chunk.js.map": "/isikoren/static/js/1.ac5bcd17.chunk.js.map",
   "runtime~main.js": "/isikoren/static/js/runtime~main.599fdc5d.js",
   "runtime~main.js.map": "/isikoren/static/js/runtime~main.599fdc5d.js.map",
   "static/media/logo.png": "/isikoren/static/media/logo.0b494436.png",
-  "static/css/main.e47c15cc.chunk.css.map": "/isikoren/static/css/main.e47c15cc.chunk.css.map",
+  "static/media/Typo.css": "/isikoren/static/media/Champagne-Limousines.582a5e4d.woff",
+  "static/css/main.7da994da.chunk.css.map": "/isikoren/static/css/main.7da994da.chunk.css.map",
   "index.html": "/isikoren/index.html",
-  "precache-manifest.340b88d6c1c8b0ca1fabc32196fa1ca7.js": "/isikoren/precache-manifest.340b88d6c1c8b0ca1fabc32196fa1ca7.js",
+  "precache-manifest.94aee4ac2d54f4766258293d6be50e6d.js": "/isikoren/precache-manifest.94aee4ac2d54f4766258293d6be50e6d.js",
   "service-worker.js": "/isikoren/service-worker.js"
 }
