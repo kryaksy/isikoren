@@ -29,8 +29,8 @@ h5,
 h6,
 a,
 button {
-    font-size-adjust: 0.5;
-    color: #111;
+  color: #111;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
@@ -38,17 +38,16 @@ h2,
 h3,
 h4,
 h5,
-h6,
-a {
+h6 {
+  font-family: "Raleway", sans-serif;
 }
 
 p {
-    font-weight: 100;
+  color: #666;
 }
 
 a {
-    font-size: 0.8em;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #home {
