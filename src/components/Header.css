@@ -32,6 +32,7 @@
 #header .menu-list {
   opacity: 0;
   display: none;
+  justify-content: space-between;
   align-items: center;
   pointer-events: all;
   padding: 10px 20px;
@@ -39,12 +40,19 @@
   font-size: 0.75em;
 }
 
+#header .navigation .menu-list:hover .menu-item p {
+  color: #999;
+}
+
+#header .navigation .menu-list .menu-item:hover p {
+  color: #000;
+}
+
 #header .navigation .menu-item {
-  width: 70px;
-  height: 50px;
+  width: 80px;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -54,6 +62,7 @@
   text-align: center;
   padding: 5px;
   color: #222;
+  min-width: 50px;
 }
 
 #header .menu-item .line {
