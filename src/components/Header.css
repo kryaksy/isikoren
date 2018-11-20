@@ -36,6 +36,7 @@
   pointer-events: all;
   padding: 10px 20px;
   transition: all 0.2s ease-out;
+  font-size: 0.75em;
 }
 
 #header .navigation .menu-item {
