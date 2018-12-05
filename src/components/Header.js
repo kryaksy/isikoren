@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
-import "./Header.css";
 import * as wpAPI from "./../wpAPI";
 
 class Header extends Component {

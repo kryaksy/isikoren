@@ -1,15 +1,17 @@
 @font-face {
   font-family: "Open+Sans";
-  src: url("./assets/fonts/Open_Sans/OpenSans-Light.ttf") format("truetype"),
-    url("./assets/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
+  src: url("../assets/fonts/Open_Sans/OpenSans-Light.ttf") format("truetype"),
+    url("../assets/fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype");
   font-style: normal;
 }
 
 @font-face {
   font-family: "Raleway";
-  src: url("./assets/fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/Raleway/Raleway-Regular.ttf") format("truetype");
   font-style: normal;
 }
+
+$black:#111;
 
 body,
 caption,
@@ -29,7 +31,7 @@ h5,
 h6,
 a,
 button {
-  color: #111;
+  color: $black;
   font-family: "Open Sans", sans-serif;
 }
 

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./10NumaraMotivasyon.css";
 import * as wpAPI from "./../wpAPI";
 
 class OnNumaraMotivasyon extends Component {

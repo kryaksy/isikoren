@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "./Pitch.css";
 import * as wpAPI from "./../wpAPI";
 
 class Pitch extends Component {

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./Contact.css";
 import * as wpAPI from "./../../wpAPI";
 
 import Header from "../Header";

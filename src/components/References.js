@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./References.css";
 import * as wpAPI from "./../wpAPI";
 
 class References extends Component {

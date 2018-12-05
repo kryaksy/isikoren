@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./MenuWindow.css";
 import * as wpAPI from "./../wpAPI";
 
 class MenuWindow extends Component {
