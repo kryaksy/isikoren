@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/isikoren/static/js/runtime~main.599fdc5d.js"
   },
   {
-    "revision": "f109db483749399b9363",
-    "url": "/isikoren/static/js/main.f109db48.chunk.js"
+    "revision": "3c20696258ea366dcd23",
+    "url": "/isikoren/static/js/main.3c206962.chunk.js"
   },
   {
-    "revision": "ac5bcd17f6dbf28c7eba",
-    "url": "/isikoren/static/js/1.ac5bcd17.chunk.js"
+    "revision": "5608515793c5f6613a45",
+    "url": "/isikoren/static/js/1.56085157.chunk.js"
   },
   {
-    "revision": "f109db483749399b9363",
-    "url": "/isikoren/static/css/main.e23be5e2.chunk.css"
+    "revision": "3c20696258ea366dcd23",
+    "url": "/isikoren/static/css/main.35cb8701.chunk.css"
   },
   {
-    "revision": "606cd7e227a7a8df9560b8560b089fa9",
+    "revision": "be856135a4d51aa9d993c9c642eab531",
     "url": "/isikoren/index.html"
   }
 ];
