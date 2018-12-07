@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import * as wpAPI from "./../wpAPI";
-import "./Welcome.css";
 
 class Welcome extends Component {
   state = {

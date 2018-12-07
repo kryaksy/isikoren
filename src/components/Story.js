@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./Story.css";
 import * as wpAPI from "./../wpAPI";
 
 class Story extends Component {

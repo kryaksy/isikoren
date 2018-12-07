@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./Specialties.css";
 import * as wpAPI from "./../wpAPI";
 
 class Specialties extends Component {

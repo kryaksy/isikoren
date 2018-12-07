@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
-import "./App.css";
-import "./Typo.css";
 import * as wpAPI from "./wpAPI";
 
 //PAGES
