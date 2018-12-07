@@ -1,3 +1,15 @@
+////////////////////////////////////////////////////////////////
+// ISIKOREN Theme
+////////////////////////////////////////////////////////////////
+// Developer: Ibrahim Koray Aksoy
+// Mail: ib.koray@gmail.com
+////////////////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////////////////////
+// GENERAL Theme Properties
+////////////////////////////////////////////////////////////////
+
 .App {
     width: 100vw;
     overflow: hidden;
@@ -46,6 +58,10 @@ button {
 .image-container {
     background-color: #000;
 }
+
+////////////////////////////////////////////////////////////////
+//// GENERAL Theme Properties - SHAPES
+////////////////////////////////////////////////////////////////
 
 .icon {
     border-radius: 100%;
@@ -107,302 +123,9 @@ button {
     width: 15px;
 }
 
-.welcome {
-    height: 100vh;
-    background-color: #eee;
-
-    .content {
-        padding-top: 50vh;
-
-        .heading {
-            margin-left: 10vw;
-        }
-
-        .text {
-            margin-left: calc(10vw + 30px + 1em);
-            max-width: 250px;
-        }
-    }
-}
-
-#allServices {
-    padding-top: 100px;
-    padding-bottom: 100px;
-
-    .top .filter {
-        padding-left: calc(55px + 1em);
-        color: #777;
-        display: flex;
-        padding-left: calc(5vw + 30px + 1em);
-
-        .item {
-            margin-top: 10px;
-            padding: 10px 20px 10px 0;
-        }
-    }
-
-    .container {
-        width: 80vw;
-        margin: auto;
-    }
-
-    .service-list {
-        margin-top: 5vw;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-
-        .item {
-            margin-top: 65px;
-            padding-bottom: 5vw;
-            width: 400px;
-            height: 500px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-
-            .content {
-                margin-right: 20px;
-                padding: 0 10px;
-            }
-
-            .heading {
-                position: relative;
-                margin: 20px 0;
-
-                .title {
-                    width: 100%;
-                }
-            }
-
-            .description {
-                position: relative;
-                padding-left: calc(20px + 0.8em);
-            }
-
-            button {
-                position: relative;
-                margin-left: calc(20px + 0.8em);
-            }
-        }
-    }
-
-    .media {
-        height: 200px;
-    }
-}
-
-#biography {
-    width: 70vw;
-    max-width: 800px;
-    margin: 150px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-
-    .picture {
-        width: 70vw;
-        max-width: 350px;
-        height: 350px;
-        margin: 0 auto;
-    }
-
-    .content {
-        width: 70vw;
-        max-width: 350px;
-        margin: 0 auto;
-    }
-
-    .heading {
-        margin: 0;
-        padding-top: 40px;
-    }
-
-    a {
-        font-size: 1em;
-    }
-
-    .title {
-        margin-top: 50px;
-    }
-
-    .intro,
-    .bio {
-        margin-top: 20px;
-    }
-
-    .career-history.list {
-        margin: 60px 10px;
-        font-size: 0.8em;
-        width: 300px;
-
-        .item {
-            display: flex;
-            flex-wrap: nowrap;
-            margin-top: 30px;
-
-            .dates {
-                min-width: 80px;
-                margin-right: 10px;
-                text-align: right;
-            }
-
-            .company,
-            .position {
-                max-width: 150px;
-            }
-
-            .note {
-                display: block;
-                font-weight: 100;
-                margin: 5px auto;
-                color: #999;
-            }
-        }
-    }
-
-    .educations {
-        .title {
-            padding-top: 30px;
-        }
-
-        .info {
-            line-height: 2em;
-        }
-
-        .item {
-            margin: 40px auto;
-            font-size: 0.9em;
-
-            .activity {
-                list-style: disc;
-                list-style-position: inherit;
-                margin: 20px 25px;
-            }
-        }
-    }
-}
-
-#contact {
-    height: 80vh;
-    margin-left: 10vw;
-    padding-top: 40vh;
-
-    .list {
-        margin-left: calc(5vw + 30px + 1em);
-        margin-top: 70px;
-
-        h3 {
-            margin-top: 20px;
-        }
-
-        p,
-        a {
-            display: block;
-            font-size: 1em;
-            color: #777;
-            margin-top: 10px;
-        }
-    }
-}
-
-#footer {
-    background-color: #000;
-
-    * {
-        font-family: sans-serif;
-        font-size: 0.9em;
-        line-height: 1.75em;
-        color: #eee;
-    }
-
-    .wrapper {
-        max-width: 1000px;
-        margin: auto;
-        padding: 70px 40px 20px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .title {
-        font-weight: 600;
-    }
-
-    .list {
-        padding-right: 15px;
-        min-width: 60px;
-    }
-
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        width: 500px;
-    }
-
-    .footlinks {
-        margin: 2em 0;
-        /* max-width: calc(100vw - 60px);
-         */
-        display: flex;
-        justify-content: flex-start;
-    }
-
-    .copyright {
-        margin-top: 30px;
-        font-size: 0.7em;
-        width: 100%;
-    }
-
-    .brand {
-        min-width: 200px;
-
-        img {
-            filter: brightness(0) invert(1);
-        }
-    }
-
-    .next {
-        text-align: right;
-        height: 50px;
-    }
-}
-
-#gallery {
-    padding: 50px 5vw 100px;
-
-    .area-1 {
-        margin-top: 70px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .area-2 {
-        display: none;
-    }
-
-    .image-container {
-        width: 350px;
-        height: 200px;
-        margin: 2px;
-
-        &.big {
-            height: 400px;
-        }
-    }
-
-    .more {
-        display: block;
-        text-align: center;
-        margin-top: 40px;
-        color: #666;
-    }
-}
+////////////////////////////////////////////////////////////////
+/* HEADER */
+////////////////////////////////////////////////////////////////
 
 #header {
     position: fixed;
@@ -492,6 +215,11 @@ button {
         }
     }
 }
+
+
+////////////////////////////////////////////////////////////////
+/* MENU WINDOW */
+////////////////////////////////////////////////////////////////
 
 #menuWindow {
     display: none;
@@ -601,6 +329,99 @@ button {
     }
 }
 
+////////////////////////////////////////////////////////////////
+/* FOOTER */
+////////////////////////////////////////////////////////////////
+
+#footer {
+    background-color: #000;
+
+    * {
+        font-family: sans-serif;
+        font-size: 0.9em;
+        line-height: 1.75em;
+        color: #eee;
+    }
+
+    .wrapper {
+        max-width: 1000px;
+        margin: auto;
+        padding: 70px 40px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .title {
+        font-weight: 600;
+    }
+
+    .list {
+        padding-right: 15px;
+        min-width: 60px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 500px;
+    }
+
+    .footlinks {
+        margin: 2em 0;
+        /* max-width: calc(100vw - 60px);
+         */
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .copyright {
+        margin-top: 30px;
+        font-size: 0.7em;
+        width: 100%;
+    }
+
+    .brand {
+        min-width: 200px;
+
+        img {
+            filter: brightness(0) invert(1);
+        }
+    }
+
+    .next {
+        text-align: right;
+        height: 50px;
+    }
+}
+
+////////////////////////////////////////////////////////////////
+/* WELCOME SECTIONs */
+////////////////////////////////////////////////////////////////
+
+.welcome {
+    height: 100vh;
+    background-color: #eee;
+
+    .content {
+        padding-top: 50vh;
+
+        .heading {
+            margin-left: 10vw;
+        }
+
+        .text {
+            margin-left: calc(10vw + 30px + 1em);
+            max-width: 250px;
+        }
+    }
+}
+
+////////////////////////////////////////////////////////////////
+/* PITCH */
+////////////////////////////////////////////////////////////////
+
 #pitch {
     height: 100vh;
     padding-left: calc(5vw + 30px + 1em);
@@ -611,98 +432,235 @@ button {
     }
 }
 
-#references {
-    background-color: #111;
-    color: white;
-    width: 100vw;
-    padding: 100px 25px 100px;
+////////////////////////////////////////////////////////////////
+/* WHAT WE DO */
+////////////////////////////////////////////////////////////////
 
-    .line {
-        border-color: white;
+#whatWeDo {
+    background-color: #eee;
+    padding: 100px 25px 150px;
+    text-align: center;
+
+    .media {
+        height: 200px;
+        background-color: #222;
     }
 
+    .valueProposition.list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+
+    .list-item {
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+
+        .content {
+            max-width: 90%;
+            margin: 20px auto;
+        }
+    }
+}
+
+////////////////////////////////////////////////////////////////
+/* ON NUMARA MOTIVASYON */
+////////////////////////////////////////////////////////////////
+
+#onNumaraMotivasyon {
+    width: 100vw;
+    height: 100vh;
+    padding-left: calc(5vw + 30px + 1em);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .container {
+        max-width: 250px;
+    }
+}
+
+////////////////////////////////////////////////////////////////
+/* TEAM */
+////////////////////////////////////////////////////////////////
+
+#team {
+    padding: 100px 25px 50px;
+
     .list {
-        width: calc(100vw - 50px);
+        max-width: 700px;
+        padding: 50px 0;
+        margin: auto;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        align-items: center;
+        justify-content: space-around;
 
         .item {
-            background-color: #aaa;
-            width: 80px;
-            height: 60px;
-            margin: 20px;
+            margin: 50px;
+            text-align: center;
+        }
+    }
 
-            &:nth-child(n + 11) {
-                display: none;
+    .picture {
+        width: 200px;
+        height: 250px;
+    }
+
+    .name {
+        width: 200px;
+        margin: 15px auto;
+    }
+
+    .snippet {
+        width: 200px;
+    }
+}
+
+////////////////////////////////////////////////////////////////
+/* BIOGRAPHY */
+////////////////////////////////////////////////////////////////
+
+#biography {
+    width: 70vw;
+    max-width: 800px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    .picture {
+        width: 70vw;
+        max-width: 350px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .content {
+        width: 70vw;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .heading {
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    a {
+        font-size: 1em;
+    }
+
+    .title {
+        margin-top: 50px;
+    }
+
+    .intro,
+    .bio {
+        margin-top: 20px;
+    }
+
+    .career-history.list {
+        margin: 60px 10px;
+        font-size: 0.8em;
+        width: 300px;
+
+        .item {
+            display: flex;
+            flex-wrap: nowrap;
+            margin-top: 30px;
+
+            .dates {
+                min-width: 80px;
+                margin-right: 10px;
+                text-align: right;
+            }
+
+            .company,
+            .position {
+                max-width: 150px;
+            }
+
+            .note {
+                display: block;
+                font-weight: 100;
+                margin: 5px auto;
+                color: #999;
             }
         }
     }
 
-    .more {
-        width: calc(100vw - 50px);
-        display: block;
-        text-align: center;
+    .educations {
+        .title {
+            padding-top: 30px;
+        }
+
+        .info {
+            line-height: 2em;
+        }
+
+        .item {
+            margin: 40px auto;
+            font-size: 0.9em;
+
+            .activity {
+                list-style: disc;
+                list-style-position: inherit;
+                margin: 20px 25px;
+            }
+        }
     }
 }
 
-#service {
-    .heading {
-        margin-top: 50px;
-    }
+////////////////////////////////////////////////////////////////
+/* STORY */
+////////////////////////////////////////////////////////////////
+
+#story {
+    background-color: #eee;
+    padding-bottom: 150px;
 
     .media {
-        position: fixed;
-        top: 0;
-        height: 310px;
-        width: 100vw;
-        z-index: -100;
-    }
-
-    .info {
-        position: relative;
-        max-width: 100vw;
-        margin: auto;
-        margin-top: 300px;
-        padding-right: 30px;
-        background-color: #fff;
-        padding-top: 30px;
+        height: 30vw;
+        min-height: 300px;
     }
 
     .container {
         max-width: 800px;
-        margin: 20px 0 0;
-        padding: auto;
-        padding-left: calc(5vw + 20px + 1em);
-
-        .title {
-            margin-top: 60px;
-        }
-
-        .intro {
-            margin: 40px 0;
-        }
     }
 
-    .item {
-        list-style: disc;
-        list-style-position: inherit;
-        margin: 25px;
+    .content {
+        padding: 0 calc(5vw + 30px + 1em);
+        max-width: 800px;
     }
 
-    .filter {
-        font-size: 0.8em;
-        width: 110px;
+    .text {
+        margin-top: 40px;
+    }
+
+    .heading {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    .list {
+        display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
-        margin-top: 10px;
-    }
 
-    button {
-        margin: 100px 0;
+        li {
+            margin-top: 100px;
+        }
     }
 }
+
+////////////////////////////////////////////////////////////////
+/* SPECIALTIES */
+////////////////////////////////////////////////////////////////
 
 #specialties {
     padding-top: 150px;
@@ -761,127 +719,256 @@ button {
         flex-direction: row;
         justify-content: flex-end;
         align-items: flex-end;
+
+        a {
+            color: #000;
+            margin-right: 5px;
+        }
     }
 }
 
-#specialties .linking a {
-    color: #000;
-    margin-right: 5px;
+////////////////////////////////////////////////////////////////
+/* REFERENCES */
+////////////////////////////////////////////////////////////////
+
+#references {
+    background-color: #111;
+    color: white;
+    width: 100vw;
+    padding: 100px 25px 100px;
+
+    .line {
+        border-color: white;
+    }
+
+    .list {
+        width: calc(100vw - 50px);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .item {
+            background-color: #aaa;
+            width: 80px;
+            height: 60px;
+            margin: 20px;
+
+            &:nth-child(n + 11) {
+                display: none;
+            }
+        }
+    }
+
+    .more {
+        width: calc(100vw - 50px);
+        display: block;
+        text-align: center;
+    }
 }
 
-#story {
-    background-color: #eee;
-    padding-bottom: 150px;
+////////////////////////////////////////////////////////////////
+/* GALLERY */
+////////////////////////////////////////////////////////////////
 
-    .media {
-        height: 30vw;
-        min-height: 300px;
+#gallery {
+    padding: 50px 5vw 100px;
+
+    .area-1 {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .area-2 {
+        display: none;
+    }
+
+    .image-container {
+        width: 350px;
+        height: 200px;
+        margin: 2px;
+
+        &.big {
+            height: 400px;
+        }
+    }
+
+    .more {
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+        color: #666;
+    }
+}
+
+////////////////////////////////////////////////////////////////
+/* ALL SERVICES */
+////////////////////////////////////////////////////////////////
+
+#allServices {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .top .filter {
+        padding-left: calc(55px + 1em);
+        color: #777;
+        display: flex;
+        padding-left: calc(5vw + 30px + 1em);
+
+        .item {
+            margin-top: 10px;
+            padding: 10px 20px 10px 0;
+        }
     }
 
     .container {
-        max-width: 800px;
-    }
-
-    .content {
-        padding: 0 calc(5vw + 30px + 1em);
-        max-width: 800px;
-    }
-
-    .text {
-        margin-top: 40px;
-    }
-
-    .heading {
-        margin-top: 60px;
-        margin-bottom: 30px;
-    }
-
-    .list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-
-        li {
-            margin-top: 100px;
-        }
-    }
-}
-
-#team {
-    padding: 100px 25px 50px;
-
-    .list {
-        max-width: 700px;
-        padding: 50px 0;
+        width: 80vw;
         margin: auto;
+    }
+
+    .service-list {
+        margin-top: 5vw;
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
 
         .item {
-            margin: 50px;
-            text-align: center;
+            margin-top: 65px;
+            padding-bottom: 5vw;
+            width: 400px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            .content {
+                margin-right: 20px;
+                padding: 0 10px;
+            }
+
+            .heading {
+                position: relative;
+                margin: 20px 0;
+
+                .title {
+                    width: 100%;
+                }
+            }
+
+            .description {
+                position: relative;
+                padding-left: calc(20px + 0.8em);
+            }
+
+            button {
+                position: relative;
+                margin-left: calc(20px + 0.8em);
+            }
         }
     }
-
-    .picture {
-        width: 200px;
-        height: 250px;
-    }
-
-    .name {
-        width: 200px;
-        margin: 15px auto;
-    }
-
-    .snippet {
-        width: 200px;
-    }
-}
-
-#whatWeDo {
-    background-color: #eee;
-    padding: 100px 25px 150px;
-    text-align: center;
 
     .media {
         height: 200px;
-        background-color: #222;
+    }
+}
+
+////////////////////////////////////////////////////////////////
+/* SERVICE */
+////////////////////////////////////////////////////////////////
+
+#service {
+    .heading {
+        margin-top: 50px;
     }
 
-    .valueProposition.list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: left;
+    .media {
+        position: fixed;
+        top: 0;
+        height: 310px;
+        width: 100vw;
+        z-index: -100;
     }
 
-    .list-item {
-        max-width: 350px;
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;
+    .info {
+        position: relative;
+        max-width: 100vw;
+        margin: auto;
+        margin-top: 300px;
+        padding-right: 30px;
+        background-color: #fff;
+        padding-top: 30px;
+    }
 
-        .content {
-            max-width: 90%;
-            margin: 20px auto;
+    .container {
+        max-width: 800px;
+        margin: 20px 0 0;
+        padding: auto;
+        padding-left: calc(5vw + 20px + 1em);
+
+        .title {
+            margin-top: 60px;
+        }
+
+        .intro {
+            margin: 40px 0;
+        }
+    }
+
+    .item {
+        list-style: disc;
+        list-style-position: inherit;
+        margin: 25px;
+    }
+
+    .filter {
+        font-size: 0.8em;
+        width: 110px;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    button {
+        margin: 100px 0;
+    }
+}
+
+////////////////////////////////////////////////////////////////
+/* CONTACT */
+////////////////////////////////////////////////////////////////
+
+#contact {
+    height: 80vh;
+    margin-left: 10vw;
+    padding-top: 40vh;
+
+    .list {
+        margin-left: calc(5vw + 30px + 1em);
+        margin-top: 70px;
+
+        h3 {
+            margin-top: 20px;
+        }
+
+        p,
+        a {
+            display: block;
+            font-size: 1em;
+            color: #777;
+            margin-top: 10px;
         }
     }
 }
 
-#onNumaraMotivasyon {
-    width: 100vw;
-    height: 100vh;
-    padding-left: calc(5vw + 30px + 1em);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    .container {
-        max-width: 250px;
-    }
-}
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+/* MEDIA QUERIES */
+////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
 
 @media only screen and (min-width: 768px) {
     #header {
