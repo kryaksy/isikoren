@@ -14,7 +14,7 @@ class Contact extends Component {
 
     return (
       <div>
-        <Header />
+        <Header pathname={this.props.location.pathname}/>
         <div id="contact">
           <div className="background" />
           <div className="heading">

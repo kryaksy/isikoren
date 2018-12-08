@@ -17,7 +17,7 @@ class About extends Component {
   render() {
     return (
       <div id="about">
-        <Header />
+        <Header pathname={this.props.location.pathname}/>
         <Welcome page={"about"} />
         <Team />
         <Story />

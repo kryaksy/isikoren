@@ -4,89 +4,89 @@ import logo from "../assets/logo.png";
 import * as wpAPI from "./../wpAPI";
 
 class Header extends Component {
-  state = {
-    minimized: false,
-    visible: true
-  };
+    state = {
+        minimized: false,
+        visible: true
+    };
 
-  componentDidMount() {
-    this.scrollDetection();
-  }
+    componentDidMount() {
+        this.scrollDetection();
+    }
 
-  scrollDetection = () => {
-    // Presents class
-    let that = this;
+    scrollDetection = () => {
+        // Presents class
+        let that = this;
 
-    // Initial state
-    var scrollPos = 0;
+        // Initial state
+        var scrollPos = 0;
 
-    // To
-    let minimizeLimit = 100;
-    let hideLimit = 700;
-    let resolution = 50;
+        // To
+        let minimizeLimit = 100;
+        let hideLimit = 700;
+        let resolution = 50;
 
-    // adding scroll event
-    window.addEventListener("scroll", function() {
-      // Storing top distance for every scroll event
-      let topDistance = -1 * document.body.getBoundingClientRect().top;
+        // adding scroll event
+        window.addEventListener("scroll", function() {
+            // Storing top distance for every scroll event
+            let topDistance = -1 * document.body.getBoundingClientRect().top;
 
-      if (
-        topDistance > scrollPos + resolution ||
-        topDistance < scrollPos - resolution
-      ) {
-        // detects new state and compares it with the new one
-        if (topDistance >= 0 && topDistance <= minimizeLimit ) {
-          // Default header until minimizeLimit
-          if (that.state.minimized || !that.state.visible) {
-            that.resetHeader();
-          }
-        } else if (
-          topDistance > minimizeLimit &&
-          topDistance <= hideLimit &&
-          !that.state.minimized
-        ) {
-          // Minimized header
-          that.minimizeHeader();
-        } else if (topDistance > hideLimit && that.state.minimized) {
-          if (topDistance < scrollPos) {
-            // Scrolling up will show header
-            if (!that.state.visible) {
-              that.showHeader();
+            if (
+                topDistance > scrollPos + resolution ||
+                topDistance < scrollPos - resolution
+            ) {
+                // detects new state and compares it with the new one
+                if (topDistance >= 0 && topDistance <= minimizeLimit) {
+                    // Default header until minimizeLimit
+                    if (that.state.minimized || !that.state.visible) {
+                        that.resetHeader();
+                    }
+                } else if (
+                    topDistance > minimizeLimit &&
+                    topDistance <= hideLimit &&
+                    !that.state.minimized
+                ) {
+                    // Minimized header
+                    that.minimizeHeader();
+                } else if (topDistance > hideLimit && that.state.minimized) {
+                    if (topDistance < scrollPos) {
+                        // Scrolling up will show header
+                        if (!that.state.visible) {
+                            that.showHeader();
+                        }
+                    } else {
+                        if (that.state.visible) {
+                            // Scrolling down will hide header
+                            that.hideHeader();
+                        }
+                    }
+                }
+                // saves the new position for iteration.
+                scrollPos = topDistance;
             }
-          } else {
-            if (that.state.visible) {
-              // Scrolling down will hide header
-              that.hideHeader();
-            }
-          }
-        }
-        // saves the new position for iteration.
-        scrollPos = topDistance;
-      }
-    });
-  };
+        });
+    };
 
-  minimizeHeader = () => {
-    this.setState({ minimized: true });
-  };
+    minimizeHeader = () => {
+        this.setState({ minimized: true });
+    };
 
-  hideHeader = () => {
-    this.setState({ visible: false });
-  };
+    hideHeader = () => {
+        this.setState({ visible: false });
+    };
 
-  showHeader = () => {
-    this.setState({ visible: true });
-  };
+    showHeader = () => {
+        this.setState({ visible: true });
+    };
 
-  resetHeader = () => {
-    this.setState({ minimized: false, visible: true });
-  };
+    resetHeader = () => {
+        this.setState({ minimized: false, visible: true });
+    };
 
-  render() {
-    const { company, menu } = wpAPI.sampleAPI;
+    render() {
+        const { company, menu } = wpAPI.sampleAPI;
 
-    return (
-      <div
+        return (
+            <div
         id="header"
         className={
           (this.state.minimized ? "mini" : "") +
@@ -107,7 +107,7 @@ class Header extends Component {
           <div className="navigation flex">
             <ul className="menu-list">
               {menu.map(item => (
-                <li key={item.slug} className="menu-item">
+                <li key={item.slug} className={"menu-item" + (this.props.pathname === item.slug ? " active" : "")}>
                   <Link to={item.slug}>
                     <p>{item.title}</p>
                   </Link>
@@ -125,8 +125,8 @@ class Header extends Component {
           </div>
         </div>
       </div>
-    );
-  }
+        );
+    }
 }
 
 export default Header;
