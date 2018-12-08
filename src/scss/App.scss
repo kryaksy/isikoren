@@ -126,6 +126,8 @@ button {
 ////////////////////////////////////////////////////////////////
 /* HEADER */
 ////////////////////////////////////////////////////////////////
+// TODO: Menu item won't move with line transition
+////////////////////////////////////////////////////////////////
 
 #header {
     position: fixed;
@@ -133,7 +135,10 @@ button {
     left: 0;
     top: 0;
     pointer-events: none;
-    transition: all 0.2s ease-out;
+
+    * {
+        transition: all 0.2s ease-out;
+    }
 
     &.hide {
         top: -50px;
@@ -146,7 +151,6 @@ button {
         align-items: center;
         z-index: 200;
         margin: 40px 25px;
-        transition: margin 0.2s ease-out;
     }
 
     &.mini .container {
@@ -163,11 +167,16 @@ button {
         justify-content: space-between;
         align-items: center;
         pointer-events: all;
-        transition: all 0.2s ease-out;
         font-size: 0.75em;
 
-        &:hover .menu-item p {
-            color: #999;
+        &:hover .menu-item {
+            p {
+                color: #999;
+            }
+
+            .line {
+                background-color: #999;
+            }
         }
 
         .menu-item {
@@ -186,8 +195,14 @@ button {
                 min-width: 50px;
             }
 
-            &:hover p {
-                color: #000;
+            &:hover {
+                p {
+                    color: #000;
+                }
+
+                .line {
+                    background-color: #000;
+                }
             }
 
             .line {
