@@ -16,7 +16,7 @@ class Home extends Component {
   render() {
     return (
       <div id="home">
-        <Header />
+        <Header pathname={this.props.location.pathname}/>
         <Welcome page={"home"} />
         <Pitch />
         <WhatWeDo />

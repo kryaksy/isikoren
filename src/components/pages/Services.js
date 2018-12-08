@@ -13,7 +13,7 @@ class Services extends Component {
   render() {
     return (
       <div id="services">
-        <Header />
+        <Header pathname={this.props.location.pathname}/>
         <Welcome page={"services"} />
         <AllServices />
         <Footer />
