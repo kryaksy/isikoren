@@ -126,8 +126,6 @@ button {
 ////////////////////////////////////////////////////////////////
 /* HEADER */
 ////////////////////////////////////////////////////////////////
-// TODO: Menu item won't move with line transition
-////////////////////////////////////////////////////////////////
 
 #header {
     position: fixed;
@@ -168,6 +166,7 @@ button {
         align-items: center;
         pointer-events: all;
         font-size: 0.75em;
+        padding-right: 20px;
 
         &:hover .menu-item {
             p {
@@ -180,16 +179,15 @@ button {
         }
 
         .menu-item {
-            width: 80px;
+            width: 90px;
             display: flex;
             flex-direction: row-reverse;
-            justify-content: flex-end;
+            justify-content: flex-start;
             align-items: center;
 
             p {
                 font-size: 0.9em;
                 font-weight: 100;
-                text-align: center;
                 padding: 5px;
                 color: #222;
                 min-width: 50px;
