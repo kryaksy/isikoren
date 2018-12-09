@@ -5,6 +5,10 @@
 // Mail: ib.koray@gmail.com
 ////////////////////////////////////////////////////////////////
 
+////////////////////////////////////////////////////////////////
+// Variables
+////////////////////////////////////////////////////////////////
+$headlineWidth: calc(4vw + 30px);
 
 ////////////////////////////////////////////////////////////////
 // GENERAL Theme Properties
@@ -136,11 +140,11 @@ button {
 @keyframes headline-ani {
     0% {
         width: 0;
-        left: calc(4vw + 30px);
+        left: $headlineWidth;
     }
 
     17% {
-        width: calc(4vw + 30px);
+        width: $headlineWidth;
         left: 0px;
     }
 
@@ -454,7 +458,7 @@ button {
 
             .headline {
                 position: relative;
-                width: calc(4vw + 30px);
+                width: $headlineWidth;
             }
 
             .text {
