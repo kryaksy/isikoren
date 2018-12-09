@@ -1038,8 +1038,14 @@ button {
         }
     }
 
-    .welcome .content .text {
-        max-width: 500px;
+    .welcome {
+        .content {
+            .heading {
+                .title {
+                    width: 500px;
+                }
+            }
+        }
     }
 
     #onNumaraMotivasyon {
