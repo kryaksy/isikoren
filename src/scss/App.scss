@@ -133,13 +133,14 @@ button {
     left: 0;
     top: 0;
     pointer-events: none;
+    transition: all 0.2s ease;
 
     * {
         transition: all 0.2s ease-out;
     }
 
     &.hide {
-        top: -50px;
+        top: -100px;
         opacity: 0;
     }
 
@@ -152,7 +153,7 @@ button {
     }
 
     &.mini .container {
-        margin: 10px 40px;
+        margin: 30px 10px;
     }
 
     .container .logo {
@@ -985,6 +986,10 @@ button {
 
         &.mini .menu-list {
             opacity: 0;
+        }
+
+        &.mini .container {
+            margin: 30px;
         }
 
         .navigation {
