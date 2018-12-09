@@ -41,7 +41,8 @@ button {
 .heading {
     display: flex;
     align-items: flex-end;
-    margin-left: 5vw;
+    // Global left margin
+    margin-left: 10vw;
 
     &.small {
         margin-left: 0px;
