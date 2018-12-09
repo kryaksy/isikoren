@@ -81,21 +81,28 @@ export const sampleAPI = {
     },
     {
       component: {
-        Home: "Home"
+        Home: "About"
       },
       title: "Biz Kimiz",
       slug: "/about"
     },
     {
       component: {
-        Home: "Home"
+        Home: "Services"
       },
       title: "Servisler",
       slug: "/services"
     },
     {
       component: {
-        Home: "Home"
+        Home: "Posts"
+      },
+      title: "Yazılar",
+      slug: "/posts"
+    },
+    {
+      component: {
+        Home: "Contact"
       },
       title: "İletişim",
       slug: "/contact"
@@ -113,6 +120,10 @@ export const sampleAPI = {
     {
       title: "Servisler",
       slug: "/services"
+    },
+    {
+      title: "Yazılar",
+      slug: "/posts"
     },
     {
       title: "İletişim",
