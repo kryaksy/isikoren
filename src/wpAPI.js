@@ -136,17 +136,17 @@ export const sampleAPI = {
         src: null,
         alt: null
       },
-      title: "Rekabete karşı meydan okur",
-      snippet: null
+      title: "Emlak işinde liderlik ederiz.",
+      snippet: "1997'den itibaren Türkiye'de emlak sektörünün dönüştüğü yıllarda emlak sektöründeki tüm oyunculara yol gösteren eğitim ve danışmanlık programlarıyla liderlik eden biz ekibiz."
     },
     about: {
       media: {
         src: null,
         alt: null
       },
-      title: "Işıkören Danışmanlık",
+      title: "Biz emlak işine odaklı danışmanlık ve eğitim veren bir ekibiz.",
       snippet:
-        "Sektör ayrımı yapmaksızın işinde başarılı olmak isteyen şirketleri, kurumları ve hatta bireyleri farklılaştırarak öne çıkarmak amacıyla danışmanlık, eğitim ve seminerler veririz."
+        "İşinde başarılı olmak isteyen emlak ofisi sahiplerini, danışmanlarını, inşaat proje sahiplerini, proje satış ofisi ekiplerini farklılaştırarak öne çıkarmak amacıyla danışmanlık, eğitim ve seminerler veririz."
     },
     services: {
       media: {
