@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import Header from "../Header";
-import Footer from "../Footer";
 import Welcome from "../Welcome";
 import AllServices from "../AllServices";
 
@@ -16,7 +15,6 @@ class Services extends Component {
         <Header pathname={this.props.location.pathname}/>
         <Welcome page={"services"} />
         <AllServices />
-        <Footer />
       </div>
     );
   }

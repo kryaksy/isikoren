@@ -12,11 +12,12 @@ import Contact from "./components/pages/Contact";
 import Biography from "./components/Biography";
 import Service from "./components/Service";
 import MenuWindow from "./components/MenuWindow";
+import Footer from "./components/Footer";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
+    render() {
+        return (
+            <div className="App">
         {/* TODO */
         /* {wpAPI.mainPages.map( page => (
           <Route exact path={page.slug} component={page.component} />
@@ -40,9 +41,11 @@ class App extends Component {
 
         {/* MENU WINDOW */}
         <MenuWindow />
+        <Footer />
+
       </div>
-    );
-  }
+        );
+    }
 }
 
 export default App;

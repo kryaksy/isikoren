@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import * as wpAPI from "./../../wpAPI";
 
 import Header from "../Header";
-import Footer from "../Footer";
 
 class Contact extends Component {
   componentDidMount() {
@@ -36,7 +35,6 @@ class Contact extends Component {
             </li>
           </ul>
         </div>
-        <Footer />
       </div>
     );
   }

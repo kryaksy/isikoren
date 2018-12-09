@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 //SECTION
 import Header from "../Header";
-import Footer from "../Footer";
 import Welcome from "../Welcome";
 import Pitch from "../Pitch";
 import WhatWeDo from "../WhatWeDo";
@@ -21,7 +20,6 @@ class Home extends Component {
         <Pitch />
         <WhatWeDo />
         <OnNumaraMotivasyon />
-        <Footer />
       </div>
     );
   }

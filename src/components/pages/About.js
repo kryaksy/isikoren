@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 
 import Header from "../Header";
-import Footer from "../Footer";
 import Welcome from "../Welcome";
 import References from "../References";
 import Team from "../Team";
@@ -24,7 +23,6 @@ class About extends Component {
         <Specialties />
         <References />
         <Gallery />
-        <Footer />
       </div>
     );
   }
