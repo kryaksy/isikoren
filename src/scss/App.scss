@@ -72,6 +72,11 @@ button {
     display: flex;
 }
 
+.headline {
+    height: 1px;
+    background-color: #000;
+}
+
 .line {
     width: 30px;
     height: 1px;
@@ -426,8 +431,6 @@ button {
             .headline {
                 position: relative;
                 width: calc(4vw + 30px);
-                height: 1px;
-                background-color: #000;
             }
 
             .text {
