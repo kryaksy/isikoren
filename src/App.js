@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
+import {AnimatedSwitch} from "react-router-transition";
 import * as wpAPI from "./wpAPI";
 
 //PAGES
@@ -18,10 +19,13 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-        {/* TODO */
-        /* {wpAPI.mainPages.map( page => (
-          <Route exact path={page.slug} component={page.component} />
-            )} */}
+  			<AnimatedSwitch atEnter={{
+  					opacity: 0
+  				}} atLeave={{
+  					opacity: 0
+  				}} atActive={{
+  					opacity: 1
+  				}} className="switch-wrapper">
 
         {/* PAGES */}
         <Route exact path="/" component={Home} />
@@ -38,7 +42,7 @@ class App extends Component {
         {wpAPI.sampleAPI.services.map( service => (
           <Route key={service.slug} path={service.slug} component={Service} />
         ))}
-
+  			</AnimatedSwitch>
         {/* MENU WINDOW */}
         <MenuWindow />
         <Footer />
