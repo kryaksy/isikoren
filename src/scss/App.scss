@@ -5,6 +5,10 @@
 // Mail: ib.koray@gmail.com
 ////////////////////////////////////////////////////////////////
 
+////////////////////////////////////////////////////////////////
+// Variables
+////////////////////////////////////////////////////////////////
+$headlineWidth: calc(4vw + 30px);
 
 ////////////////////////////////////////////////////////////////
 // GENERAL Theme Properties
@@ -41,7 +45,8 @@ button {
 .heading {
     display: flex;
     align-items: flex-end;
-    margin-left: 5vw;
+    // Global left margin
+    margin-left: 10vw;
 
     &.small {
         margin-left: 0px;
@@ -69,6 +74,11 @@ button {
 
 .flex {
     display: flex;
+}
+
+.headline {
+    height: 1px;
+    background-color: #000;
 }
 
 .line {
@@ -121,6 +131,30 @@ button {
 
 .linking .line {
     width: 15px;
+}
+
+////////////////////////////////////////////////////////////////
+//// GENERAL Theme Properties - ANIMATIONS
+////////////////////////////////////////////////////////////////
+
+@keyframes headline-ani {
+    0% {
+        width: 0;
+        left: $headlineWidth;
+    }
+
+    17% {
+        width: $headlineWidth;
+        left: 0px;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+.headline {
+    animation: headline-ani infinite 6s ease-in-out;
 }
 
 ////////////////////////////////////////////////////////////////
@@ -407,19 +441,36 @@ button {
     height: 100vh;
 
     .content {
-        padding-top: 50vh;
+        position: absolute;
+        top: 45vh;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
 
         .heading {
-            margin-left: 10vw;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
 
             .title {
-                width: 400px;
+                max-width: 250px;
             }
-        }
 
-        .text {
-            margin-left: calc(10vw + 30px + 1em);
-            max-width: 250px;
+            .headline {
+                position: relative;
+                width: $headlineWidth;
+            }
+
+            .text {
+                padding-right: 10vw;
+                max-width: 400px;
+            }
+
+            .title,
+            .text {
+                position: relative;
+                margin-left: calc(4vw + 30px + 1rem);
+            }
         }
     }
 }
@@ -1019,8 +1070,14 @@ button {
         }
     }
 
-    .welcome .content .text {
-        max-width: 500px;
+    .welcome {
+        .content {
+            .heading {
+                .title {
+                    width: 500px;
+                }
+            }
+        }
     }
 
     #onNumaraMotivasyon {
