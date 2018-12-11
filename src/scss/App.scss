@@ -439,14 +439,10 @@ button {
 
 .welcome {
     height: 100vh;
+    display: flex;
+    align-items: center;
 
     .content {
-        position: absolute;
-        top: 45vh;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-
         .heading {
             display: flex;
             flex-direction: column;
@@ -454,6 +450,9 @@ button {
 
             .title {
                 max-width: 250px;
+                height: 300px;
+                display: flex;
+                align-items: flex-end;
             }
 
             .headline {
@@ -464,6 +463,7 @@ button {
             .text {
                 padding-right: 10vw;
                 max-width: 400px;
+                height: 100px;
             }
 
             .title,
@@ -1074,7 +1074,7 @@ button {
         .content {
             .heading {
                 .title {
-                    width: 500px;
+                    min-width: 500px;
                 }
             }
         }
