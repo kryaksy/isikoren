@@ -506,31 +506,64 @@ button {
 ////////////////////////////////////////////////////////////////
 
 #whatWeDo {
-    padding: 100px 25px 150px;
-    text-align: center;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 
-    .media {
-        height: 200px;
-        background-color: #222;
-    }
+    .container, {
+      width: 100%;
+      margin: auto $globalMargin;
 
-    .valueProposition.list {
+      .hero {
+        width: 100%;
+        padding: 50px 0;
+
+        .line {
+          width: 4em;
+        }
+      }
+
+      .categories {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: left;
-    }
+        flex-wrap: wrap;
+        padding: 25px 0;
+        justify-content: space-between;
 
-    .list-item {
-        max-width: 350px;
-        display: flex;
-        flex-direction: column;
-        margin-top: 100px;
+        .emlak,
+        .insaat {
+          width: 100%;
+          padding: 50px 0;
+
+          .image-container {
+              width: 100%;
+          }
+
+          .line {
+            width: 3em;
+          }
+
+          a,
+          button {
+            margin-left: 3.5em;
+          }
+        }
+      }
+
+      .hero,
+      .categories {
+        .image-container {
+          height: 300px;
+        }
 
         .content {
-            max-width: 90%;
-            margin: 20px auto;
+          padding: 1em 0;
+
+          .title {
+            display: block;
+          }
         }
+      }
     }
 }
 
@@ -1061,25 +1094,34 @@ button {
         }
     }
 
-    #whatWeDo .list-item {
-        max-width: 90vw;
-        flex-direction: row;
-        align-items: center;
+    #whatWeDo {
+      .container {
+        .categories {
+          justify-content: space-between;
 
-        .content {
-            margin: 30px;
-            width: 300px;
-            padding: 25px;
+          .emlak,
+          .insaat {
+            width: 46.6%;
+
+            .image-container {
+                width: 100%;
+            }
+          }
         }
 
-        .media {
-            min-height: 300px;
-            width: 600px;
-        }
+        .hero,
+        .categories {
+          .image-container {
+            height: 300px;
+          }
 
-        &:nth-child(2n) .content {
-            order: -1;
+          .content {
+            .title {
+              display: block;
+            }
+          }
         }
+      }
     }
 
     .welcome {
