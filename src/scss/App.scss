@@ -9,6 +9,7 @@
 // Variables
 ////////////////////////////////////////////////////////////////
 $headlineWidth: calc(4vw + 30px);
+$globalMargin: 10vw;
 
 ////////////////////////////////////////////////////////////////
 // GENERAL Theme Properties
@@ -46,7 +47,7 @@ button {
     display: flex;
     align-items: flex-end;
     // Global left margin
-    margin-left: 10vw;
+    margin-left: $globalMargin;
 
     &.small {
         margin-left: 0px;
