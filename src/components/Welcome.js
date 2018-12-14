@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Video from "./Video"
 import * as wpAPI from "./../wpAPI";
 
 class Welcome extends Component {
@@ -15,7 +16,7 @@ class Welcome extends Component {
     render() {
         return (
             <div className="welcome">
-                <div className="bg-video" />
+                <Video url={this.state.videoURL}/>
                 <div className="content">
                     <div className="heading">
                         <h2 className="title">{this.state.title}</h2>
