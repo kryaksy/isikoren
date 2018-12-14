@@ -442,6 +442,13 @@ button {
     display: flex;
     align-items: center;
 
+    .bg-video {
+      position: absolute;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+    }
+
     .content {
         .heading {
             display: flex;
