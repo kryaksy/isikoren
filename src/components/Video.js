@@ -18,8 +18,8 @@ export default class Video extends Component {
       <ReactPlayer
 				className="react-player"
 				url={this.state.videoURL}
-				width="auto"
-				height="auto"
+				width="100vw"
+				height="100vh"
         controls={false}
 				playsinline
         playing
