@@ -482,11 +482,16 @@ button {
 
 #pitch {
     height: 100vh;
-    padding-left: calc(5vw + 30px + 1em);
-    padding-top: 43vh;
+    display: flex;
+    align-items: center;
 
-    .snippet {
-        max-width: 250px;
+    .container {
+        margin: auto $globalMargin;
+        width: 100%;
+        .snippet {
+            font-size: 1.5em;
+            padding-right: 10vw;
+        }
     }
 }
 
@@ -1186,10 +1191,6 @@ button {
             bottom: 100px;
             left: 55px;
         }
-    }
-
-    #pitch .snippet {
-        max-width: 500px;
     }
 
     #references .list {
