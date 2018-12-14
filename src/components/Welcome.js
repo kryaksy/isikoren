@@ -5,7 +5,8 @@ import * as wpAPI from "./../wpAPI";
 class Welcome extends Component {
     state = {
         title: "",
-        text: ""
+        text: "",
+        videoURL: "https://www.youtube.com/embed/hNQFjqDvPhA?controls=0"
     };
 
     componentDidMount() {
