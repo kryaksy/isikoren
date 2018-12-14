@@ -1,18 +1,16 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import * as wpAPI from "./../wpAPI";
 
 class Pitch extends Component {
   render() {
-    const { title, text } = wpAPI.sampleAPI.pitch;
-
     return (
       <div id="pitch">
-        <h2 className="title">{title}</h2>
-        <p className="snippet">{text}</p>
-        <Link to="/about">
-          <button>Hakkımızda</button>
-        </Link>
+        <div className="container">
+          <p className="snippet">İşinde başarılı olmak isteyen emlak ofisi sahiplerini, danışmanlarını, inşaat proje sahiplerini, proje satış ofisi ekiplerini farklılaştırarak öne çıkarmak amacıyla danışmanlık, eğitim ve seminerler veririz.</p>
+          <Link to="/about">
+            <button>Hakkımızda</button>
+          </Link>
+        </div>
       </div>
     );
   }
