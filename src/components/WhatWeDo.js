@@ -1,31 +1,37 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import * as wpAPI from "./../wpAPI";
 
 class WhatWeDo extends Component {
   render() {
-    const { services } = wpAPI.sampleAPI;
-
     return (
       <div id="whatWeDo">
-        <div className="heading">
-          <div className="line" />
-          <h2 className="title">Neler yaparız?</h2>
-        </div>
-        <ul className="valueProposition list">
-          {services.map(service => (
-            <li key={service.slug} className="list-item">
-              {/* Image or video */}
-              <div className="media" />
-              <div className="content">
-                <Link to={service.slug}>
-                  <h3 className="title">{service.valueProposition.title}</h3>
-                </Link>
-                <p className="snippet">{service.valueProposition.text}</p>
+          <div className="container">
+              <div className="hero">
+                  <div className="image-container"></div>
+                  <div className="content lined">
+                      <div className="line"/>
+                      <h3 className="title">Emlakta Lider Geliştirme Programı</h3>
+                  </div>
               </div>
-            </li>
-          ))}
-        </ul>
+              <div className="categories">
+                  <div className="emlak">
+                      <div className="image-container"></div>
+                      <div className="content lined">
+                          <div className="line"/>
+                          <h4 className="title">Emlak Servislerimiz</h4>
+                      </div>
+                      <button>Gözat</button>
+                  </div>
+                  <div className="insaat">
+                      <div className="image-container"></div>
+                      <div className="content lined">
+                          <div className="line"/>
+                          <h4 className="title lined">İnşaat Servislerimiz</h4>
+                      </div>
+                      <button>Gözat</button>
+                  </div>
+              </div>
+          </div>
       </div>
     );
   }
