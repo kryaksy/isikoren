@@ -6,6 +6,7 @@ import * as wpAPI from "./wpAPI";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Services from "./components/pages/Services";
+import Posts from "./components/pages/Posts";
 import Contact from "./components/pages/Contact";
 
 // SECTIONS
@@ -27,6 +28,7 @@ class App extends Component {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
+        <Route path="/posts" component={Posts} />
         <Route path="/contact" component={Contact} />
 
         {/* PROFILES */}
