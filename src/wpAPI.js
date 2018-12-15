@@ -122,10 +122,6 @@ export const sampleAPI = {
       slug: "/services"
     },
     {
-      title: "Yazılar",
-      slug: "/posts"
-    },
-    {
       title: "İletişim",
       slug: "/contact"
     }
