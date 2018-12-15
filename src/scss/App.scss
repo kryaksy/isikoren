@@ -1036,6 +1036,51 @@ button {
 }
 
 ////////////////////////////////////////////////////////////////
+/* POSTS */
+////////////////////////////////////////////////////////////////
+#posts{
+  min-height: 100vh;
+  padding: 30vh 0px;
+
+  .heading {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .title {
+          max-width: 250px;
+          display: flex;
+          align-items: flex-end;
+          position: relative;
+          margin-left: calc(4vw + 30px + 1rem);
+      }
+
+      .headline {
+          position: relative;
+          width: $headlineWidth;
+      }
+  }
+  .post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .post {
+        padding: 50px;
+        max-width: 300px;
+
+        .image-container {
+          height: 200px;
+        }
+
+        .title {
+          padding-top: 1em;
+        }
+    }
+  }
+}
+
+////////////////////////////////////////////////////////////////
 /* CONTACT */
 ////////////////////////////////////////////////////////////////
 
