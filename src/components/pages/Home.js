@@ -19,7 +19,7 @@ class Home extends Component {
         <Welcome page={"home"} />
         <Pitch />
         <WhatWeDo />
-        <OnNumaraMotivasyon />
+        {/* <OnNumaraMotivasyon /> */}
       </div>
     );
   }
